@@ -1,2 +1,2 @@
-"samples","biome","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","project_id"
-"mgm4539732","desert biome","desert","soil","soil",NA,"EssexKAU1","Environmental metagenomics of Rhazya stricta and its associated microflora","metagenome","WGS","asia","Saudi Arabia",21.439467,39.526314,"mgp6409"
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4539732","desert","soil","soil",NA,"EssexKAU1","Environmental metagenomics of Rhazya stricta and its associated microflora","metagenome","WGS","asia","Saudi Arabia",21.439467,39.526314,"desert biome","mgp6409","free-living","desert_soil","terrestrial","soil"

@@ -1,2 +1,2 @@
-"samples","biome","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","project_id"
-"mgm4446969","marine chemocline","brackish water habitat","water","water",NA,"75 m assembled","Baltic Sea microbial communities","metagenome","WGS","europe","Sweden",58.3591,18.1426,"mgp2739"
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4446969","brackish water habitat","water","water",NA,"75 m assembled","Baltic Sea microbial communities","metagenome","WGS","europe","Sweden",58.3591,18.1426,"marine chemocline","mgp2739","free-living","estuarine_seawater","marine","saline_water"

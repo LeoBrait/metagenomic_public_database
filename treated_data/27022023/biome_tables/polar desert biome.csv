@@ -1,4 +1,4 @@
-"samples","biome","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","project_id"
-"mgm4728000","polar desert biome","glacier","permafrost","soil",NA,"ML6","MetaPrac","metagenome","WGS","europe","Norway",78.54074,12.05671,"mgp21008"
-"mgm4728001","polar desert biome","glacier","permafrost","soil",NA,"ML10","MetaPrac","metagenome","WGS","europe","Norway",78.53807,12.05368,"mgp21008"
-"mgm4728002","polar desert biome","glacier","permafrost","soil",NA,"ML20","MetaPrac","metagenome","WGS","europe","Norway",78.54796,12.05465,"mgp21008"
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4728000","glacier","permafrost","soil",NA,"ML6","MetaPrac","metagenome","WGS","europe","Norway",78.54074,12.05671,"polar desert biome","mgp21008","free-living","permafrost","terrestrial","soil"
+"mgm4728001","glacier","permafrost","soil",NA,"ML10","MetaPrac","metagenome","WGS","europe","Norway",78.53807,12.05368,"polar desert biome","mgp21008","free-living","permafrost","terrestrial","soil"
+"mgm4728002","glacier","permafrost","soil",NA,"ML20","MetaPrac","metagenome","WGS","europe","Norway",78.54796,12.05465,"polar desert biome","mgp21008","free-living","permafrost","terrestrial","soil"
