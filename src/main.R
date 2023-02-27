@@ -3,6 +3,22 @@ library("tidyverse")
 metadata <- read.csv("raw_data//27022023//mg-rast_metadata.csv", sep = ";")
 project_id <- read.csv("raw_data//27022023//metadata_complete.csv")
 
+metadata <- metadata %>%
+select(sample,
+        biome,
+        feature,
+        material,
+        env.package,
+        metagenome_taxonomy,
+        sample_name,
+        project_name,
+        investigation_type,
+        sequence_type,
+        continent,
+        country,
+        latitude,
+        longitude)
+
 project_id <- project_id %>%
 select(samples, project_id)
 
