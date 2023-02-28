@@ -1,0 +1,3 @@
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4453374","marine habitat","coastal water","water",NA,"Water_JF1","Arenosclera_brasiliensis_metagenome","metagenome","WGS","south america","Brazil",-22.738705,-41.874604,"marine pelagic biome","mgp2222","free-living","coastal_seawater","marine","saline_water"
+"mgm4461444","marine habitat","coastal water","water",NA,"Water_JF2","Arenosclera_brasiliensis_metagenome","metagenome","WGS","south america","Brazil",-22.738705,-41.874604,"marine pelagic biome","mgp2222","free-living","coastal_seawater","marine","saline_water"
