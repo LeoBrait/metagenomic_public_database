@@ -6,4 +6,5 @@ of incongruences.
 categorizations wwwe should review. In addition, wwe should evaluate all details
 such as accuracy of geographic coordinates
 
-3. the folder biome_tables divide the data by biomes.
+3. the folder biome_tables divide the data by biomes got from MG-RAST original
+metadata.
