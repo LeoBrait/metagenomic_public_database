@@ -1,0 +1,7 @@
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4491800","activated sludge","activated sludge","wastewater|sludge",NA,"WWTP_DOM3","Swiss WWTP metatranscriptomes","metagenome","WGS","europe","Switzerland",47.40483,8.60967,"activated sludge","mgp6015","free-living","sludge","freshwater","wastewater"
+"mgm4493725","lake","water","wastewater|sludge",NA,"M9","Metagenomics data","metagenome","WGS","asia","China",32.05,118.72,"activated sludge","mgp50938004","free-living","lake","freshwater","freshwater"
+"mgm4493726","lake","water","wastewater|sludge",NA,"M8","Metagenomics data","metagenome","WGS","asia","China",32.05,118.72,"activated sludge","mgp50938004","free-living","lake","freshwater","freshwater"
+"mgm4493727","lake","water","wastewater|sludge",NA,"M10","Metagenomics data","metagenome","WGS","asia","China",32.05,118.72,"activated sludge","mgp50938004","free-living","lake","freshwater","freshwater"
+"mgm4494621","lake","water","wastewater|sludge",NA,"M8_meta","Metagenomics data","metagenome","WGS","asia","China",32.05,118.72,"activated sludge","mgp50938004","free-living","lake","freshwater","freshwater"
+"mgm4494623","lake","water","wastewater|sludge",NA,"M8_meta.2","Metagenomics data","metagenome","WGS","asia","China",32.05,118.72,"activated sludge","mgp50938004","free-living","lake","freshwater","freshwater"
