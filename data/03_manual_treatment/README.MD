@@ -2,3 +2,5 @@
 Mostly the biome names ressemblance.
 
 2. Each table of these folders are manually altered.
+
+3. This organization is for operational propouse only.
