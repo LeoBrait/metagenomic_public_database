@@ -1,0 +1,6 @@
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4446437","marine habitat","water","water",NA,"Irish_Sea_metagenome","Irish_Sea_Metagenome","metagenome","WGS","europe","United Kingdom",23.7803,9.0914,"sea","mgp17602","free-living","oceanic_seawater","marine","saline_water"
+"mgm4449589","harbor","water","water",NA,"PolS1","Monitoring Mediterranean Sea","metagenome","WGS",NA,"Italy",44.24,-8.55,"sea","mgp2901","free-living","coastal_seawater","marine","saline_water"
+"mgm4449685","harbor","water","water",NA,"PolS2","Monitoring Mediterranean Sea","metagenome","WGS",NA,"Italy",44.24,-8.55,"sea","mgp2901","free-living","coastal_seawater","marine","saline_water"
+"mgm4451102","coastal water","water","water",NA,"PriS1","Monitoring Mediterranean Sea","metagenome","WGS",NA,"Italy",42.19,-10.17,"sea","mgp2901","free-living","coastal_seawater","marine","saline_water"
+"mgm4451593","coastal water","water","water",NA,"PriS2","Monitoring Mediterranean Sea","metagenome","WGS",NA,"Italy",42.19,-10.17,"sea","mgp2901","free-living","coastal_seawater","marine","saline_water"
