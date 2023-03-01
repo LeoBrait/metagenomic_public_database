@@ -30,4 +30,4 @@ metagenome taxonomy, "env_package" and if necessary the country.
 
 ## Repository organization
 
-@Diogo Burgos @Eduardo Galvao, must develop this part for organization purposes
+@Diogo Burgos @Leonardo Brait @Eduardo Galvao, must develop this part for organization purposes
