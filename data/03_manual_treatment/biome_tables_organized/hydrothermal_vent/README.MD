@@ -1,7 +1,9 @@
 1. This README is for documentating any alterations and observations in made in the datasets.
+
 Responsavel: Diogo
 
 hydrothermal_vent folder:
+
 	hydrothermal vent dataset:
 
 		sample mgm4448187 - column "metagenome_taxonomy" changed from NA to "hydrothermal vent" 
@@ -20,7 +22,7 @@ hydrothermal_vent folder:
 		 the coordinates from the samples, that is in the north shore of Taiwan, wich have several hydrothermal vents.
 		 In those same samples the column "material" changed from "sea water" to "hydrothermal vent water" to be
 		 coherent with the alteration in the previous dataset.
-		 In tose sampe samples column "continent" changed from NA to "asia";
+		 In tose same samples column "continent" changed from NA to "asia";
 
 		sample mgm4668302 - column "country" changed from "China" to "Taiwan" because it have the same coordinates
 		 as the other samples, wich is in Taiwan;
