@@ -1,0 +1,2 @@
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4534773","Beach","hypersaline water","plant-associated",NA,"Metagenome_Phyllosphere_OF32_PERFECT","Tamarix aphylla phyllosphere metagenome","metagenome","WGS",NA,"Israel",32.561428,34.909674,"mediterranean shrubland biome","mgp5802","host-associated","plant-associated_hypersaline_water","marine","plant-associated"

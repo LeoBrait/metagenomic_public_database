@@ -1,1 +1,1 @@
-1. This README is for documentating any alterations and observations in made in the datasets.
+1. This README is for documentating any alterations and observations made in the datasets.
