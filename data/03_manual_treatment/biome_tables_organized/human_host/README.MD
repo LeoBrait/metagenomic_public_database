@@ -96,6 +96,8 @@ Observation: Samples are virome.
 mgm4519682
 mgm4519683
 mgm4519684
+mgm4689127
+mgm4689323
 ```
 Observation: Samples are paired.
 
@@ -151,6 +153,20 @@ mgm4553005
 mgm4553006
 mgm4559444
 mgm4571041
+mgm4743559
+mgm4743560
+mgm4743561
+mgm4743562
+mgm4743563
+mgm4743564
+mgm4743565
+mgm4743566
+mgm4743567
+mgm4743569
+mgm4743570
+mgm4743571
+mgm4743572
+mgm4743573
 ```
 Alterations: removed because samples are contigs.
 
@@ -226,6 +242,9 @@ mgm4535931
 mgm4535932
 mgm4535933
 mgm4535934
+mgm4669473
+mgm4669474
+mgm4669475
 ```
 Alterations: removed because samples are combined.
 
@@ -393,6 +412,7 @@ mgm4604831
 mgm4604832
 mgm4604833
 mgm4604834
+mgm4729903
 ```
 Observation: samples are merged.
 
@@ -412,5 +432,165 @@ mgm4604833
 mgm4604834
 ```
 Alterations: changed the ecosystem from "animal_host-associated" to "human_host-associated" and habitat from "animal_feces" to "human_feces" because the feature in mg-rast metadata is "human-associated habitat".
+
+19. Target
+```
+mgm4637834
+mgm4637835
+mgm4637837
+mgm4637838
+mgm4637839
+mgm4637840
+mgm4637841
+mgm4637842
+mgm4637843
+mgm4637844
+mgm4637845
+mgm4637846
+mgm4637847
+mgm4637848
+mgm4637849
+mgm4637850
+mgm4637851
+mgm4637852
+mgm4637853
+mgm4637854
+mgm4637855
+mgm4637856
+mgm4664850
+mgm4664851
+mgm4664852
+mgm4664856
+mgm4664860
+mgm4664861
+mgm4664864
+mgm4664874
+mgm4664877
+mgm4664879
+mgm4664882
+mgm4664884
+mgm4664886
+mgm4664887
+mgm4664894
+mgm4664895
+mgm4664896
+mgm4664900
+mgm4664905
+mgm4664906
+mgm4664908
+mgm4664913
+mgm4664914
+mgm4664920
+mgm4664923
+mgm4664929
+mgm4664930
+mgm4741982
+mgm4741983
+```
+Observation: samples are join.
+
+20. Target
+```
+mgm4644219
+```
+Alteration: removed because sample is 16S.
+
+21. Target
+```
+mgm4653312
+mgm4653313
+mgm4653314
+mgm4653315
+mgm4653316
+mgm4653317
+```
+Alteration: changed biosphere from "freshwater" to "terrestrial", ecosystem from "freshwater" to "animal_host-associated" and habitat from "freshwater_biofilm" to "rumen" because the project name is "rumen biofilm".
+
+21. Target
+```
+mgm4664865
+mgm4664867
+mgm4664870
+mgm4664897
+mgm4664907
+mgm4664910
+mgm4664912
+mgm4664915
+mgm4664918
+mgm4664922
+mgm4664925
+mgm4664926
+```
+Alteration: changed the habitat from "agricultural_soil" to "pasture_soil" because the feature in mg-rast metadata is "area of pastureland an hayfields". 
+Observation: all samples are join.
+
+22. Target
+```
+mgm4667025
+```
+Observation: sample have "extendedFrags" in sample name.
+
+23. Target
+```
+mgm4683353
+mgm4683369
+mgm4683418
+mgm4683431
+mgm4684108
+mgm4684109
+mgm4689539
+```
+Observation: project name is "Agricultural soil viruses"
+
+24. Target
+```
+mgm4690515
+```
+Alteration: changed habitat from "forest_soil" to "desert_soil" because the feature in mg-rast metadata is "desert".
+
+25. Target
+```
+mgm4690519
+```
+Alteration: changeg habitat from "grassland" to "forest_soil" because the feature in mg-rast metadata is "forest".
+
+26. Target
+```
+mgm4696175
+mgm4697351
+mgm4715814
+mgm4715815
+mgm4725169
+mgm4725203
+mgm4727882
+```
+Alteration: removed because samples are assembled.
+
+27. Target
+```
+mgm4696741
+```
+Observation: sample are join_paired_end.
+
+28. Target
+```
+mgm4703636
+mgm4703637
+mgm4703638
+mgm4703639
+mgm4703709
+mgm4734390
+mgm4734391
+```
+Alteration: changed the habitat from "saliva" to "human_associated_biofilm" because the material in mg-rast metadata is "biofilm material".
+
+29. Target
+```
+mgm4740557
+mgm4740558
+mgm4740559
+mgm4740560
+```
+Alteration: removede due to lack of coordinates information. 
 
 **Author:** Diogo Burgos
