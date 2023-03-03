@@ -56,7 +56,8 @@ mgm4440948
 mgm4440949
 mgm4440950
 ```
-Alteration: due to the metadata description samples were moved from human_gut to human_feces.
+Alteration: due to the metadata description samples were moved from human_gut to 
+human_feces.
 
 5. target:
 ```
@@ -96,3 +97,27 @@ mgm4777345
 mgm4777346
 ```
 Alteration: removed due to incorrect coordinates location.
+
+8. target:
+```
+mgm4461344
+mgm4461377
+```
+Alteration: corrected coordinates.
+
+9. target:
+```
+mgm4753635
+mgm4773634
+```
+Alteration: removed with contigs in name.
+
+10. target:
+```
+mgm4776004
+mgm4776009
+mgm4776014
+mgm4776017
+```
+Alteration: removed due to metadata been classified as host_associated and
+incorrect coordinates for coastal seawater classification.
