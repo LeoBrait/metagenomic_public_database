@@ -2,6 +2,9 @@
 
 #Alterations
 
+##General
+ - minor alterations in coordinates incongruences. 
+ 
 ##Specific:
 
 1. Target
@@ -381,6 +384,30 @@ mgm4628937
 mgm4630170
 mgm4630171
 mgm4630172
+mgm4520107
+mgm4520108
+mgm4520109
+mgm4520110
+mgm4520111
+mgm4520112
+mgm4520113
+mgm4520114
+mgm4520115
+mgm4520116
+mgm4520117
+mgm4520118
+mgm4520119
+mgm4520120
+mgm4520121
+mgm4520122
+mgm4520123
+mgm4520124
+mgm4520125
+mgm4520126
+mgm4520127
+mgm4520128
+mgm4520129
+mgm4520130
 ```
 Alteration: changed the habitat from "human-gut" to "human_feces" becase the material in mg-rast metadata are feces.
 
@@ -552,7 +579,7 @@ Alteration: changed habitat from "forest_soil" to "desert_soil" because the feat
 ```
 mgm4690519
 ```
-Alteration: changeg habitat from "grassland" to "forest_soil" because the feature in mg-rast metadata is "forest".
+Alteration: changed habitat from "grassland" to "forest_soil" because the feature in mg-rast metadata is "forest".
 
 26. Target
 ```
@@ -592,5 +619,14 @@ mgm4740559
 mgm4740560
 ```
 Alteration: removede due to lack of coordinates information. 
+
+30. Target
+```
+mgm4550332
+mgm4552774
+mgm4552775
+```
+Alteration: changed the country from "USA" to "Egypt" because the coordinates are the seame as other samples from the same project that have Egypt as country. Also, the coordinates lead to Egypt.
+Observation: The name of the project is "Metagenomic analysis of GI microbiota from health US and Egyptian children" wich implies that the wrong information is not the country, but the coordinates, that probably should be different, leading to some location in USA, but there is no way to be shure in wich information is the error, so a idcided to change the country, but leaved this observation, in case pairs decide to remove these samples. 
 
 **Author:** Diogo Burgos
