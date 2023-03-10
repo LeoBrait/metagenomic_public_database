@@ -1,0 +1,1525 @@
+ project_id,latitude,longitude,ecosystem,Habitat,n,Realm ,Biome,Functional group,Small_sample_site
+mgp1762,-25.08,-50.15,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp1764,-25.08,-50.15,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2636,-23.3,-23.3,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2639,-23.3,-23.3,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp10854,-22.41,-47.38,Soil,agricultural_soil,57,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp19145,-22.41,-47.38,Soil,agricultural_soil,12,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp7774,-11.74,-56.25,Soil,agricultural_soil,10,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp7774,-11.68,-55.84,Soil,agricultural_soil,11,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13205,22.11,112.77,Soil,agricultural_soil,11,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp15294,23.58,47.59,Soil,agricultural_soil,24,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp9823,26.65,106.63,Soil,agricultural_soil,10,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,28.04,-81.39,Soil,agricultural_soil,3,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,28.05,-81.39,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,28.07,-81.43,Soil,agricultural_soil,3,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,28.07,-81.42,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp81253,33.25,116.55,Soil,agricultural_soil,10,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp22000,35.93,-84.39,Soil,agricultural_soil,4,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp80460,35.93,-84.39,Soil,agricultural_soil,8,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp9626,37.5,126.77,Soil,agricultural_soil,7,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,38.2,-89.63,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,38.89,-78.17,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,38.9,-78.15,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,39.38,-90.32,Soil,agricultural_soil,4,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,39.59,-89.76,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2076,39.6,-89.76,Soil,agricultural_soil,5,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,39.6,-89.76,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2850,39.75,-84.92,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2850,39.8,-84.92,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,40.08,-88.22,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2205,40.22,-88.47,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,40.46,-103.04,Soil,agricultural_soil,4,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,40.46,-103.03,Soil,agricultural_soil,9,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,40.47,-103.03,Soil,agricultural_soil,6,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13948,40.47,-103.02,Soil,agricultural_soil,1,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.01,-72.53,Soil,agricultural_soil,22,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.01,-72.49,Soil,agricultural_soil,20,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.02,-72.53,Soil,agricultural_soil,31,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.03,-72.46,Soil,agricultural_soil,10,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.04,-72.53,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.06,-75.45,Soil,agricultural_soil,4,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp4184,41.06,-72.45,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp13620,42.01,-93.78,Soil,agricultural_soil,49,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp2592,42.01,-93.78,Soil,agricultural_soil,21,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp19906,42.45,76.47,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp20853,42.45,76.47,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp8744,43.47,80.41,Soil,agricultural_soil,2,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp12555,48.21,7.36,Soil,agricultural_soil,9,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp18015,48.21,7.36,Soil,agricultural_soil,23,Terrestrial,Intensive land-use ,Annual croplands,animal
+mgp10309,-19.47,-56.06,Freshwater,alkaline_environment,12,Terrestrial-Freshwater,Palustrine wetlands ,Seasonal floodplain marshes,animal
+mgp10309,-19.45,-56.13,Freshwater,alkaline_environment,11,Terrestrial-Freshwater,Palustrine wetlands ,Seasonal floodplain marshes,animal
+mgp20869,18.04,-66.37,Freshwater,alkaline_environment,2,Freshwater,Lakes,Geothermal pools and wetlands,animal
+PRJDB2971,38.62,-123.13,Freshwater,alkaline_environment,4,Freshwater,Lakes,Geothermal pools and wetlands,animal
+mgp6096,38.86,-122.43,Freshwater,alkaline_environment,1,Terrestrial,Shrublands and shrubby woodlands,Seasonally dry temperate heath and shrublands,animal
+mgp6096,38.86,-122.41,Freshwater,alkaline_environment,2,Terrestrial,Shrublands and shrubby woodlands,Seasonally dry temperate heath and shrublands,animal
+mgp6096,44.45,8.78,Freshwater,alkaline_environment,8,Terrestrial,Shrublands and shrubby woodlands,"Young  rocky pavements, lava flows and screes",animal
+mgp6096,44.6,8.78,Freshwater,alkaline_environment,3,Terrestrial,Shrublands and shrubby woodlands,"Young  rocky pavements, lava flows and screes",animal
+mgp8119,45.49,2.89,Freshwater,alkaline_environment,2,Freshwater,Lakes,Small permanent freshwter lakes,animal
+mgp2321,26.82,-102.01,Saline water,alkaline_salt_lake,2,Freshwater,Lake,Permanenent salt and Soda Lakes,animal
+mgp2321,26.87,-102.02,Saline water,alkaline_salt_lake,2,Freshwater,Lake,Permanenent salt and Soda Lakes,animal
+mgp19115,37.99,-119.02,Saline water,alkaline_salt_lake,17,Freshwater,Lake,Permanenent salt and Soda Lakes,animal
+mgp19115,39.52,-118.87,Saline water,alkaline_salt_lake,6,Freshwater,Lake,Permanenent salt and Soda Lakes,animal
+mgp8260,46.87,19.17,Saline water,alkaline_salt_lake,1,Freshwater,Lake,Permanenent salt and Soda Lakes,animal
+mgp7591,46.25,20.15,Sediment,anaerobic_sediment,10,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp6226,52.04,8.49,Sediment,anaerobic_sediment,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp6468,55.76,12.49,Sediment,anaerobic_sediment,14,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp13384,-40.35,175.61,Animal host,animal_feces,19,Terrestrial,Temperate-boreal forests and woodlands,Oceanic cool temperate rainforests,animal
+mgp10958,-22.84,-43.23,Animal host,animal_feces,3,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp10960,-22.84,-43.23,Animal host,animal_feces,3,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,-1.3,35.1,Animal host,animal_feces,1,Terrestrial,Savannas and grasslands,Trophic savannas,animal
+mgp5568,5.12,101.89,Animal host,animal_feces,6,Terrestrial,Tropical-subtropical forests,Tropical/subtropical lowland rainforests,animal
+mgp19727,13.15,80.24,Animal host,animal_feces,15,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp5882,14.79,87.6,Animal host,animal_feces,68,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp116,18.49,-117.15,Animal host,animal_feces,2,Terrestrial ,Savannas and grasslands ,Trophic savannas,animal
+mgp16795,30.34,102.87,Animal host,animal_feces,1,Terrestrial,Temperate-boreal forests and woodlands,Boral and temperate high montane forests and woodlands,animal
+mgp16795,31.05,103.08,Animal host,animal_feces,1,Terrestrial,Polar/alpine (cryogenic),Temperate alpine grasslands and shrublands,animal
+mgp80126,31.67,130.85,Animal host,animal_feces,7,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp82562,32,44,Animal host,animal_feces,3,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp83664,32,44,Animal host,animal_feces,18,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp7746,32.6,-117.11,Animal host,animal_feces,46,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp116,32.74,-117.15,Animal host,animal_feces,4,Terrestrial,Intensive land-use ,Urban and industrial ecosystem,animal
+mgp10563,32.88,-117.24,Animal host,animal_feces,19,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp15049,33.46,126.56,Animal host,animal_feces,4,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp13418,34.06,-118.21,Animal host,animal_feces,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,36.95,-122.06,Animal host,animal_feces,1,Marine,Pelagic ocean waters,Epipelagic ocean waters,animal
+mgp116,38.63,-90.29,Animal host,animal_feces,31,Terrestrial,Intensive land-use ,Urban and industrial ecosystem,animal
+mgp116,38.65,-90.22,Animal host,animal_feces,1,Terrestrial ,Savannas and grasslands ,Trophic savannas,animal
+mgp116,39.55,-105.78,Animal host,animal_feces,1,Terrestrial,Temperate-boreal forests and woodlands,Boral and temperate high montane forests and woodlands,animal
+mgp11369,39.9,116.41,Animal host,animal_feces,126,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp80013,40.78,-96.64,Animal host,animal_feces,2,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp80013,40.8,-96.68,Animal host,animal_feces,2,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp80013,40.8,-96.67,Animal host,animal_feces,3,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp80013,40.81,-96.69,Animal host,animal_feces,1,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp80013,40.81,-96.67,Animal host,animal_feces,1,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,41.37,-71.95,Animal host,animal_feces,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp12657,41.83,140.74,Animal host,animal_feces,2,Marine,Marine shelf,,animal
+mgp1451,42.31,71.53,Animal host,animal_feces,19,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp1452,42.31,71.53,Animal host,animal_feces,21,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,42.4,-71.1,Animal host,animal_feces,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp6244,42.44,-76.5,Animal host,animal_feces,8,Terrestrial,Intensive land use,Urban and industirla ecosystems,animal
+mgp6393,42.44,-76.5,Animal host,animal_feces,9,Terrestrial,Savannas and grasslands,Temperate subhumid grasslands,animal
+mgp3854,42.5,-71.4,Animal host,animal_feces,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,animal
+mgp3854,42.5,-71.3,Animal host,animal_feces,4,Terrestrial ,Temperate-boreal forests and woodlands,Deciduous temperate forests,animal
+mgp20043,42.67,-76.53,Animal host,animal_feces,36,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp3854,44,-66,Animal host,animal_feces,2,Marine,Pelagic ocean waters ,Epipelagic ocean waters,animal
+mgp13064,44.51,11.35,Animal host,animal_feces,36,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp13081,44.51,11.35,Animal host,animal_feces,88,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp13450,44.51,11.35,Animal host,animal_feces,18,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp15768,44.51,11.35,Animal host,animal_feces,7,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,44.61,-66.46,Animal host,animal_feces,2,Marine,Pelagic ocean waters ,Epipelagic ocean waters,animal
+mgp17781,46.09,7.17,Animal host,animal_feces,9,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp21090,46.09,7.17,Animal host,animal_feces,9,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp17781,46.19,6.15,Animal host,animal_feces,10,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp21090,46.19,6.15,Animal host,animal_feces,10,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp6465,46.73,-94.69,Animal host,animal_feces,15,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp5902,47.24,8.3,Animal host,animal_feces,2,Terrestrial ,Intensive land use,Urban and industrial ecosystems,animal
+mgp3854,56.9,-135.6,Animal host,animal_feces,1,Marine,Pelagic ocean waters ,Epipelagic ocean waters,animal
+mgp83238,-1.41,34.91,Animal host,animal_manure,1,Terrestrial,Savannas and grasslands ,Trophic savannas,animal
+mgp83048,35,126,Animal host,animal_manure,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp16463,37.22,-80.42,Animal host,animal_manure,17,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp9147,37.22,-80.42,Animal host,animal_manure,16,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp80424,37.32,127.12,Animal host,animal_manure,8,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp79614,37.37,126.65,Animal host,animal_manure,3,Marine,Pelagic ocean waters,Epipelagic ocean waters,animal
+mgp5969,-87.17,20.59,Saline water,anoxic_seawater,2,Subterranean-Marine,Subterranean tidal,Anchialine caves,animal
+mgp2265,20.1,70.8,Saline water,anoxic_seawater,1,Marine,Marine shelf,,animal
+mgp2265,20.11,70.41,Saline water,anoxic_seawater,2,Marine,Marine shelf,,animal
+mgp2265,20.12,70.79,Saline water,anoxic_seawater,1,Marine,Marine shelf,,animal
+mgp5969,20.91,-88.87,Saline water,anoxic_seawater,2,Subterranean-Marine,Subterranean tidal,Anchialine caves,animal
+mgp80732,34.4,118.92,Animal host,aqueous_humour,2,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp80801,34.4,118.92,Animal host,aqueous_humour,2,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp80802,34.4,118.92,Animal host,aqueous_humour,2,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp80803,34.4,118.92,Animal host,aqueous_humour,2,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp15058,35.19,-102.06,Animal host,beef,31,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp4126,-38.23,145.93,Animal host,bodily_fluid,61,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp4419,-38.23,145.93,Animal host,bodily_fluid,23,Terrestrial,Intensive land use,Sown pastures and fields,animal
+mgp21,33.54,-116.1,Animal host,bodily_fluid,8,Freshwater,Artificial wetlands,Freshwater aquafarms,animal
+mgp15975,41.5,-81.62,Animal host,bodily_fluid,14,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp6020,62.23,-105.38,Animal host,bodily_fluid,65,Terrestrial,Temperate-boreal forests and woodlands,Boreal and temperate high montane forests and woodlands,animal
+mgp80275,62.23,-105.38,Animal host,bodily_fluid,14,Terrestrial,Temperate-boreal forests and woodlands,Boreal and temperate high montane forests and woodlands,animal
+mgp8991,35.69,139.69,Animal host,bone,42,Terrestrial,Intensive land use,Urban and industrial ecosystems,animal
+mgp16074,28.57,-15.77,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,40.5,16.5,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,41,-1,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,41.7,-73.92,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,42.2,-73.36,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,42.44,-123.17,Animal host,cheese_associated_biofilm,1,,,,animal
+mgp16074,42.62,-76.72,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,42.71,-73.2,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,43.6,1.44,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,44.39,-73.26,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,44.49,-68.32,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,44.58,0,Animal host,cheese_associated_biofilm,2,,,,water
+mgp16074,44.73,-72.38,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,44.77,-9.02,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,45.33,3,Animal host,cheese_associated_biofilm,1,,,,water
+mgp16074,52.5,-1.83,Animal host,cheese_associated_biofilm,1,,,,water
+mgp12128,40.1,-88.23,Animal host,chyme,1,Terrestrial,Intensive land use,Sown pastures and fields,water
+mgp9847,40.76,-111.89,Animal host,chyme,8,Terrestrial,Deserts and semi-deserts,Cool deserts and semi-deserts,water
+mgp10520,42.18,-114.77,Animal host,chyme,3,Terrestrial,Deserts and semi-deserts,Cool deserts and semi-deserts,water
+mgp19999,53.3,-113.5,Animal host,chyme,44,Terrestrial,Intensive land use,Sown pastures and fields,water
+mgp82056,-26.42,114.28,Sediment,coastal_marine_sediment,160,Marine-Terrestrial,Shorelines ,,water
+mgp14795,-26.06,113.73,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,water
+mgp14795,-25.93,113.75,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,water
+mgp14795,-25.86,113.78,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,biofilm
+mgp14795,-25.82,113.83,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,biofilm
+mgp14795,-25.77,113.72,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,biofilm
+mgp14795,-25.62,113.59,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,biofilm
+mgp19284,-22.98,-43.41,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,14.35,137.35,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp13161,24,106,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp7309,29.18,-90.07,Sediment,coastal_marine_sediment,3,Marine-Terrestrial,Shorelines ,,biofilm
+mgp2734,29.19,-88.6,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp18266,30.21,120.85,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp18266,30.42,121.04,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp18266,30.62,121.36,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp18266,30.75,122.75,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp18266,30.85,122.07,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,33.1,128.02,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,35.55,138.88,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,35.79,139.31,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,35.94,139.49,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp358,36.17,139.65,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp13419,37.07,-8.33,Sediment,coastal_marine_sediment,6,Marine-Terrestrial,Shorelines ,,biofilm
+mgp80013,40.78,-96.66,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp80013,40.8,-96.7,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp4836,42.81,10.14,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,biofilm
+mgp7332,53.48,6.16,Sediment,coastal_marine_sediment,2,Marine-Terrestrial,Shorelines ,,biofilm
+mgp10047,53.49,6.14,Sediment,coastal_marine_sediment,5,Marine-Terrestrial,Shorelines ,,water
+mgp9119,60.16,21.24,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,water
+mgp9119,60.27,21.41,Sediment,coastal_marine_sediment,4,Marine-Terrestrial,Shorelines ,,water
+mgp2964,78.02,165.55,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,water
+mgp2964,83.08,74.43,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,water
+mgp2964,89.03,71.56,Sediment,coastal_marine_sediment,1,Marine-Terrestrial,Shorelines ,,water
+mgp14849,-45.84,171.54,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp14849,-45.84,171.55,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp14849,-45.8,171.02,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,-45.74,170.77,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,-36.29,174.82,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,-34.68,-54.28,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,-34.42,-54.16,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,-34.37,-54.16,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp5369,-33.98,151.23,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,-33.94,18.47,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp6331,-22.98,-42.01,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp1929,-22.92,-43.15,Saline water,coastal_seawater,9,Marine,Marine shelf,,water
+mgp2222,-22.74,-41.87,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,-17.29,-149.54,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp6556,-12.37,-77,Saline water,coastal_seawater,6,Marine,Marine shelf,,water
+mgp20252,-8.7,40.66,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,1.27,103.92,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp8766,3.51,-50.5,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp8766,6.37,-51.39,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp8766,08.02,-50.98,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,8.52,81.05,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp8766,11.57,-56.81,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,16.8,88.08,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,21.27,-157.72,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,21.29,-157.84,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,21.29,-156.86,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,24.74,-80.78,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,26.1,-80.09,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp7,26.2,-93.94,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,27.04,33.91,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,27.47,-80.28,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,27.62,-82.73,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp82106,27.73,-114.19,Saline water,coastal_seawater,24,Marine,Marine shelf,,water
+mgp82106,27.77,-114.25,Saline water,coastal_seawater,28,Marine,Marine shelf,,water
+mgp20252,29.47,34.93,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,30.25,-88.75,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,31.22,29.97,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,31.38,-80.87,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,31.98,-81.02,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.07,34.84,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp82857,32.4,09.02,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.65,-16.91,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp5542,32.73,-117.21,Saline water,coastal_seawater,14,Marine,Marine shelf,,water
+mgp20252,32.74,-16.71,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp79744,32.74,09.03,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp80120,32.74,09.03,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.75,-9.04,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.75,79.9,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.77,-16.83,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.82,32.95,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,32.87,-117.26,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,33.26,-8.5,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp10988,33.45,-118.49,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp10459,33.55,-118.4,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp10988,33.55,-118.4,Saline water,coastal_seawater,4,Marine,Marine shelf,,water
+mgp20252,33.55,-118.4,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,33.58,-7.7,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp10988,33.72,-118.24,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,34.32,135.12,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,34.41,-9.51,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,34.72,-76.67,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35,33,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35.09,-2.21,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp79744,35.11,2.52,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp80120,35.11,2.52,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35.19,-2.88,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35.35,25.29,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35.36,33.29,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp82857,35.6,2.9,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,35.66,24.99,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp14057,35.69,139.69,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,37,-7.97,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,37.01,-7.97,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp13419,37.07,-8.33,Saline water,coastal_seawater,14,Marine,Marine shelf,,water
+mgp20252,37.17,-7.5,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,37.43,-25.32,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,37.43,-25.19,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp12299,38.07,-0.23,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.27,15.64,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp83517,38.31,-121.83,Saline water,coastal_seawater,4,Marine,Marine shelf,,water
+mgp20252,38.41,27.03,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.48,21.32,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.53,-28.6,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.68,-76.17,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.76,-8.97,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,38.89,-76.54,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,39.13,-9.38,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,39.33,-75.47,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,39.42,-9.22,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,40.15,-8.87,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,40.81,14.25,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,41.14,-8.67,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp18000,41.23,-8.72,Saline water,coastal_seawater,2,Marine,Marine shelf,,biofilm
+mgp20252,41.52,-70.67,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,41.67,2.8,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,41.67,18.58,Saline water,coastal_seawater,2,Marine,Marine shelf,,biofilm
+mgp20252,41.68,-8.83,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,41.84,-83.19,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp2901,42.19,-10.17,Saline water,coastal_seawater,2,Marine,Marine shelf,,biofilm
+mgp20252,42.25,27.42,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp18097,42.4,-85.4,Saline water,coastal_seawater,34,Marine,Marine shelf,,biofilm
+mgp20252,42.49,3.14,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,43.18,27.91,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,43.23,5.75,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,43.33,-1.93,Saline water,coastal_seawater,1,Marine,Marine shelf,,biofilm
+mgp20252,43.43,2.9,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,43.57,13.6,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20492,43.84,-69.64,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,43.86,-69.58,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,43.95,12.94,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,44,13,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp2901,44.24,-8.55,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,44.67,-1.17,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,44.69,-63.64,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,45.08,13.61,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.31,12.51,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.33,13.33,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.41,12.44,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.41,12.53,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.46,12.26,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.5,12.42,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,45.7,13.71,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,46.44,30.78,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,48.04,-123.03,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,48.36,-4.55,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,48.78,-3.94,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,50.15,-4.13,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.19,2.7,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.27,2.9,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.28,2.61,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.31,2.85,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.33,2.5,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.36,3.12,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.37,3.22,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.43,2.81,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.44,3.14,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.46,2.35,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.47,03.06,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.48,2.45,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.58,2.79,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.68,2.41,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.74,-8.31,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,51.8,01.01,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,53.23,-4.16,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,53.58,8.15,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,54.18,7.9,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,54.83,10,Saline water,coastal_seawater, ,Marine,Marine shelf,,water
+mgp20252,55.03,-1.43,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,56.96,-2.1,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,57.85,-5.65,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,58.96,-2.97,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,59.62,10.63,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,59.82,10.6,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,59.88,23.25,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,59.9,10.72,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,60.16,5.12,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp18,60.27,-5.22,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp52,60.27,-5.22,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp18,60.27,5.22,Saline water,coastal_seawater,6,Marine,Marine shelf,,water
+mgp52,60.27,5.22,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp18,60.27,64.47,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp52,60.27,64.47,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,64.21,-22.02,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,65.49,-18.06,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,65.71,-18.12,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,65.94,-22.42,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,66.01,-18.2,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,66.01,-18.19,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,66.13,-18.79,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,69.02,-105.34,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp20252,74.31,-20.3,Saline water,coastal_seawater,2,Marine,Marine shelf,,water
+mgp20252,78.45,-2.83,Saline water,coastal_seawater,1,Marine,Marine shelf,,water
+mgp5435,-23.65,-46.62,Soil,compost,89,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp5435,-23.65,-45.62,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp5435,-23.65,-44.62,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp3997,-23,-46,Soil,compost,2,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,18.32,-65.75,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,37.45,-121.93,Soil,compost,2,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,37.84,-122.29,Soil,compost,3,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,37.87,-122.31,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,38.54,-121.76,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,38.54,-121.75,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80207,38.55,-121.75,Soil,compost,2,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp6843,48.81,2.14,Soil,compost,4,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp21223,51.57,9.91,Soil,compost,1,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp80101,51.57,9.91,Soil,compost,2,Terrestrial,Intensive land-use ,Urban and industrial ecossystems,water
+mgp20355,-62.22,-58.96,Soil,contaminated_soil,13,Terrestrial,Intensive land-use ,,water
+mgp9664,-23.87,-46.44,Soil,contaminated_soil,1,Terrestrial,Intensive land-use ,,water
+mgp79868,0,0,Soil,contaminated_soil,4,Terrestrial,Intensive land-use ,,water
+mgp11296,19.4,-98.05,Soil,contaminated_soil,6,Terrestrial,Intensive land-use ,,water
+mgp4113,29.72,-95.4,Soil,contaminated_soil,23,Terrestrial,Intensive land-use ,,water
+mgprock bay,48.42,-123.39,Soil,contaminated_soil,1,Terrestrial,Intensive land-use ,,water
+mgp271,48.99,14.16,Soil,contaminated_soil,8,Terrestrial,Intensive land-use ,,water
+mgp2360,10.24,-61.6,Freshwater,contaminated_water,2,Freshwater,Lakes,Small permanent freshwter lakes,water
+mgp1963,34.67,135.21,Freshwater,contaminated_water,6,Freshwater,Artificial wetlands ,Large reservoirs,water
+mgp2360,55.07,-110.53,Freshwater,contaminated_water,1,Freshwater,Artificial wetlands ,Large reservoirs,water
+mgp2360,56.97,-111.39,Freshwater,contaminated_water,1,Freshwater,Artificial wetlands ,Large reservoirs,water
+mgp2360,57.02,-111.55,Freshwater,contaminated_water,11,Freshwater,Artificial wetlands ,Large reservoirs,water
+mgp9499,8.59,-84.08,Sediment,continental_slope_sediment,1,Marine,Marine shelf ,,water
+mgp9501,8.59,-84.08,Sediment,continental_slope_sediment,1,Marine,Marine shelf ,,water
+mgp9503,8.59,-84.08,Sediment,continental_slope_sediment,1,Marine,Marine shelf ,,water
+mgp10545,23.03,60.87,Sediment,continental_slope_sediment,2,Marine,Marine shelf ,,water
+mgp10826,23.03,60.87,Sediment,continental_slope_sediment,69,Marine,Marine shelf ,,water
+mgp12175,42.48,3.13,Sediment,continental_slope_sediment,5,Marine,Marine shelf ,,water
+mgp1813,-23.84,-45.17,Animal host,coral,2,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.58,-34.81,Animal host,coral,1,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.53,-29.33,Animal host,coral,2,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.51,-38.07,Animal host,coral,1,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.5,-25.36,Animal host,coral,1,Marine,Marine shelf,Photic coral reefs,water
+mgp10714,0,-80.42,Animal host,coral,16,Marine,Marine shelf,Photic coral reefs,water
+mgp14567,12,92.96,Animal host,coral,1,Marine,Marine shelf,Photic coral reefs,water
+mgp16,21.43,-157.79,Animal host,coral,6,Marine,Marine shelf,Photic coral reefs,water
+mgp16,21.43,157.79,Animal host,coral,1,Marine,Marine shelf,Photic coral reefs,water
+mgp18043,24.99,80.41,Animal host,coral,37,Marine,Marine shelf,Photic coral reefs,water
+mgp17683,44.57,-123.28,Animal host,coral,4,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.58,-34.81,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.53,-29.33,Saline water,coral_reef_seawater,3,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.51,-38.07,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,water
+mgp16102,-20.5,-25.36,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp12549,-18.52,-38.7,Saline water,coral_reef_seawater,6,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-17.98,-38.67,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp14437,-17.96,-38.7,Saline water,coral_reef_seawater,6,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-17.96,-38.7,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-17.96,-38.69,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp14437,-17.96,-38.1,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-17.91,-39.15,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp4558,-17.91,-39.13,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp9023,-17.9,-39,Saline water,coral_reef_seawater,5,Marine,Marine shelf,Photic coral reefs,human
+mgp4558,-17.78,-39.05,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp4558,-17.48,-39.03,Saline water,coral_reef_seawater,5,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-17.48,-39.01,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.55,-168.15,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.55,-168.14,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.54,-168.15,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.29,-170.68,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.28,-170.67,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.25,-170.57,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.23,-169.42,Saline water,coral_reef_seawater, ,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.22,-169.51,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.21,-169.44,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.18,-169.63,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.17,-169.68,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-14.16,-169.67,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-11.44,-151.82,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-11.43,-151.82,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-11.42,-151.83,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-11.07,-171.08,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-11.06,-171.09,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-11.06,-171.07,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-11.05,-171.09,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-10.06,-152.31,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-9.92,-150.21,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-9.91,-150.2,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-9.91,-150.2,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-5.66,-155.87,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-5.62,-155.88,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-4.03,-154.95,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-4.01,-154.92,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-4,-154.94,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-0.38,-160.01,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-0.38,-160,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-0.38,-159.98,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-0.38,-159.97,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,-0.37,-160.01,Saline water,coral_reef_seawater,3,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,-0.36,-160,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.19,-176.48,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.19,-176.47,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.19,-176.46,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.2,-176.48,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.79,-176.62,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.8,-176.62,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,0.81,-176.62,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp40,1.99,-157.48,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,1.99,-157.48,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp40,1.99,157.48,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,02.01,-157.49,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,02.04,-157.5,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,3.81,-159.34,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,3.83,-159.35,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,3.84,-159.36,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,4.69,-160.42,Saline water,coral_reef_seawater, ,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,4.7,-160.39,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp40,5.87,-162.13,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,5.87,-162.12,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,5.87,-162.11,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,5.87,-162.08,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,6.38,-162.4,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp9220,6.39,-162.39,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,6.39,-162.36,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,6.39,-162.35,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,6.39,-162.35,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp40,6.39,-162.33,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,6.4,-162.39,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,6.4,-162.34,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,6.43,-162.38,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp16895,16.78,-88.08,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp19414,17.54,-149.83,Saline water,coral_reef_seawater,20,Marine,Marine shelf,Photic coral reefs,human
+mgp16701,19.08,-155.55,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,human
+mgp18593,19.73,-155.07,Saline water,coral_reef_seawater,5,Marine,Marine shelf,Photic coral reefs,human
+mgp19050,19.73,-155.07,Saline water,coral_reef_seawater,12,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,20,-155.83,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,20.76,-156.83,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,20.86,-156.14,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,plant
+mgp16895,20.88,-86.85,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,20.9,-156.87,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,20.92,-156.91,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.14,-157.29,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.17,-156.82,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.44,-158,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.62,-158.1,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.85,-160.18,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,21.91,-159.65,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,22,-160.1,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,22.1,-159.53,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,23.64,-155.88,Saline water,coral_reef_seawater,3,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,23.88,-166.29,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,25.93,-173.89,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,25.99,-173.99,Saline water,coral_reef_seawater,2,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,26.04,-173.88,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,26.08,-174,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp14181,26.66,-78.52,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,plant
+mgp16701,27.78,-175.88,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,water
+mgp16701,27.87,-175.73,Saline water,coral_reef_seawater,1,Marine,Marine shelf,Photic coral reefs,water
+mgp19414,34.25,-119.91,Saline water,coral_reef_seawater,16,Marine,Marine shelf,Photic coral reefs,water
+mgp11367,-23.96,-68.17,Sediment,desert_sediment,1,Terrestrial,Deserts and semi-deserts,,water
+mgp11367,-22.92,-68.25,Sediment,desert_sediment,1,Terrestrial,Deserts and semi-deserts,,water
+mgp11367,-20.93,-70.01,Sediment,desert_sediment,6,Terrestrial,Deserts and semi-deserts,,water
+mgp10310,-78.03,163.87,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,-78.03,163.87,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp8101,-77.86,160.73,Soil,desert_soil,2,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,-77.72,162.31,Soil,desert_soil,2,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,-77.72,162.31,Soil,desert_soil,2,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.65,163.12,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,-77.64,162.89,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,-77.64,162.89,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,-77.61,163.25,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,-77.61,163.25,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,-77.53,161.7,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,-77.53,161.7,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.05,161.36,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.03,161.67,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.02,161.71,Soil,desert_soil,2,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.02,161.74,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.02,161.76,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.02,161.78,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.01,161.77,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-77.01,162.4,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.97,161.16,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.95,161.4,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.87,161.75,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.82,162.11,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.78,161.45,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.73,161.01,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.16,162.02,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp15251,-76.11,162.01,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp11367,-23.96,-68.17,Soil,desert_soil,2,Terrestrial,Deserts and semi-deserts ,,water
+mgp11367,-22.92,-68.25,Soil,desert_soil,3,Terrestrial,Deserts and semi-deserts ,,water
+mgp6409,21.44,39.53,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp4098,23.56,15.04,Soil,desert_soil,3,Terrestrial,Deserts and semi-deserts ,,water
+mgp3513,23.79,71.01,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp3513,23.81,70.98,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp3513,23.83,69.52,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp3513,23.91,70.54,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp3513,23.94,70.19,Soil,desert_soil,3,Terrestrial,Deserts and semi-deserts ,,water
+mgp17355,33.65,-116.37,Soil,desert_soil,21,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,34.33,-106.73,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,34.33,-106.73,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,34.9,-115.65,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,34.9,-115.65,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp10310,35.38,-105.93,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp2997,35.38,-105.93,Soil,desert_soil,1,Terrestrial,Deserts and semi-deserts ,,water
+mgp19358,31.41,121.71,Freshwater,drinking_water_reservoir,2,Freshwater,Artificial wetland ,Constructed lacustrine wetlands,water
+mgp19358,31.44,121.69,Freshwater,drinking_water_reservoir,2,Freshwater,Artificial wetland ,Constructed lacustrine wetlands,water
+mgp12943,37.22,-80.43,Freshwater,drinking_water_reservoir,45,Freshwater,Artificial wetland ,Constructed lacustrine wetlands,water
+mgp1929,-22.86,-43.16,Saline water,estuarine_seawater,7,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp1929,-22.83,-43.25,Saline water,estuarine_seawater,4,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp358,35.55,138.88,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp358,36.17,139.65,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp358,36.17,140.65,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp81845,41.54,-70.64,Saline water,estuarine_seawater,4,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.17,-124.16,Saline water,estuarine_seawater,20,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.17,-124.08,Saline water,estuarine_seawater,7,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.2,-124,Saline water,estuarine_seawater,7,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.2,-123.94,Saline water,estuarine_seawater,22,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.21,-123.8,Saline water,estuarine_seawater,16,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.21,-123.79,Saline water,estuarine_seawater,7,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.22,-123.74,Saline water,estuarine_seawater,14,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.24,-123.71,Saline water,estuarine_seawater,8,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp5692,46.26,-123.66,Saline water,estuarine_seawater,5,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,47.33,122.43,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,47.68,122.41,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,47.7,122.45,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,47.88,122.37,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,48.02,122.3,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2706,48.37,122.72,Saline water,estuarine_seawater,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp2739,58.36,18.14,Saline water,estuarine_seawater,2,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,water
+mgp4996,13.37,55.62,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp5231,13.37,55.62,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp5281,13.37,55.62,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp4996,13.41,55.63,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp5231,13.41,55.63,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp5281,13.41,55.63,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.46,-84.95,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.46,-84.94,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp2850,39.77,-84.85,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.77,-84.85,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.77,-84.83,Soil,farm_soil,3,Terrestrial,Intensive land-use ,,water
+mgp2850,39.77,-84.82,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.77,-84.82,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp2850,39.8,-84.92,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.8,-84.92,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp2850,39.81,-84.91,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.81,-84.91,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.88,-84.98,Soil,farm_soil,8,Terrestrial,Intensive land-use ,,water
+mgp7877,39.89,-84.98,Soil,farm_soil,4,Terrestrial,Intensive land-use ,,water
+mgp7877,39.9,-85.01,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp7877,39.9,-85,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.93,-84.77,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.93,-84.76,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp7877,39.95,-84.81,Soil,farm_soil,2,Terrestrial,Intensive land-use ,,water
+mgp6787,42.39,-85.37,Soil,farm_soil,21,Terrestrial,Intensive land-use ,,water
+mgp11843,55.64,13.41,Soil,farm_soil,12,Terrestrial,Intensive land-use ,,water
+mgp6200,55.83,-2.32,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp6200,56.51,-6.97,Soil,farm_soil,1,Terrestrial,Intensive land-use ,,water
+mgp10310,-26.73,-54.68,Soil,forest_soil,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical dry forests and thickets,water
+mgp2997,-26.73,-54.68,Soil,forest_soil,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical dry forests and thickets,water
+mgp2997,-12.63,-71.23,Soil,forest_soil,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical lowland rainforests,water
+mgp17849,11.23,107.04,Soil,forest_soil,6,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical dry forests and thickets,water
+mgp17849,11.38,107.06,Soil,forest_soil,3,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical dry forests and thickets,water
+mgp17130,27.57,48.46,Soil,forest_soil,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical lowland rainforests,water
+mgp13948,29.68,-82.02,Soil,forest_soil,5,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,29.68,-81.96,Soil,forest_soil,4,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,29.68,-81.95,Soil,forest_soil,3,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,29.69,-81.98,Soil,forest_soil,5,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,29.69,-81.96,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,29.7,-82.01,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,31.19,-84.48,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,31.19,-84.46,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Warm temperate laurophyll forests,water
+mgp13948,32.9,-87.45,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forest,water
+mgp13948,32.92,-87.43,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forest,water
+mgp13948,32.96,-87.43,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forest,water
+mgp13948,32.98,-87.43,Soil,forest_soil,4,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forest,water
+mgp17355,33.61,-116.46,Soil,forest_soil,17,Terrestrial,Temperate-boreal forests and woodlands,Temperate pyric sclerophyll forests and woodlands,water
+mgp17355,33.65,-116.37,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Temperate pyric sclerophyll forests and woodlands,water
+mgp17355,33.8,-116.69,Soil,forest_soil,19,Terrestrial,Temperate-boreal forests and woodlands,Temperate pyric sclerophyll forests and woodlands,water
+mgp17355,33.81,-116.77,Soil,forest_soil,22,Terrestrial,Temperate-boreal forests and woodlands,Temperate pyric sclerophyll forests and woodlands,water
+mgp2997,34.62,-81.67,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp12756,35.96,-84.28,Soil,forest_soil,8,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp2997,35.97,-79.08,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp3608,36.96,-3.46,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp3608,36.97,-3.46,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,38.88,-78.12,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,38.9,-78.14,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp7877,39.75,-84.92,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp7877,39.8,-84.92,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,42.39,-72.25,Soil,forest_soil,4,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,42.42,-72.26,Soil,forest_soil,7,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,42.43,-72.23,Soil,forest_soil,5,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp13948,42.46,-72.23,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,43.67,-86.15,Soil,forest_soil,5,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,44.39,-85.84,Soil,forest_soil,5,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,44.39,-85.83,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,45.55,-84.87,Soil,forest_soil,3,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,45.55,-84.86,Soil,forest_soil,2,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,45.56,-84.87,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp8732,46.87,-88.89,Soil,forest_soil,6,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgpinternal id of project,47.51,-93.45,Soil,forest_soil,3,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp11442,48.51,90.41,Soil,forest_soil,12,Terrestrial,Temperate-boreal forests and woodlands,Boreal and temperate high montane forests and woodlands,water
+mgp6860,49.04,13.62,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp82276,49.04,13.62,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,water
+mgp7220,53.41,6.5,Soil,forest_soil,7,Terrestrial,Intensive land use,Annual croplands,water
+mgp10310,64.8,-148.25,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Boreal and temperate high montane forests and woodlands,water
+mgp2997,64.8,-148.25,Soil,forest_soil,1,Terrestrial,Temperate-boreal forests and woodlands,Boreal and temperate high montane forests and woodlands,water
+mgp6397,26.21,127.68,Freshwater,freshwater_biofilm,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp9153,34,81,Freshwater,freshwater_biofilm,1,Freshwater,Artificial wetlands ,Freshwater aquafarms,water
+mgp79357,34.4,-118.92,Freshwater,freshwater_biofilm,2,Terrestrial,Savannas and grasslands ,Temperate woodlands,water
+mgp5076,35.21,-97.45,Freshwater,freshwater_biofilm,6,Freshwater,Rivers and streams ,Permanent lowland rivers,water
+mgp12943,37.22,-80.43,Freshwater,freshwater_biofilm,9,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp14283,37.69,-118.82,Freshwater,freshwater_biofilm,15,Freshwater,Lakes ,Geothermal pools and wetlands,water
+mgp7509,37.69,-118.82,Freshwater,freshwater_biofilm,4,Freshwater,Lakes ,Geothermal pools and wetlands,water
+mgp9770,37.69,-118.82,Freshwater,freshwater_biofilm,3,Freshwater,Lakes ,Geothermal pools and wetlands,water
+mgp11202,38.05,-81.91,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.06,-81.95,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.06,-81.94,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.08,-81.94,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.09,-81.98,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.09,-81.96,Freshwater,freshwater_biofilm,3,Freshwater,Rivers and streams,,water
+mgp11202,38.1,-81.99,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.15,-82,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp11202,38.15,-81.99,Freshwater,freshwater_biofilm,1,Freshwater,Rivers and streams,,water
+mgp650,41.58,-70.64,Freshwater,freshwater_biofilm,1,Marine-Freshwater-Terretrial,Brackish tidal ,Coastal saltmarshes and reedbeds,water
+mgp17674,41.63,-87.18,Freshwater,freshwater_biofilm,3,Freshwater,Lakes ,Large permanent freshwater lakes,water
+mgp17674,41.65,-87.43,Freshwater,freshwater_biofilm,3,Freshwater,Lakes ,Large permanent freshwater lakes,water
+mgp17674,41.71,-87.53,Freshwater,freshwater_biofilm,2,Freshwater,Lakes ,Large permanent freshwater lakes,water
+mgp17674,42.74,-87.78,Freshwater,freshwater_biofilm,2,Freshwater,Lakes ,Large permanent freshwater lakes,water
+mgp14570,52.42,-4.08,Freshwater,freshwater_biofilm,6,Terrestrial,Intensive land use ,Sown pastures and fields,water
+mgp6398,55.95,-3.19,Freshwater,freshwater_biofilm,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp82531,34.18,118.19,Soil,garden_soil,105,Terrestrial,Intensive land use ,Urban and industrial ecosystems,water
+PRJNA405993,37.98,-121.87,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405994,37.98,-121.87,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416590,37.98,-121.87,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA229517,38.56,-110.8,Groundwater,geyser,2,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA367347,38.84,-106.95,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA367348,38.84,-106.95,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA367349,38.84,-106.95,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA367350,38.84,-106.95,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA229517,38.94,-110.14,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA365669,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA365670,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA365671,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375480,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375481,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375482,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375483,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375484,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA375485,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405968,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405969,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405970,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405971,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405972,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405973,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405974,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405975,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405976,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405977,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405978,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405979,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405980,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405981,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405982,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405983,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405984,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405985,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405986,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405987,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405988,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405989,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405990,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405991,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA405992,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416577,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416578,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416579,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416580,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416581,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416582,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416583,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416584,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416585,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416586,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416587,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416588,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416589,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416591,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416592,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416593,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416594,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+PRJNA416595,38.94,-110.13,Groundwater,geyser,1,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+mgp20922,33.74,-117.73,Soil,grassland,93,Terrestrial,Savannas and grasslands,,water
+mgp17355,33.74,-117.7,Soil,grassland,23,Terrestrial,Savannas and grasslands,,water
+mgp17355,33.8,-116.69,Soil,grassland,1,Terrestrial,Savannas and grasslands,,water
+mgp10227,35.19,-97.45,Soil,grassland,1,Terrestrial,Savannas and grasslands,,water
+mgp10227,35.2,-97.44,Soil,grassland,1,Terrestrial,Savannas and grasslands,,water
+mgp10227,35.21,-97.44,Soil,grassland,1,Terrestrial,Savannas and grasslands,,water
+mgp13948,40.81,-104.73,Soil,grassland,7,Terrestrial,Savannas and grasslands,,water
+mgp13948,40.81,-104.7,Soil,grassland,6,Terrestrial,Savannas and grasslands,,water
+mgp13948,40.82,-104.75,Soil,grassland,2,Terrestrial,Savannas and grasslands,,water
+mgp13948,40.82,-104.71,Soil,grassland,6,Terrestrial,Savannas and grasslands,,water
+mgp13948,40.85,-104.7,Soil,grassland,7,Terrestrial,Savannas and grasslands,,water
+mgp5588,45.4,-93.2,Soil,grassland,12,Terrestrial,Savannas and grasslands,,water
+mgp13154,45.68,-73.44,Soil,grassland,15,Terrestrial,Savannas and grasslands,,water
+mgp13948,47.12,-99.24,Soil,grassland,3,Terrestrial,Savannas and grasslands,,water
+mgp13948,47.13,-99.26,Soil,grassland,2,Terrestrial,Savannas and grasslands,,water
+mgp13948,47.14,-99.23,Soil,grassland,2,Terrestrial,Savannas and grasslands,,water
+mgp405,51.48,0.22,Soil,grassland,1,Terrestrial,Savannas and grasslands,,water
+mgp6111,51.48,0.22,Soil,grassland,6,Terrestrial,Savannas and grasslands,,water
+mgp1008,51.97,5.64,Soil,grassland,15,Terrestrial,Savannas and grasslands,,water
+mgp8624,53.49,6.22,Soil,grassland,35,Terrestrial,Savannas and grasslands,,water
+PRJNA383879,10,54,Freshwater,hot_spring,2,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5356,26.26,99.99,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp19115,37.69,-118.84,Freshwater,hot_spring,9,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp19115,37.99,-119.02,Freshwater,hot_spring,7,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp185,40.69,-111.2,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5266,40.83,14.14,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5268,40.83,14.15,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5270,44.66,-110.48,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5269,44.75,-110.72,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp6907,54.5,159.99,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5265,63.9,-22.06,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp5355,64.03,-21.2,Freshwater,hot_spring,1,Freshwater,Lakes,Geothermal pools and wetlands,water
+mgp17175,53,2.1,Human host,human_associated_biofilm,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp17175,53.1,1.3,Human host,human_associated_biofilm,3,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19606,53.1,1.3,Human host,human_associated_biofilm,3,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp21724,53.1,1.3,Human host,human_associated_biofilm,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp79581,53.1,1.3,Human host,human_associated_biofilm,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp17175,53.49,1.31,Human host,human_associated_biofilm,8,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19372,53.49,1.31,Human host,human_associated_biofilm,21,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19606,53.49,1.31,Human host,human_associated_biofilm,15,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19774,53.49,1.31,Human host,human_associated_biofilm,17,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19789,53.49,1.31,Human host,human_associated_biofilm,23,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81184,53.49,1.31,Human host,human_associated_biofilm,22,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81185,53.49,1.31,Human host,human_associated_biofilm,3,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp82218,-40.35,175.61,Human host,human_feces,112,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp5298,-37.79,144.95,Human host,human_feces,29,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp5298,-19.9,134.21,Human host,human_feces,38,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp7563,26.82,30.8,Human host,human_feces,6,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp10563,32.88,-117.24,Human host,human_feces,10,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13354,32.88,-117.24,Human host,human_feces,7,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp10451,40.71,-74.01,Human host,human_feces,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp108,41.79,-87.6,Human host,human_feces,4,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp567,42.3,-71.1,Human host,human_feces,18,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp2558,44.49,11.34,Human host,human_feces,9,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp14192,46.19,6.13,Human host,human_feces,30,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13643,48.86,2.35,Human host,human_feces,48,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp2851,52.08,5.13,Human host,human_feces,5,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13068,55.7,13.19,Human host,human_feces,80,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp19802,59.67,10.77,Human host,human_feces,17,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp16084,-33.95,151.24,Human host,human-gut,44,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81127,0,0,Human host,human-gut,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp5712,3.12,101.65,Human host,human-gut,4,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp32,32.77,-117.07,Human host,human-gut,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13223,32.88,-117.24,Human host,human-gut,5,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp11446,34.08,-118.38,Human host,human-gut,12,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp4720,35.49,139.68,Human host,human-gut,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp4778,35.49,139.68,Human host,human-gut,13,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp29,35.71,139.76,Human host,human-gut,12,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp4149,37.42,-122.17,Human host,human-gut,24,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp8629,38.54,-121.74,Human host,human-gut,6,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp11191,39.29,-76.61,Human host,human-gut,10,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp11446,41.87,-87.67,Human host,human-gut,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81456,42.28,-83.74,Human host,human-gut,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81508,42.28,-83.74,Human host,human-gut,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp17406,46.47,13.72,Human host,human-gut,18,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13095,49.5,6.2,Human host,human-gut,36,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp265,60.45,22.26,Human host,human-gut,19,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp14701,74.7,-94.84,Human host,human-gut,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp81106,74.7,-94.84,Human host,human-gut,12,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp5621,41.9,87.6,Human host,human-skin,92,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp4,9.84,-104.28,Saline water,hydrothermal_vent,2,Marine,Deep sea floors,,water
+mgp14430,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp14449,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp14450,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15361,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15393,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15395,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15396,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15397,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15398,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15399,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp15400,24.83,121.96,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp19574,24.83,121.96,Saline water,hydrothermal_vent,3,Marine,Deep sea floors,,water
+mgp20053,36.23,-33.9,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp20053,37.84,-31.52,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp274,47.95,-129.1,Saline water,hydrothermal_vent,1,Marine,Deep sea floors,,water
+mgp7207,47.95,-129.1,Saline water,hydrothermal_vent,2,Marine,Deep sea floors,,water
+mgp10814,31.85,29.98,Saline water,hypersaline_water,7,Marine,Pelagic ocean waters,,water
+mgp10823,31.85,29.98,Saline water,hypersaline_water,7,Marine,Pelagic ocean waters,,water
+mgp9894,31.85,29.98,Saline water,hypersaline_water,2,Marine,Pelagic ocean waters,,water
+mgp79605,43.29,-73.6,Groundwater,karst-porous,16,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+mgp12582,64.84,-147.71,Groundwater,karst-porous,13,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+mgp12599,64.84,-147.71,Groundwater,karst-porous,13,Subterranean-Freshwater,Subterranean-Freshwater ,,water
+mgp13192,-24.54,-68.21,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp81121,5.58,101.35,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp19525,13.03,53.15,Freshwater,lake,14,Freshwater,Lakes,,water
+mgp12701,22.57,88.36,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp1207,31.26,120.12,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp50938004,32.05,118.72,Freshwater,lake,5,Freshwater,Lakes,,water
+mgp17799,32.1,118.11,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp17799,32.2,118.12,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp17799,32.3,118.13,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp17799,32.4,118.14,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp11108,32.5,-117,Freshwater,lake,2,Freshwater,Lakes,,water
+mgp17799,32.5,118.15,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp17799,32.6,118.16,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp17799,32.7,118.17,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp11108,32.78,-117.07,Freshwater,lake,3,Freshwater,Lakes,,water
+mgp16685,34.19,49.84,Freshwater,lake,2,Freshwater,Lakes,,water
+mgp16685,34.2,49.83,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp1207,40.53,-84.5,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp11920,40.68,80.1,Freshwater,lake,3,Freshwater,Lakes,,water
+mgp715,42.15,-8.01,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp18667,46.25,6.28,Freshwater,lake,2,Freshwater,Lakes,,water
+mgp19167,46.25,6.28,Freshwater,lake,2,Freshwater,Lakes,,water
+mgp19169,46.25,6.28,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp19395,46.25,6.28,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp19396,46.25,6.28,Freshwater,lake,2,Freshwater,Lakes,,water
+mgp19757,46.25,6.28,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp11394,47.36,8.67,Freshwater,lake,3,Freshwater,Lakes,,water
+mgp11108,54.33,10.33,Freshwater,lake,3,Freshwater,Lakes,,water
+mgp11162,54.62,-6.4,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp20506,55.23,-77.7,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp20575,55.23,-77.7,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp83933,55.72,49.15,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp83956,55.72,49.15,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp83956,55.74,49.15,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp20506,56.61,-76.22,Freshwater,lake,1,Freshwater,Lakes,,water
+mgp18323,17.6,-78.59,Sediment,lake_sediment,2,Freshwater,Lakes,,water
+mgp18323,17.69,-78.45,Sediment,lake_sediment,4,Freshwater,Lakes,,water
+mgp7096,19.53,-101.25,Sediment,lake_sediment,2,Freshwater,Lakes,,water
+mgp14860,37.69,20.83,Sediment,lake_sediment,1,Freshwater,Lakes,,water
+mgp14655,43.05,-75.97,Sediment,lake_sediment,1,Freshwater,Lakes,,water
+mgp11828,53.17,13.03,Sediment,lake_sediment,1,Freshwater,Lakes,,water
+mgp2336,54.35,-2.98,Sediment,lake_sediment,1,Freshwater,Lakes,,water
+mgp317,32.72,-117.16,Human host,lung,29,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp31,32.88,-117.11,Human host,lung,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp31,32.88,117.11,Human host,lung,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp7381,51.61,-3.98,Human host,lung,29,Terrestrial,Intensive land use,Urban and industrial ecosystems,water
+mgp13300,-25.08,-47.96,Sediment,mangrove_sediment,7,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp134,-25.08,-47.95,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp134,-25.08,-45.25,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp134,-23.9,-46.21,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp13300,-23.9,-46.06,Sediment,mangrove_sediment,9,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp13300,-23.9,-45.25,Sediment,mangrove_sediment,7,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp134,-23.9,-45.25,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp6544,-23.17,-44.28,Sediment,mangrove_sediment,2,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp6544,-16.59,-39.09,Sediment,mangrove_sediment,2,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp11628,4.84,100.64,Sediment,mangrove_sediment,2,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp13099,4.84,100.64,Sediment,mangrove_sediment,2,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp2563,22.5,39.19,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp2563,22.51,39.19,Sediment,mangrove_sediment,1,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp5849,52.36,13.31,Sediment,mangrove_sediment,6,Marine-Freshwater-Terrestrial,Brackish tidal,Intertidal forests and woodlands,water
+mgp1992,33.74,-117.7,Soil,meadow_soil,31,Terrestrial,Savannas and grasslands,,water
+mgp3520,33.74,-117.7,Soil,meadow_soil,46,Terrestrial,Savannas and grasslands,,water
+mgp4745,42.44,-85.38,Soil,meadow_soil,8,Terrestrial,Savannas and grasslands,,water
+mgp1402,45.05,6.38,Soil,meadow_soil,2,Terrestrial,Savannas and grasslands,,water
+mgp4745,45.4,-93.27,Soil,meadow_soil,8,Terrestrial,Savannas and grasslands,,water
+PRJNA265029,-26.42,27.43,Groundwater,mine,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,biofilm
+PRJEB22782,63.66,26.05,Groundwater,mine,2,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,biofilm
+mgp20413,-60.23,-60.65,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,biofilm
+mgp20413,-47.19,-58.29,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,biofilm
+mgp20413,-32.24,17.71,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-31.03,4.66,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-30.14,-43.29,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-29.72,-101.16,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp2518,-23,-42.02,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp2518,-23,-42.01,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-22.34,40.34,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-21.15,-104.79,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-20.94,-35.18,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-20.41,-3.18,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp7255,-12.49,-5,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-9.15,-140.52,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-8.78,-17.91,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,-5.25,-85.15,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,0,-153.68,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,0,71.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp3395,0.93,-29.37,Saline water,oceanic_seawater,20,Marine,Pelagic ocean waters,,sediment
+mgp5474,2.56,104.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5474,3.56,105.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5474,4.56,106.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5474,5.56,107.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,6,73.9,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,6.33,-102.94,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5474,6.56,108.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,7.56,109.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,8.56,110.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,9.56,111.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,10.56,112.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,11.56,113.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp48,12.28,-56.12,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp5471,12.56,114.64,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp48,15.04,-31.96,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,18.4,39.88,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp20413,20.82,63.5,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp20413,21.95,38.25,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp18765,22.77,-157.9,Saline water,oceanic_seawater,4,Marine,Pelagic ocean waters,,sediment
+mgp20413,23.36,37.22,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp17602,23.78,09.09,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp2955,24.3,121.95,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp5464,25.27,-134.89,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,27.16,34.84,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp27,31.18,-64.32,Saline water,oceanic_seawater,3,Marine,Pelagic ocean waters,,sediment
+mgp20413,31.52,-159,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp1167,32.17,-64.5,Saline water,oceanic_seawater,14,Marine,Pelagic ocean waters,,sediment
+mgp7,32.17,-64.5,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp27,32.17,-64.01,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp35,32.87,-117.25,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp13703,33.55,-118.4,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp19164,34.25,-119.91,Saline water,oceanic_seawater,19,Marine,Pelagic ocean waters,,sediment
+mgp20413,34.67,-71.31,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp2518,34.8,-126,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp9515,35.46,-124.11,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,35.76,14.26,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp2518,36.05,-123.5,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp2518,36.45,-122,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,36.55,-6.57,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp20413,39.39,19.39,Saline water,oceanic_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp20413,42.2,17.72,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp18165,42.49,3.14,Saline water,oceanic_seawater,31,Marine,Pelagic ocean waters,,sediment
+mgp18455,45.7,13.71,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp7,49.7,124.35,Saline water,oceanic_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp3940,-35.03,138.57,Soil,park_soil,7,Terrestrial,Intensive land use ,Urban and industrial ecosystems,sediment
+mgp8020,-35.03,138.57,Soil,park_soil,9,Terrestrial,Intensive land use ,Urban and industrial ecosystems,sediment
+mgp3940,-35.02,138.52,Soil,park_soil,1,Terrestrial,Intensive land use ,Urban and industrial ecosystems,sediment
+mgp3940,-35.02,138.54,Soil,park_soil,7,Terrestrial,Intensive land use ,Urban and industrial ecosystems,sediment
+mgp8020,-35.02,138.54,Soil,park_soil,9,Terrestrial,Intensive land use ,Urban and industrial ecosystems,sediment
+mgp81386,-35.74,-58.06,Soil,pasture_soil,12,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp13948,28.04,-81.39,Soil,pasture_soil,7,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp13948,28.05,-81.39,Soil,pasture_soil,1,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp13948,28.07,-81.43,Soil,pasture_soil,6,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp13948,28.07,-81.42,Soil,pasture_soil,1,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp7792,51.04,-2.11,Soil,pasture_soil,9,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp14992,-4.07,53.14,Soil,peat_soil,47,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp11381,68.48,-155.75,Soil,peat_soil,7,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp11381,70.47,-157.4,Soil,peat_soil,8,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp4192,80.59,13.61,Soil,peat_soil,2,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp4192,80.61,13.48,Soil,peat_soil,3,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp11953,64.68,-157.83,Soil,permafrost,12,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp11991,68.63,161.36,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp7176,68.63,161.36,Soil,permafrost,2,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp11991,68.72,158.9,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp21008,78.54,12.05,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp21008,78.54,12.06,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp21008,78.55,12.05,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp252,79.42,-90.76,Soil,permafrost,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp252,79.42,90.76,Soil,permafrost,13,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sediment
+mgp3731,-10.17,62.82,Soil,plain_soil,2,Terrestrial,Tropical-subtropical forests ,Tropicalsubtropical lowland rainforests,sediment
+mgp3731,10.17,62.82,Soil,plain_soil,81,Terrestrial,Tropical-subtropical forests ,Tropicalsubtropical lowland rainforests,sediment
+mgp16528,6.92,80.77,Plant host,plant-associated,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical montane rainforests,sediment
+mgp2766,14.14,121.26,Plant host,plant-associated,2,Terrestrial,Intensive land use,Annual croplands,sediment
+mgp18755,38.27,141.53,Plant host,plant-associated,2,Terrestrial ,Intensive land use,Annual croplands,sediment
+mgp19354,38.91,139.9,Plant host,plant-associated,16,Terrestrial ,Intensive land use,Annual croplands,sediment
+mgp2766,41.21,-4.55,Plant host,plant-associated,1,Terrestrial,Temperate-boreal forests and woodlands biome,Temperate pyric sclerophyll forests and woodlands,sediment
+mgp17155,41.89,12.51,Plant host,plant-associated,4,Terrestrial,Temperate-boreal forests and woodlands biome,Deciduous temperate forests,sediment
+mgp21536,43.58,4.37,Plant host,plant-associated,12,Terrestrial ,Intensive land use,Annual croplands,sediment
+mgp21345,43.84,6.32,Plant host,plant-associated,4,Terrestrial,Shrublands and shrubby woodlands ,Seasonally dry temperate heath and shrublands,sediment
+mgp21345,43.86,6.12,Plant host,plant-associated,1,Terrestrial,Intensive land use,Annual croplands,sediment
+mgp21345,44.06,7.53,Plant host,plant-associated,7,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,sediment
+mgp21345,44.22,7.47,Plant host,plant-associated,3,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,sediment
+mgp2766,47.44,8.5,Plant host,plant-associated,1,Terrestrial,Intensive land use,Annual croplands,sediment
+mgp2766,47.45,8.69,Plant host,plant-associated,1,Terrestrial,Intensive land use,Annual croplands,sediment
+mgp21345,48.48,07.01,Plant host,plant-associated,1,Terrestrial,Temperate-boreal forests and woodlands,Deciduous temperate forests,sediment
+mgp5802,29.58,34.97,Plant host,plant-associated_hypersaline_water,4,Terrestrial,Deserts and semi-deserts,Hyper-arid deserts,sediment
+mgp5802,30.87,34.78,Plant host,plant-associated_hypersaline_water,4,Terrestrial,Deserts and semi-deserts,Hyper-arid deserts,sediment
+mgp5802,30.94,35.37,Plant host,plant-associated_hypersaline_water,2,Terrestrial,Deserts and semi-deserts,Hyper-arid deserts,sediment
+mgp5802,31.84,35.51,Plant host,plant-associated_hypersaline_water,3,Terrestrial,Deserts and semi-deserts,Hyper-arid deserts,sediment
+mgp5802,32.56,34.91,Plant host,plant-associated_hypersaline_water,3,Marine-Terrestrial,Supralittoral coastal,Coastal shrublands and grasslands,sediment
+mgp11518,-65.27,118.98,Saline water,polar_seawater,2,Marine,Pelagic ocean waters,,sediment
+mgp7,70.69,-136.42,Saline water,polar_seawater,1,Marine,Pelagic ocean waters,,sediment
+mgp6099,71.37,-156.7,Saline water,polar_seawater,4,Marine,Pelagic ocean waters,,sediment
+mgp7,73.16,159.45,Saline water,polar_seawater,1,Marine,Pelagic ocean waters,,sediment
+PRJNA342017,20,22,Groundwater,porous,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sediment
+PRJNA342017,21,21,Groundwater,porous,2,Subterranean-Freshwater,Subterranean-Freshwater ,,sediment
+mgp119,39.54,-107.72,Groundwater,porous,9,Subterranean-Freshwater,Subterranean-Freshwater ,,sediment
+PRJNA342017,40.06,-74.41,Groundwater,porous,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sediment
+PRJNA283788,46.37,-119.28,Groundwater,porous,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sediment
+PRJNA114691,2,2,Groundwater,porous_contaminated,3,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA405970,12,36,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA342017,20,22,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA342017,21,21,Groundwater,porous_contaminated,6,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJDB6771,34.41,135.31,Groundwater,porous_contaminated,5,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA258175,35.94,-84.34,Groundwater,porous_contaminated,3,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366140,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366141,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366142,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366143,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366144,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366145,36,-106.07,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA258175,36.12,-84.25,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA292723,39.32,-107.46,Groundwater,porous_contaminated,9,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330209,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330334,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330335,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330337,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330339,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330340,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330348,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330350,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330351,39.53,-107.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA167727,39.53,-107.77,Groundwater,porous_contaminated,2,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA330338,39.53,-10.78,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA268031,39.54,-107.78,Groundwater,porous_contaminated,23,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA342017,40.06,-74.41,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA404443,41,33,Groundwater,porous_contaminated,2,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJEB22302,43.29,-73.6,Groundwater,porous_contaminated,3,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366593,43.3,-73.64,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366594,43.3,-73.64,Groundwater,porous_contaminated,1,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+PRJNA366595,43.3,-73.64,Groundwater,porous_contaminated,2,Subterranean-Freshwater,Anthtopogenic Subterranean-Freshwater ,,sediment
+mgp13011,46.68,-114.03,Soil,prairie,59,Terrestrial,Savanas and grasslands ,,sediment
+mgp405,51.48,0.22,Soil,prairie,12,Terrestrial,Savanas and grasslands ,,sediment
+PRJNA330333,39.53,-10.78,Soil,ranch,1,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+PRJNA330336,39.53,-10.78,Soil,ranch,1,Terrestrial,Intensive land use ,Sown pastures and fields,sediment
+mgp16589,37.22,-80.43,Wastewater,reclaimed_water,44,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sediment
+mgp13673,55.88,12.5,Wastewater,reclaimed_water,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sediment
+mgp7774,-11.68,-55.84,Soil,rhizosphere,3,Terrestrial,Intensive land use ,Annual croplands,sediment
+mgp11297,4.73,-75.73,Soil,rhizosphere,1,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical montane rainforests,sediment
+mgp11299,4.75,-75.44,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,sediment
+mgp80870,9,-73,Soil,rhizosphere,14,Terrestrial,Tropical-subtropical forests ,Tropical/subtropical lowland rainforests,sediment
+mgp4530,22.32,39.21,Soil,rhizosphere,1,Marine-Freshwater-Terrertrial,Brackish tidal,Intertidal forests and shrublands,sediment
+mgp4530,22.35,39.21,Soil,rhizosphere,2,Marine-Freshwater-Terrertrial,Brackish tidal,Intertidal forests and shrublands,sediment
+mgp4530,22.5,39.21,Soil,rhizosphere,1,Marine-Freshwater-Terrertrial,Brackish tidal,Intertidal forests and shrublands,soil
+mgpsamplenhs_viruses.cds.fa,28.13,116.54,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,28.55,111.26,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,33.13,120.49,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,33.16,118.52,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,33.29,120.28,Soil,rhizosphere,1,Terrestrial,Intensive land use ,Annual croplands,soil
+mgp21493,35.74,53.58,Soil,rhizosphere,2,Terrestrial,Intensive land use,Annual croplands,soil
+mgp83855,35.74,53.58,Soil,rhizosphere,1,Terrestrial,Intensive land use,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,38.11,116.46,Soil,rhizosphere,1,Terrestrial,Intensive land use,Annual croplands,soil
+mgpsamplenhs_viruses.cds.fa,43.67,126.5,Soil,rhizosphere,2,Terrestrial,Intensive land use,Annual croplands,soil
+mgp18557,50.98,3.78,Soil,rhizosphere,16,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp4282,51.97,5.66,Soil,rhizosphere,6,Terrestrial,Intensive land use,Annual croplands,soil
+mgp4747,51.97,5.66,Soil,rhizosphere,6,Terrestrial,Intensive land use,Annual croplands,soil
+mgp4779,52.4,12.96,Soil,rhizosphere,1,Terrestiral,Intensive land use,Urban and industrial ecosystems,soil
+mgp4786,52.4,12.96,Soil,rhizosphere,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp4801,52.4,12.96,Soil,rhizosphere,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp13480,-23.59,-46.69,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp8766,-2.48,-55.01,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp8766,-1.92,-55.53,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp8766,-1.52,-48.92,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp8766,-0.16,-50.62,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp8766,-0.08,-51.05,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+14c-30c haoc rr,37.28,-80.43,Freshwater,river,9,Freshwater,Rivers and streams,,soil
+mgp5507,37.53,-77.44,Freshwater,river,2,Freshwater,Rivers and streams,,soil
+mgp12307,37.54,-77.45,Freshwater,river,3,Freshwater,Rivers and streams,,soil
+mgp12307,37.54,77.45,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.58,-77.38,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.81,-77.01,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.82,-77.51,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.94,-77.05,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.96,-77.16,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,38.98,-77.04,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,39.3,-77.79,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,39.37,-77.39,Freshwater,river,2,Freshwater,Rivers and streams,,soil
+mgp14051,39.45,-77.74,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,39.63,-77.46,Freshwater,river,2,Freshwater,Rivers and streams,,soil
+mgp14051,39.63,-77.45,Freshwater,river,2,Freshwater,Rivers and streams,,soil
+mgp14051,39.63,-77.44,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,39.66,-77.48,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp14051,39.67,-77.45,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp12989,40.58,-105.08,Freshwater,river,5,Freshwater,Rivers and streams,,soil
+mgp16384,41.29,-77.32,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp16384,41.33,-77.34,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp16384,41.35,-77.36,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp16384,41.45,-77.43,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp16384,41.55,-77.62,Freshwater,river,1,Freshwater,Rivers and streams,,soil
+mgp5687,41.88,87.63,Freshwater,river,18,Freshwater,Rivers and streams,,soil
+mgp7450,42.04,-87.71,Freshwater,river,53,Freshwater,Rivers and streams,,soil
+mgp3190,43,-93,Freshwater,river,2,Freshwater,Rivers and streams,,compost
+mgp3190,43,-91,Freshwater,river,2,Freshwater,Rivers and streams,,compost
+mgp3190,44,-93,Freshwater,river,6,Freshwater,Rivers and streams,,compost
+mgp3190,44,-92,Freshwater,river,6,Freshwater,Rivers and streams,,compost
+mgp3190,44,-91,Freshwater,river,2,Freshwater,Rivers and streams,,compost
+mgp3190,45,-94,Freshwater,river,3,Freshwater,Rivers and streams,,compost
+mgp3190,47,-95,Freshwater,river,2,Freshwater,Rivers and streams,,compost
+mgp6906,53.17,13.03,Freshwater,river,2,Freshwater,Rivers and streams,,compost
+mgp8766,0.27,-47.16,Saline water,river_saline,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,compost
+mgp8766,0.95,-48.67,Saline water,river_saline,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,compost
+mgp8766,1.34,-49.37,Saline water,river_saline,1,Freshwater-Marine,Semi-confined transitional waters,Permanently open riverine estuaries and bays,compost
+mgp18323,17.57,-78.49,Sediment,river_sediment,4,Freshwater,Rivers and streams,,compost
+mgp18323,17.61,-78.45,Sediment,river_sediment,2,Freshwater,Rivers and streams,,compost
+mgp18323,17.64,-78.39,Sediment,river_sediment,2,Freshwater,Rivers and streams,,compost
+mgp18323,17.66,-78.45,Sediment,river_sediment,2,Freshwater,Rivers and streams,,soil
+mgp18323,17.72,-78.4,Sediment,river_sediment,3,Freshwater,Rivers and streams,,soil
+mgp18323,17.88,-78.38,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.46,-83.44,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.47,-83.72,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.5,-83.68,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.52,-83.42,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.56,-84,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.59,-83.86,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.59,-83.85,Sediment,river_sediment,2,Freshwater,Rivers and streams,,soil
+mgp81172,35.63,-83.12,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.65,-83.56,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.66,-83.7,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.67,-83.07,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.69,-83.4,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp81172,35.74,-83.42,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp11969,38.01,-81.15,Sediment,river_sediment,6,Freshwater,Rivers and streams,,soil
+mgp11969,38.02,-81.15,Sediment,river_sediment,11,Freshwater,Rivers and streams,,soil
+PRJNA288027,39.54,-107.78,Sediment,river_sediment,20,Freshwater,Rivers and streams,,soil
+mgp80013,40.81,-96.69,Sediment,river_sediment,8,Freshwater,Rivers and streams,,soil
+mgp21252,41.45,-90.76,Sediment,river_sediment,4,Freshwater,Rivers and streams,,soil
+mgp21252,41.45,-90.75,Sediment,river_sediment,4,Freshwater,Rivers and streams,,soil
+mgp7450,42.04,-87.71,Sediment,river_sediment,50,Freshwater,Rivers and streams,,soil
+mgp305,45.14,106.77,Sediment,river_sediment,3,Freshwater,Rivers and streams,,soil
+PRJNA365158,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365240,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365241,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365242,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365402,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365403,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA365404,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367312,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367313,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367314,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367315,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367316,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367317,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367318,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367319,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367320,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367321,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367322,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367323,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367324,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367325,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367326,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367327,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367328,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367329,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367330,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367331,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367332,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367333,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367334,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367335,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367336,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367337,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA367338,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375335,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375336,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375338,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375339,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375340,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375341,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375342,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375343,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375344,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375345,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375346,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375347,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375348,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375349,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+PRJNA375351,46.37,-119.27,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp13110,50.31,03.08,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp83716,50.31,03.08,Sediment,river_sediment,7,Freshwater,Rivers and streams,,soil
+mgp13110,50.43,03.02,Sediment,river_sediment,1,Freshwater,Rivers and streams,,soil
+mgp83716,50.43,03.02,Sediment,river_sediment,2,Freshwater,Rivers and streams,,soil
+mgp20001,-31.44,-60.94,Animal host,rumen,3,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7884,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7885,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7886,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7887,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7888,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7889,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7890,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7891,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7892,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7893,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7894,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7895,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7896,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7897,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7898,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7899,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7900,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7901,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7902,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7976,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7977,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7978,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7979,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7980,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7981,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7982,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7983,44.56,-123.26,Animal host,rumen,1,Animal host,Intensive land use,Sown pastures and fields,soil
+mgp7984,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7985,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7986,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7987,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7988,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7989,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7990,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7991,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7992,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7993,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7994,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp7995,44.56,-123.26,Animal host,rumen,1,Terrestrial,Intensive land use,Sown pastures and fields,soil
+mgp9441,0,0,Saline water,saline_evaporation_pond,1,Marine-Terrestrial,Anthropogenic Shorelines ,,soil
+mgp11,32.6,-117.11,Saline water,saline_evaporation_pond,16,Marine-Terrestrial,Anthropogenic Shorelines ,,soil
+mgp15006,40.13,116.65,Saline water,saline_evaporation_pond,1,Marine-Terrestrial,Anthropogenic Shorelines ,,soil
+mgp81258,-33.84,151.06,Soil,saline_marsh,10,Marine-Freshwater-Terrestrial,Brackish tidal ,Coastal saltmarshes and reedbeds,soil
+mgp81258,33.84,151.06,Soil,saline_marsh,12,Marine-Freshwater-Terrestrial,Brackish tidal ,Coastal saltmarshes and reedbeds,soil
+mgp19524,29.45,-89.77,Sediment,saline_marsh_sediment,4,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp19524,29.45,-89.76,Sediment,saline_marsh_sediment,4,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp19524,29.45,-89.75,Sediment,saline_marsh_sediment,8,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp6811,31.51,35.47,Sediment,saline_marsh_sediment,2,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp20576,33.63,-117.96,Sediment,saline_marsh_sediment,32,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp2275,42.69,-70.82,Sediment,saline_marsh_sediment,11,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp2275,42.69,-70.81,Sediment,saline_marsh_sediment,3,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,soil
+mgp2275,42.7,-70.87,Sediment,saline_marsh_sediment,3,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp2275,42.71,-70.86,Sediment,saline_marsh_sediment,4,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp2275,42.73,-70.85,Sediment,saline_marsh_sediment,6,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp20934,51.79,0.86,Sediment,saline_marsh_sediment,24,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp20934,51.8,0.92,Sediment,saline_marsh_sediment,30,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp20934,51.83,0.95,Sediment,saline_marsh_sediment,9,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp20934,51.83,0.97,Sediment,saline_marsh_sediment,10,Marine-freshwater-Terrestrial,Brackish tidal,Coastal saltmarshes and reedbeds,grassland
+mgp16910,36.62,-121.9,Saline water,saline_water_biofilm,12, Marine,Marine shelf ,Photo-limited marine  animal  forests,grassland
+mgp31391,41.58,-70.64,Saline water,saline_water_biofilm,1,Marine-Freshwater-Terrestrial,Brackish tidal ,Coastal saltmarshes and reedbeds,grassland
+mgp31404,41.58,-70.64,Saline water,saline_water_biofilm,1,Marine-Freshwater-Terrestrial,Brackish tidal ,Coastal saltmarshes and reedbeds,grassland
+mgp5272,42.48,3.13,Saline water,saline_water_biofilm,3,Marine,Marine shelf ,,grassland
+mgp18053,12.21,75.41,Human host,saliva,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp476,14,-14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp477,14,-14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp474,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp475,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp478,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp479,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp481,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp482,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,grassland
+mgp483,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp484,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp485,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp486,14,14,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp577,15,-15,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp578,15,15,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp463,29,29,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp15104,32.77,117.07,Human host,saliva,22,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp1969,32.88,-117.24,Human host,saliva,21,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp3928,32.88,-117.24,Human host,saliva,11,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp7236,32.88,-117.24,Human host,saliva,43,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp128,39.48,0.35,Human host,saliva,8,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp1332,46.19,6.15,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp594,46.19,6.15,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp595,46.19,6.15,Human host,saliva,1,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp365,51.57,8.85,Human host,saliva,11,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp21724,53.1,1.3,Human host,saliva,2,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp18407,53.49,1.31,Human host,saliva,14,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp21828,53.49,1.31,Human host,saliva,22,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp18867,53.81,1.52,Human host,saliva,11,Terrestrial,Intensive land use,Urban and industrial ecosystems,soil
+mgp10450,-15.61,-47.74,Soil,savanna_soil,4,Terrestrial,Savanas and grasslands ,,soil
+mgp10523,-15.61,-47.74,Soil,savanna_soil,1,Terrestrial,Savanas and grasslands ,,permafrost
+mgp10541,-15.61,-47.74,Soil,savanna_soil,4,Terrestrial,Savanas and grasslands ,,permafrost
+mgp18106,-15.11,-49.02,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,permafrost
+mgp18106,-15.1,-49.01,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,permafrost
+mgp2997,39.1,-96.6,Soil,savanna_soil,1,Terrestrial,Savanas and grasslands ,,permafrost
+mgp13884,42.44,-76.5,Soil,savanna_soil,3,Terrestrial,Savanas and grasslands ,,permafrost
+mgp15600,43.3,-110.66,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,permafrost
+mgp15600,43.51,-110.71,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,permafrost
+mgp15600,43.57,-110.31,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,permafrost
+mgp15600,48.3,-110.66,Soil,savanna_soil,2,Terrestrial,Savanas and grasslands ,,soil
+PRJEB14718,-34.05,150.98,Wastewater,sewage,48,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp13174,-22,-47.93,Wastewater,sewage,5,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,prairie
+mgp16829,-22,-47.93,Wastewater,sewage,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,prairie
+mgp5463,1.56,103.64,Wastewater,sewage,22,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,ranch
+mgp5465,1.56,103.64,Wastewater,sewage,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,ranch
+mgp5468,1.56,103.64,Wastewater,sewage,14,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5469,1.56,103.64,Wastewater,sewage,13,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,1.56,103.64,Wastewater,sewage,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5474,1.56,103.64,Wastewater,sewage,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,2.56,104.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,2.56,104.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,3.56,105.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,3.56,105.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,4.56,106.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,4.56,106.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,5.56,107.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,5.56,107.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,6.56,108.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5471,6.56,108.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,7.56,109.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,8.56,110.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,9.56,111.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp5465,10.56,112.64,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp6481,26.21,127.68,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp6485,26.21,127.68,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp79514,31.6,118.5,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp79610,31.6,118.5,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,rhizosphere
+mgp79724,31.6,118.5,Wastewater,sewage,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,saline_marsh
+mgp21093,32,118,Wastewater,sewage,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,saline_marsh
+mgp20780,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp20785,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp20900,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp20901,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp20902,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp20903,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp21088,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp21331,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp21332,33.65,131.08,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+PRJNA428383,33.69,-117.94,Wastewater,sewage,7,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp79469,36,118,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp79609,36,118,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp79748,36,118,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp79749,36,118,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp21999,39.88,116.48,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp5956,39.88,116.48,Wastewater,sewage,5,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp80013,40.78,-96.64,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp80013,40.8,-96.68,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp80013,40.8,-96.67,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp80013,40.84,-96.69,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp21214,41.6,-91.51,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp12795,42.28,-83.74,Wastewater,sewage,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp12687,43.54,-80.25,Wastewater,sewage,18,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp18668,46.2,6.14,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp2706,47.66,122.43,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp7593,49.51,06.02,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgph2ad,50.93,-1.41,Wastewater,sewage,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgph2ad,53.38,-1.47,Wastewater,sewage,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgph2ad,53.96,-1.09,Wastewater,sewage,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp14524,54.22,18.4,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,soil
+mgp14524,54.23,18.41,Wastewater,sewage,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,reclaimed_water
+mgp83895,54.72,-1.61,Wastewater,sewage,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,reclaimed_water
+mgp6486,55.95,-3.19,Wastewater,sewage,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp7228,59.61,16.54,Wastewater,sewage,7,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10956,33.44,-117.16,Soil,shrubland_soil,61,Terrestrial,Shrublands and shrubby woodlands ,,sewage
+mgp11705,-34.84,-58.2,Wastewater,sludge,7,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp11705,-34.82,-58.17,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp11705,-34.65,-58.32,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp11705,-34.47,-58.59,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp11705,-34.07,-59.07,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp11705,-30.94,-62.05,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp17107,-27.5,152.98,Wastewater,sludge,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp43,-27.47,153.02,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp82405,-22,-47.93,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp80872,0.5,32,Wastewater,sludge,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp5013,2,101,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp8746,8.44,-82.94,Wastewater,sludge,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp4364,22,114,Wastewater,sludge,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp3718,22.21,114.22,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6217,22.28,114.14,Wastewater,sludge,12,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp439,22.4,114.11,Wastewater,sludge,8,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp15993,23.74,114.7,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp20737,26,118.2,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6480,26.21,127.68,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6492,26.21,127.68,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6509,26.21,127.68,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp16980,27.5,152.98,Wastewater,sludge,6,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp17089,27.5,152.98,Wastewater,sludge,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp80124,29.42,-98.49,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10022,30.73,76.78,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9810,30.73,76.78,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp3218,31.01,121.41,Wastewater,sludge,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp8421,31.55,120.31,Wastewater,sludge,7,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp8421,31.55,120.32,Wastewater,sludge,31,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp50938004,33.44,114.9,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp50938004,34.08,115.29,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp82534,36.01,-84.27,Wastewater,sludge,3,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp83145,36.01,-84.27,Wastewater,sludge,5,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp19392,39.5,116.2,Wastewater,sludge,10,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp8920,39.9,116.33,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9163,39.9,116.33,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp19238,39.91,116.4,Wastewater,sludge,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp12488,40.11,-88.23,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp21082,42.44,-76.5,Wastewater,sludge,18,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp397,42.44,-76.5,Wastewater,sludge,10,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp3889,42.74,-84.48,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp43,43.07,-89.4,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp80867,43.47,-80.52,Wastewater,sludge,4,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9520,45.7,126.6,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10067,46.2,6.14,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10097,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10109,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10115,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10141,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10189,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10207,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp10696,46.2,6.14,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9679,46.2,6.14,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9798,46.2,6.14,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp9801,46.2,6.14,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp731,46.3,7.86,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp731,46.52,6.51,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6015,47.4,8.61,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp5363,49.51,5.92,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp6845,52.01,4.36,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sewage
+mgp7007,52.02,8.53,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp7025,52.02,8.53,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp11257,52.03,8.53,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp8324,52.03,8.53,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp8386,52.03,8.53,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp7266,52.11,06.08,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp13673,55.88,12.5,Wastewater,sludge,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp6479,55.95,-3.19,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp12071,57.05,9.86,Wastewater,sludge,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp5369,-33.98,151.23,Animal host,sponge,7,Marine,Marine shelf,Subtidal rocky reef,sludge
+mgp2222,-22.74,-41.87,Animal host,sponge,6,Marine,Marine shelf,Subtidal rocky reef,sludge
+mgp5369,-18.82,147.63,Animal host,sponge,7,Marine,Marine shelf,Subtidal rocky reef,sludge
+mgp83374,26.01,-80.15,Animal host,sponge,2,Marine,Marine shelf,Subtidal rocky reef,sludge
+mgp1236,43.64,-116.24,Animal host,sponge,3,Marine,Marine shelf,Subtidal rocky reef,sludge
+mgp15294,23.58,47.59,Freshwater,stream,4,Freshwater,Rivers and streams,,sludge
+mgp12991,37.21,-80.44,Freshwater,stream,10,Freshwater,Rivers and streams,,sludge
+mgp10041,38.11,-77.28,Freshwater,stream,1,Freshwater,Rivers and streams,,sludge
+mgp80013,40.81,-96.69,Freshwater,stream,16,Freshwater,Rivers and streams,,sludge
+mgp14051,38.56,-77.36,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.58,-77.38,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.81,-77.01,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.82,-77.51,Freshwater,stream_biofilm,5,Freshwater,Rivers and streams,,sludge
+mgp14051,38.94,-77.27,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.94,-77.26,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.94,-77.05,Freshwater,stream_biofilm,3,Freshwater,Rivers and streams,,sludge
+mgp14051,38.96,-77.16,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,38.98,-77.04,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,39.3,-77.79,Freshwater,stream_biofilm,3,Freshwater,Rivers and streams,,sludge
+mgp14051,39.31,-77.61,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,39.37,-77.39,Freshwater,stream_biofilm,9,Freshwater,Rivers and streams,,sludge
+mgp14051,39.45,-77.74,Freshwater,stream_biofilm,5,Freshwater,Rivers and streams,,sludge
+mgp14051,39.6,-77.83,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,39.63,-77.46,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,39.63,-77.45,Freshwater,stream_biofilm,6,Freshwater,Rivers and streams,,sludge
+mgp14051,39.63,-77.44,Freshwater,stream_biofilm,3,Freshwater,Rivers and streams,,sludge
+mgp14051,39.66,-77.48,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp14051,39.67,-77.45,Freshwater,stream_biofilm,2,Freshwater,Rivers and streams,,sludge
+mgp185,40.69,-111.2,Freshwater,stream_biofilm,1,Freshwater,Rivers and streams,,sludge
+PRJNA321556,45.05,-141.86,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA321556,45.05,141.86,Groundwater,subsurface_saline,8,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA279923,57.25,16.41,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJEB10519,57.43,16.66,Groundwater,subsurface_saline,2,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA295907,57.43,16.66,Groundwater,subsurface_saline,4,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA404448,57.43,16.66,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA404449,57.43,16.66,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA404450,57.43,16.66,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA404451,57.43,16.66,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+PRJNA472439,61.24,21.48,Groundwater,subsurface_saline,1,Subterranean-Freshwater,Subterranean-Freshwater ,,sludge
+mgp7998,0,0,Soil,tundra_soil,7,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,63.75,-18.67,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,63.82,-18.76,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,63.85,-18.74,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.02,-19.36,Soil,tundra_soil,2,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.04,-19.22,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.05,-19.33,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.05,-18.27,Soil,tundra_soil,2,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.06,-18.24,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.06,-18.23,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.24,-21.44,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.37,-21.06,Soil,tundra_soil,5,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp19748,64.37,21.06,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+163336-051,64.43,-20.76,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp8744,64.87,111.58,Soil,tundra_soil,2,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp10310,68.63,-149.58,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp2997,68.63,-149.58,Soil,tundra_soil,1,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp83927,72.49,101.66,Soil,tundra_soil,9,Terrestrial,Polar/alpine (cryogenic) ,Polar tundra and deserts,sludge
+mgp15993,23.74,114.7,Wastewater,wastewater_treatment_plant,2,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp11575,36,128,Wastewater,wastewater_treatment_plant,1,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp19765,46.82,8.23,Wastewater,wastewater_treatment_plant,24,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,sludge
+mgp19773,46.82,8.23,Wastewater,wastewater_treatment_plant,24,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,wastewater
+mgp19780,46.82,8.23,Wastewater,wastewater_treatment_plant,24,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,wastewater
+mgp19899,46.82,8.23,Wastewater,wastewater_treatment_plant,22,Freshwater,Artificial Wetland  ,Urban and industrial ecosystems,wastewater
+mgp12094,42.47,3.47,Plant host,wood_fall,1,Marine,Deep sea floors,Submarine canyons,wastewater
+mgp13088,42.48,3.13,Plant host,wood_fall,9,DELETE,DELETE,DELETE,wastewater
+mgp13145,42.48,3.13,Plant host,wood_fall,9,Marine,Anthropogenic marine,Submerged artificial structures,wastewater
