@@ -378,12 +378,12 @@
 "mgp21223","51.57","9.91","Soil","compost",1,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
 "mgp80101","51.57","9.91","Soil","compost",2,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
 "mgp20355","-62.22","-58.96","Soil","contaminated_soil",13,"Terrestrial","Intensive land-use ",
-"mgp9664","-23.87","-46.44","Soil","contaminated_soil",1,"Terrestrial","Intensive land-use ",
+"mgp9664","-23.87","-46.44","Soil","contaminated_soil",1,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
 "mgp79868",0,0,"Soil","contaminated_soil",4,"Terrestrial","Intensive land-use ",
-"mgp11296","19.4","-98.05","Soil","contaminated_soil",6,"Terrestrial","Intensive land-use ",
-"mgp4113","29.72","-95.4","Soil","contaminated_soil",23,"Terrestrial","Intensive land-use ",
+"mgp11296","19.4","-98.05","Soil","contaminated_soil",6,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
+"mgp4113","29.72","-95.4","Soil","contaminated_soil",23,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
 "mgprock bay","48.42","-123.39","Soil","contaminated_soil",1,"Terrestrial","Intensive land-use ",
-"mgp271","48.99","14.16","Soil","contaminated_soil",8,"Terrestrial","Intensive land-use ",
+"mgp271","48.99","14.16","Soil","contaminated_soil",8,"Terrestrial","Intensive land-use ","Urban and industrial ecossystems"
 "mgp2360","10.24","-61.6","Freshwater","contaminated_water",2,"Freshwater","Lakes","Small permanent freshwter lakes"
 "mgp1963","34.67","135.21","Freshwater","contaminated_water",6,"Freshwater","Artificial wetlands ","Large reservoirs"
 "mgp2360","55.07","-110.53","Freshwater","contaminated_water",1,"Freshwater","Artificial wetlands ","Large reservoirs"
@@ -587,11 +587,11 @@
 "mgp2706","48.02","122.3","Saline water","estuarine_seawater",1,"Freshwater-Marine","Semi-confined transitional waters","Permanently open riverine estuaries and bays"
 "mgp2706","48.37","122.72","Saline water","estuarine_seawater",1,"Freshwater-Marine","Semi-confined transitional waters","Permanently open riverine estuaries and bays"
 "mgp2739","58.36","18.14","Saline water","estuarine_seawater",2,"Freshwater-Marine","Semi-confined transitional waters","Permanently open riverine estuaries and bays"
-"mgp4996","13.37","55.62","Soil","farm_soil",2,"Terrestrial","Intensive land-use ",
-"mgp5231","13.37","55.62","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
+"mgp4996","13.37","55.62","Soil","farm_soil",2,"Terrestrial","Intensive land-use ","Sown pastures and fields"
+"mgp5231","13.37","55.62","Soil","farm_soil",1,"Terrestrial","Intensive land-use ","Sown pastures and fields"
 "mgp5281","13.37","55.62","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
-"mgp4996","13.41","55.63","Soil","farm_soil",2,"Terrestrial","Intensive land-use ",
-"mgp5231","13.41","55.63","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
+"mgp4996","13.41","55.63","Soil","farm_soil",2,"Terrestrial","Intensive land-use ","Annual croplands"
+"mgp5231","13.41","55.63","Soil","farm_soil",1,"Terrestrial","Intensive land-use ","Annual croplands"
 "mgp5281","13.41","55.63","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
 "mgp7877","39.46","-84.95","Soil","agricultural_soil",2,"Terrestrial","Intensive land-use ","Annual croplands"
 "mgp7877","39.46","-84.94","Soil","agricultural_soil",2,"Terrestrial","Intensive land-use ","Annual croplands"
@@ -612,9 +612,9 @@
 "mgp7877","39.93","-84.76","Soil","agricultural_soil",2,"Terrestrial","Intensive land-use ","Annual croplands"
 "mgp7877","39.95","-84.81","Soil","agricultural_soil",2,"Terrestrial","Intensive land-use ","Annual croplands"
 "mgp6787","42.39","-85.37","Soil","farm_soil",21,"Terrestrial","Intensive land-use ","Annual croplands"
-"mgp11843","55.64","13.41","Soil","farm_soil",12,"Terrestrial","Intensive land-use ",
-"mgp6200","55.83","-2.32","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
-"mgp6200","56.51","-6.97","Soil","farm_soil",1,"Terrestrial","Intensive land-use ",
+"mgp11843","55.64","13.41","Soil","farm_soil",12,"Terrestrial","Intensive land-use ","Annual croplands"
+"mgp6200","55.83","-2.32","Soil","farm_soil",1,"Terrestrial","Intensive land-use ","Annual croplands"
+"mgp6200","56.51","-6.97","Soil","farm_soil",1,"Terrestrial","Intensive land-use ","Annual croplands"
 "mgp10310","-26.73","-54.68","Soil","forest_soil",1,"Terrestrial","Tropical-subtropical forests ","Tropical/subtropical dry forests and thickets"
 "mgp2997","-26.73","-54.68","Soil","forest_soil",1,"Terrestrial","Tropical-subtropical forests ","Tropical/subtropical dry forests and thickets"
 "mgp2997","-12.63","-71.23","Soil","forest_soil",1,"Terrestrial","Tropical-subtropical forests ","Tropical/subtropical lowland rainforests"
@@ -1071,7 +1071,7 @@
 "PRJNA366594","43.3","-73.64","Groundwater","porous_contaminated",1,"Subterranean-Freshwater","Anthtopogenic Subterranean-Freshwater ",
 "PRJNA366595","43.3","-73.64","Groundwater","porous_contaminated",2,"Subterranean-Freshwater","Anthtopogenic Subterranean-Freshwater ",
 "mgp13011","46.68","-114.03","Soil","prairie",59,"Terrestrial","Savanas and grasslands ",
-"mgp405","51.48","0.22","Soil","prairie",12,"Terrestrial","Savanas and grasslands ",
+"mgp405","51.48","0.22","Soil","prairie",12,"Terrestrial","Savannas and grasslands ",
 "PRJNA330333","39.53","-10.78","Soil","ranch",1,"Terrestrial","Intensive land use ","Sown pastures and fields"
 "PRJNA330336","39.53","-10.78","Soil","ranch",1,"Terrestrial","Intensive land use ","Sown pastures and fields"
 "mgp16589","37.22","-80.43","Wastewater","reclaimed_water",44,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
@@ -1451,7 +1451,7 @@
 "mgp7007","52.02","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp7025","52.02","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp11257","52.03","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp8324","52.03","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp8324","52.03","8.53","Wastewater","sludge",1,"Terrestrial","Intensive land use","Urban and industrial ecosystems"
 "mgp8386","52.03","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp7266","52.11","06.08","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp13673","55.88","12.5","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
