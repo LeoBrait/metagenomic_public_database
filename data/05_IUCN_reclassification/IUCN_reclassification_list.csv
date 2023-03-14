@@ -180,7 +180,7 @@
 "mgp358","35.79","139.31","Sediment","coastal_marine_sediment",1,"Freshwater-Marine","Semi-confined transitional waters","Intermittently closed and open lakes and lagoons"
 "mgp358","35.94","139.49","Sediment","coastal_marine_sediment",1,"Freshwater-Marine","Semi-confined transitional waters","Intermittently closed and open lakes and lagoons"
 "mgp358","36.17","139.65","Sediment","coastal_marine_sediment",1,"Freshwater-Marine","Semi-confined transitional waters","Intermittently closed and open lakes and lagoons"
-"mgp13419","37.07","-8.33","Sediment","coastal_marine_sediment",6,"Marine-Terrestrial","Shorelines ",
+"mgp13419","37.07","-8.33","Sediment","coastal_marine_sediment",6,"Marine","Marine shelf",
 "mgp80013","40.78","-96.66","Animal host","animal_feces",1,"Terrestrial ","Intensive land use","Urban and industrial ecosystems"
 "mgp80013","40.8","-96.7","Animal host","animal_feces",1,"Terrestrial ","Intensive land use","Urban and industrial ecosystems"
 "mgp4836","42.81","10.14","Sediment","coastal_marine_sediment",1,"Marine-Terrestrial","Shorelines ",
@@ -203,7 +203,7 @@
 "mgp20252","-33.94","18.47","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp6331","-22.98","-42.01","Saline water","coastal_seawater",2,"Marine","Marine shelf",
 "mgp1929","-22.92","-43.15","Saline water","estuarine_seawater",9,"Freshwater-Marine","Semi-confined transitional waters","Permanently open riverine estuaries and bays"
-"mgp2222","-22.74","-41.87","Saline water","coastal_seawater",2,"Marine","Marine shelf",
+"mgp2222","-22.74","-41.87","Saline water","coastal_seawater",2,"Marine","Marine shelf","Subtidal rocky reef"
 "mgp20252","-17.29","-149.54","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp6556","-12.37",-77,"Saline water","coastal_seawater",6,"Marine","Marine shelf",
 "mgp20252","-8.7","40.66","Saline water","coastal_seawater",1,"Marine","Marine shelf",
@@ -235,7 +235,7 @@
 "mgp20252","32.65","-16.91","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp5542","32.73","-117.21","Saline water","coastal_seawater",14,"Marine","Marine shelf",
 "mgp20252","32.74","-16.71","Saline water","coastal_seawater",1,"Marine","Marine shelf",
-"mgp79744","32.74","09.03","Saline water","coastal_seawater",2,"Marine","Marine shelf",
+"mgp79744","32.74","09.03","Saline water","coastal_seawater",2,"Freshwater","Lakes","Permanent salt and soda lakes"
 "mgp80120","32.74","09.03","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252","32.75","-9.04","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252","32.75","79.9","Saline water","coastal_seawater",1,"Marine","Marine shelf",
@@ -254,7 +254,7 @@
 "mgp20252","34.72","-76.67","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252",35,33,"Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252","35.09","-2.21","Saline water","coastal_seawater",2,"Marine","Marine shelf",
-"mgp79744","35.11","2.52","Saline water","coastal_seawater",2,"Marine","Marine shelf",
+"mgp79744","35.11","2.52","Saline water","coastal_seawater",2,"Freshwater","Lakes","Permanent salt and soda lakes"
 "mgp80120","35.11","2.52","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252","35.19","-2.88","Saline water","coastal_seawater",1,"Marine","Marine shelf",
 "mgp20252","35.35","25.29","Saline water","coastal_seawater",1,"Marine","Marine shelf",
@@ -1319,7 +1319,7 @@
 "mgp18106","-15.11","-49.02","Soil","savanna_soil",2,"Terrestrial","Savanas and grasslands ",
 "mgp18106","-15.1","-49.01","Soil","savanna_soil",2,"Terrestrial","Savanas and grasslands ",
 "mgp2997","39.1","-96.6","Soil","savanna_soil",1,"Terrestrial","Savanas and grasslands ","Temperate subhumid grasslands"
-"mgp13884","42.44","-76.5","Soil","savanna_soil",3,"Terrestrial","Savanas and grasslands ",
+"mgp13884","42.44","-76.5","Soil","savanna_soil",3,"Terrestrial","Intensive land use","Annual croplands"
 "mgp15600","43.3","-110.66","Soil","savanna_soil",2,"Terrestrial","Savanas and grasslands ",
 "mgp15600","43.51","-110.71","Soil","savanna_soil",2,"Terrestrial","Savanas and grasslands ",
 "mgp15600","43.57","-110.31","Soil","savanna_soil",2,"Terrestrial","Savanas and grasslands ",
@@ -1327,26 +1327,26 @@
 "PRJEB14718","-34.05","150.98","Wastewater","sewage",48,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp13174",-22,"-47.93","Wastewater","sewage",5,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
 "mgp16829",-22,"-47.93","Wastewater","sewage",3,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5463","1.56","103.64","Wastewater","sewage",22,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","1.56","103.64","Wastewater","sewage",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5468","1.56","103.64","Wastewater","sewage",14,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5469","1.56","103.64","Wastewater","sewage",13,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","1.56","103.64","Wastewater","sewage",8,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5474","1.56","103.64","Wastewater","sewage",8,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","2.56","104.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","2.56","104.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","3.56","105.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","3.56","105.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","4.56","106.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","4.56","106.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","5.56","107.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","5.56","107.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","6.56","108.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5471","6.56","108.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","7.56","109.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","8.56","110.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","9.56","111.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp5465","10.56","112.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp5463","1.56","103.64","Wastewater","sewage",22,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","1.56","103.64","Wastewater","sewage",4,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5468","1.56","103.64","Wastewater","sewage",14,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5469","1.56","103.64","Wastewater","sewage",13,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","1.56","103.64","Wastewater","sewage",8,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5474","1.56","103.64","Wastewater","sewage",8,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","2.56","104.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","2.56","104.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","3.56","105.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","3.56","105.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","4.56","106.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","4.56","106.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","5.56","107.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","5.56","107.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","6.56","108.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5471","6.56","108.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","7.56","109.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","8.56","110.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","9.56","111.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
+"mgp5465","10.56","112.64","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
 "mgp6481","26.21","127.68","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp6485","26.21","127.68","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp79514","31.6","118.5","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
@@ -1384,7 +1384,7 @@
 "mgph2ad","53.96","-1.09","Wastewater","sewage",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp14524","54.22","18.4","Wastewater","sewage",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp14524","54.23","18.41","Wastewater","sewage",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp83895","54.72","-1.61","Wastewater","sewage",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp83895","54.72","-1.61","Wastewater","sewage",4,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
 "mgp6486","55.95","-3.19","Wastewater","sewage",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp7228","59.61","16.54","Wastewater","sewage",7,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
 "mgp10956","33.44","-117.16","Soil","shrubland_soil",61,"Terrestrial","Shrublands and shrubby woodlands ",
@@ -1395,7 +1395,7 @@
 "mgp11705","-34.07","-59.07","Wastewater","sludge",8,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp11705","-30.94","-62.05","Wastewater","sludge",8,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp17107","-27.5","152.98","Wastewater","sludge",3,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp43","-27.47","153.02","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp43","-27.47","153.02","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Large reservoirs"
 "mgp82405",-22,"-47.93","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Canals, ditches and drains"
 "mgp80872","0.5",32,"Wastewater","sludge",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp5013",2,101,"Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
@@ -1421,16 +1421,16 @@
 "mgp50938004","34.08","115.29","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp82534","36.01","-84.27","Wastewater","sludge",3,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp83145","36.01","-84.27","Wastewater","sludge",5,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp19392","39.5","116.2","Wastewater","sludge",10,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp19392","39.5","116.2","Wastewater","sludge",10,"Freshwater","Artificial Wetland  ","Large reservoirs"
 "mgp8920","39.9","116.33","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp9163","39.9","116.33","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp19238","39.91","116.4","Wastewater","sludge",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp12488","40.11","-88.23","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp21082","42.44","-76.5","Wastewater","sludge",18,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp397","42.44","-76.5","Wastewater","sludge",10,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp397","42.44","-76.5","Wastewater","sludge",10,"Freshwater","Artificial Wetland  ","Large reservoirs"
 "mgp3889","42.74","-84.48","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp43","43.07","-89.4","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp80867","43.47","-80.52","Wastewater","sludge",4,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp43","43.07","-89.4","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Large reservoirs"
+"mgp80867","43.47","-80.52","Wastewater","sludge",4,"Freshwater","Artificial Wetland  ","Large reservoirs"
 "mgp9520","45.7","126.6","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp10067","46.2","6.14","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp10097","46.2","6.14","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
@@ -1445,7 +1445,7 @@
 "mgp9801","46.2","6.14","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp731","46.3","7.86","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp731","46.52","6.51","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
-"mgp6015","47.4","8.61","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
+"mgp6015","47.4","8.61","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Large reservoirs"
 "mgp5363","49.51","5.92","Wastewater","sludge",2,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp6845","52.01","4.36","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
 "mgp7007","52.02","8.53","Wastewater","sludge",1,"Freshwater","Artificial Wetland  ","Urban and industrial ecosystems"
