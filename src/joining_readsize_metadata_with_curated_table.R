@@ -18,15 +18,14 @@ View(curated_table)
 View(read_size_meta)
 
 #join tables
-joined_table <- right_join(curated_table, read_size_meta)
+joined_table <- inner_join(curated_table, read_size_meta)
+
+joined_table <- joined_table[-1] #remove former rownumbers
 
 View(joined_table)
 
-#Inner joining was not used because it would remove samples
-#that are not in the curated table so the samples
-#that are not in the curated table are missing samples#
 
-#Missing samples in curated table
-missing_samples <- setdiff(read_size_meta$samples, curated_table$samples)
 
-View(missing_samples)
+#save table
+write.csv(joined_table, file = "data/07_final_metadata/final_metadata.csv",
+    row.names = FALSE)
