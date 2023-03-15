@@ -1,0 +1,1 @@
+1. Samples with read sizes over 400bp are way above the aproximate max read size from illumina, wic is the more advanced tecnology in the samples collected from mg-rast, so they are probably assembled.
