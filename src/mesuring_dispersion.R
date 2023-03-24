@@ -47,36 +47,126 @@ dist_after <- data_after %>%
 
 
 #calculating dispersion from data_before
-dispersion_before <- betadisper(dist_before, group = data_before$level_2, type = "centroid")
-
+dispersion_before <- betadisper(dist_before, group = data_before$level_2, type = "median")
+names(dispersion_before)
+dispersion_before_df <- data.frame(dispersion_before$distances)
+dispersion_before_df$group <- dispersion_before$group
 #calculating dispersion from data_after
-dispersion_after <- betadisper(dist_after, group = data_after$ecosystem, type = "centroid")
+dispersion_after <- betadisper(dist_after, group = data_after$ecosystem, type = "median")
+names(dispersion_after)
+dispersion_after_df <- data.frame(dispersion_after$distances)
+dispersion_after_df$group <- dispersion_after$group
 
-#plotting dispersion
-dispersion_plot_before <- boxplot(dispersion_before$distances ~ dispersion_before$group,
-                          main = "Dispersion of samples before curatory",
-                          xlab = "Ecosystems",
-                          ylab = "Dispersion",
-                          col = "blue",
-                          #horizontal = TRUE,
-                          las = 2,
-                          cex.lab = 1.5,
-                          cex.axis = 1.5,
-                          cex.main = 1.5,
-                          cex.sub = 1.5,
-                          cex = 1.5)
+#Plotting dispersion with ggplot
+dispersion_before_plot <- dispersion_before_df %>%
+    ggplot(aes(x = group, y = dispersion_before.distances)) +
+    geom_boxplot() +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(x = "Ecosystems", y = "Dispersion", title = "Dispersion of samples before curatory")
+dispersion_before_plot
 
-dev.print(dispersion_plot_before, file = "output/01_dispersion/boxplot_before_plot.png")
+ggsave(plot = dispersion_before_plot, filename = paste("outputs/01_dispersion_plots/dispersion_before_curatory.png", sep = ""))
+ggsave(plot = dispersion_before_plot, filename = paste("outputs/01_dispersion_plots/dispersion_before_curatory.pdf", sep = ""))
 
-after_plot <- boxplot(dispersion_after$distances ~ dispersion_after$group,
-                          main = "Dispersion of samples before curatory",
-                          xlab = "Ecosystems",
-                          ylab = "Dispersion",
-                          col = "blue",
-                          #horizontal = TRUE,
-                          las = 2,
-                          cex.lab = 1.5,
-                          cex.axis = 1.5,
-                          cex.main = 1.5,
-                          cex.sub = 1.5,
-                          cex = 1.5)
+dispersion_after_plot <- dispersion_after_df %>%
+    ggplot(aes(x = group, y = dispersion_after.distances)) +
+    geom_boxplot() +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(x = "Ecosystems", y = "Dispersion", title = "Dispersion of samples after curatory")
+dispersion_after_plot
+
+ggsave(plot = dispersion_after_plot, filename = paste("outputs/01_dispersion_plots/dispersion_after_curatory.png", sep = ""))
+ggsave(plot = dispersion_after_plot, filename = paste("outputs/01_dispersion_plots/dispersion_after_curatory.pdf", sep = ""))
+
+
+#dispersion after grouped by IUCN Biome category
+dispersion_IUCN_biome <- betadisper(dist_after, group = data_after$Biome, type = "median")
+names(dispersion_IUCN_biome)
+dispersion_IUCN_biome_df <- data.frame(dispersion_IUCN_biome$distances)
+dispersion_IUCN_biome_df$group <- dispersion_IUCN_biome$group
+
+#Plotting dispersion with ggplot
+dispersion_IUCN_biome_plot <- dispersion_IUCN_biome_df %>%
+    ggplot(aes(x = group, y = dispersion_IUCN_biome.distances)) +
+    geom_boxplot() +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(x = "IUCN Biome", y = "Dispersion", title = "Dispersion of samples after curatory")
+
+dispersion_IUCN_biome_plot
+
+ggsave(plot = dispersion_IUCN_biome_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_biome_curatory.png", sep = ""))
+ggsave(plot = dispersion_IUCN_biome_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_biome_curatory.pdf", sep = ""))
+
+#dispersion after grouped by IUCN Realm category
+dispersion_IUCN_realm <- betadisper(dist_after, group = data_after$Realm, type = "median")
+names(dispersion_IUCN_realm)
+dispersion_IUCN_realm_df <- data.frame(dispersion_IUCN_realm$distances)
+dispersion_IUCN_realm_df$group <- dispersion_IUCN_realm$group
+
+#Plotting dispersion with ggplot
+dispersion_IUCN_realm_plot <- dispersion_IUCN_realm_df %>%
+    ggplot(aes(x = group, y = dispersion_IUCN_realm.distances)) +
+    geom_boxplot() +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(x = "IUCN Realm", y = "Dispersion", title = "Dispersion of samples after curatory")
+
+dispersion_IUCN_realm_plot
+
+ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.png", sep = ""))
+ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.pdf", sep = ""))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#plotting dispersion 
+#pdf("outputs/01_dispersion_plots/dispersion_before_curatory.pdf")
+#png("outputs/01_dispersion_plots/dispersion_before_curatory.png")
+#dispersion_plot_before <- boxplot(dispersion_before$distances ~ dispersion_before$group,
+#                          main = "Dispersion of samples before curatory",
+#                         xlab = "Ecosystems",
+#                          ylab = "Dispersion",
+#                         col = "blue",
+#                          #horizontal = TRUE,
+#                          las = 2,
+#                          cex.lab = 1.5,
+#                          cex.axis = 1.5,
+#                          cex.main = 1.5,
+#                          cex.sub = 1.5,
+#                          cex = 1.5)
+#dev.off()
+
+#dev.print(dispersion_plot_before, file = "output/01_dispersion/boxplot_before_plot.png")
+
+#pdf(filename = "outputs/01_dispersion_plots/dispersion_after_curatory.pdf")
+#png(filename = "outputs/01_dispersion_plots/dispersion_after_curatory.png")
+#after_plot <- boxplot(dispersion_after$distances ~ dispersion_after$group,
+#                          main = "Dispersion of samples before curatory",
+#                          xlab = "Ecosystems",
+#                          ylab = "Dispersion",
+#                          col = "blue",
+#                          #horizontal = TRUE,
+#                          las = 2,
+#                          cex.lab = 1.5,
+#                          cex.axis = 1.5,
+#                          cex.main = 1.5,
+#                          cex.sub = 1.5,
+#                          cex = 1.5)
+#dev.off()
