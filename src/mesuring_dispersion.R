@@ -3,6 +3,7 @@
 #Loading libraries
 library(tidyverse)
 library(vegan)
+library(cowplot)
 
 #Loading data
 data_before <- read.csv(
@@ -118,3 +119,13 @@ dispersion_IUCN_realm_plot
 
 ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.png", sep = ""))
 ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.pdf", sep = ""))
+
+plot_before_after <- plot_grid(dispersion_before_plot, dispersion_after_plot, ncol = 2, nrow = 1)
+plot_before_after
+ggsave(plot = plot_before_after, filename = paste("outputs/01_dispersion_plots/dispersion_before_and_after_curatory.png", sep = ""))
+ggsave(plot = plot_before_after, filename = paste("outputs/01_dispersion_plots/dispersion_before_and_after_curatory.pdf", sep = ""))
+
+plot_old_and_new_biome <- plot_grid(dispersion_after_plot, dispersion_IUCN_biome_plot, ncol = 2, nrow = 1)
+plot_old_and_new_biome
+ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.png", sep = ""))
+ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.pdf", sep = ""))
