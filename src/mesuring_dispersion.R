@@ -29,8 +29,8 @@ tail(data_before)
 tail(data_after)
 
 #Removing samples in data_before that is not in data_after
-samples_after <- data_after$samples
-data_before <- data_before %>% filter(samples %in% samples_after)
+#samples_after <- data_after$samples
+#data_before <- data_before %>% filter(samples %in% samples_after)
 
 tail(data_before)
 
@@ -48,16 +48,16 @@ dist_after <- data_after %>%
 
 
 #calculating dispersion from data_before
-dispersion_before <- betadisper(dist_before, group = data_before$level_2, type = "median")
+dispersion_before <- betadisper(dist_before, group = data_before$level_2, type = "centroid")
 names(dispersion_before)
 dispersion_before_df <- data.frame(dispersion_before$distances)
 dispersion_before_df$group <- dispersion_before$group
 #calculating dispersion from data_after
-dispersion_after <- betadisper(dist_after, group = data_after$ecosystem, type = "median")
+dispersion_after <- betadisper(dist_after, group = data_after$ecosystem, type = "centroid")
 names(dispersion_after)
 dispersion_after_df <- data.frame(dispersion_after$distances)
 dispersion_after_df$group <- dispersion_after$group
-
+ 
 #Plotting dispersion with ggplot
 dispersion_before_plot <- dispersion_before_df %>%
     ggplot(aes(x = group, y = dispersion_before.distances)) +
@@ -83,12 +83,12 @@ ggsave(plot = dispersion_after_plot, filename = paste("outputs/01_dispersion_plo
 
 
 #dispersion after grouped by IUCN Biome category
-dispersion_IUCN_biome <- betadisper(dist_after, group = data_after$Biome, type = "median")
+dispersion_IUCN_biome <- betadisper(dist_after, group = data_after$Biome, type = "centroid")
 names(dispersion_IUCN_biome)
 dispersion_IUCN_biome_df <- data.frame(dispersion_IUCN_biome$distances)
 dispersion_IUCN_biome_df$group <- dispersion_IUCN_biome$group
 
-#Plotting dispersion with ggplot
+#Plotting dispersion with ggplotcen
 dispersion_IUCN_biome_plot <- dispersion_IUCN_biome_df %>%
     ggplot(aes(x = group, y = dispersion_IUCN_biome.distances)) +
     geom_boxplot() +
@@ -102,7 +102,7 @@ ggsave(plot = dispersion_IUCN_biome_plot, filename = paste("outputs/01_dispersio
 ggsave(plot = dispersion_IUCN_biome_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_biome_curatory.pdf", sep = ""))
 
 #dispersion after grouped by IUCN Realm category
-dispersion_IUCN_realm <- betadisper(dist_after, group = data_after$Realm, type = "median")
+dispersion_IUCN_realm <- betadisper(dist_after, group = data_after$Realm, type = "centroid")
 names(dispersion_IUCN_realm)
 dispersion_IUCN_realm_df <- data.frame(dispersion_IUCN_realm$distances)
 dispersion_IUCN_realm_df$group <- dispersion_IUCN_realm$group
@@ -129,3 +129,45 @@ plot_old_and_new_biome <- plot_grid(dispersion_after_plot, dispersion_IUCN_biome
 plot_old_and_new_biome
 ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.png", sep = ""))
 ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.pdf", sep = ""))
+
+#Ploting NMDS before curatory
+NMDS_before_curatory <- metaMDS(dist_before)
+
+NMDS_before_and_classification <- inner_join(categories_before, NMDS_before_curatory)
+
+centroid_before <- NMDS_before_and_classification %>%
+    group_by(ecosystem) %>% 
+    summarize(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2))
+
+NMDS_before_class_plot <- NMDS_before_and_classification %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = ecosystem)) +
+    geom_point() +
+    stat_ellipse(show.legend = FALSE) +
+    geom_point(data = centroid_before, size = 5, shape = 21, color = "black",
+    aes(fill = ecosystem), show.legend = FALSE)
+NMDS_before_class_plot
+
+ggsave(plot = NMDS_before_class_plot, filename = paste())
+ggsave(plot = NMDS_before_class_plot, filename = paste())
+    
+
+#Ploting NMDS after curatory
+NMDS_after_curatory <- metaMDS(dist_after)
+
+NMDS_before_and_classification <- inner_join(categories_before, NMDS_before_curatory)
+
+centroid_before <- NMDS_before_and_classification %>%
+    group_by(ecosystem) %>% 
+    summarize(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2))
+
+NMDS_before_class_plot <- NMDS_before_and_classification %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = ecosystem)) +
+    geom_point() +
+    stat_ellipse(show.legend = FALSE) +
+    geom_point(data = centroid_before, size = 5, shape = 21, color = "black",
+    aes(fill = ecosystem), show.legend = FALSE)
+NMDS_before_class_plot
+
+ggsave(plot = NMDS_before_class_plot, filename = paste())
+ggsave(plot = NMDS_before_class_plot, filename = paste())
+    
