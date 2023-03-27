@@ -32,7 +32,7 @@ tail(data_after)
 #samples_after <- data_after$samples
 #data_before <- data_before %>% filter(samples %in% samples_after)
 
-tail(data_before)
+#tail(data_before)
 
 #calculating distances
 
@@ -120,17 +120,20 @@ dispersion_IUCN_realm_plot
 ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.png", sep = ""))
 ggsave(plot = dispersion_IUCN_realm_plot, filename = paste("outputs/01_dispersion_plots/dispersion_IUCN_realm_curatory.pdf", sep = ""))
 
+#Joining dispersion_before_plot and dispersion_after_plot
 plot_before_after <- plot_grid(dispersion_before_plot, dispersion_after_plot, ncol = 2, nrow = 1)
 plot_before_after
 ggsave(plot = plot_before_after, filename = paste("outputs/01_dispersion_plots/dispersion_before_and_after_curatory.png", sep = ""))
 ggsave(plot = plot_before_after, filename = paste("outputs/01_dispersion_plots/dispersion_before_and_after_curatory.pdf", sep = ""))
 
+#Joining dispersion_after_plot and dispersion_IUCN_biome_plot
 plot_old_and_new_biome <- plot_grid(dispersion_after_plot, dispersion_IUCN_biome_plot, ncol = 2, nrow = 1)
 plot_old_and_new_biome
 ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.png", sep = ""))
 ggsave(plot = plot_old_and_new_biome, filename = paste("outputs/01_dispersion_plots/dispersion_after_and_IUCN_biome.pdf", sep = ""))
 
 #Ploting NMDS before curatory
+set_seed(1)
 NMDS_before_curatory <- metaMDS(dist_before)
 
 NMDS_before_and_classification <- inner_join(categories_before, NMDS_before_curatory)
@@ -147,27 +150,80 @@ NMDS_before_class_plot <- NMDS_before_and_classification %>%
     aes(fill = ecosystem), show.legend = FALSE)
 NMDS_before_class_plot
 
-ggsave(plot = NMDS_before_class_plot, filename = paste())
-ggsave(plot = NMDS_before_class_plot, filename = paste())
+ggsave(plot = NMDS_before_class_plot, filename = paste("outputs/02_NMDS_plots/NMDS_before_curatory.png", sep = ""))
+ggsave(plot = NMDS_before_class_plot, filename = paste("outputs/02_NMDS_plots/NMDS_before_curatory.pdf", sep = ""))
     
 
 #Ploting NMDS after curatory
+set_seed(1)
 NMDS_after_curatory <- metaMDS(dist_after)
 
-NMDS_before_and_classification <- inner_join(categories_before, NMDS_before_curatory)
+NMDS_after_and_classification <- inner_join(categories_after, NMDS_after_curatory)
 
-centroid_before <- NMDS_before_and_classification %>%
+centroid_after <- NMDS_after_and_classification %>%
     group_by(ecosystem) %>% 
     summarize(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2))
 
-NMDS_before_class_plot <- NMDS_before_and_classification %>%
+NMDS_after_class_plot <- NMDS_after_and_classification %>%
     ggplot(aes(x = NMDS1, y = NMDS2, color = ecosystem)) +
     geom_point() +
     stat_ellipse(show.legend = FALSE) +
-    geom_point(data = centroid_before, size = 5, shape = 21, color = "black",
+    geom_point(data = centroid_after, size = 5, shape = 21, color = "black",
     aes(fill = ecosystem), show.legend = FALSE)
-NMDS_before_class_plot
+NMDS_after_class_plot
 
-ggsave(plot = NMDS_before_class_plot, filename = paste())
-ggsave(plot = NMDS_before_class_plot, filename = paste())
-    
+ggsave(plot = NMDS_after_class_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory.png", sep = ""))
+ggsave(plot = NMDS_after_class_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory.pdf", sep = ""))
+
+#NMDS after curatory with Biome IUCN classification
+set_seed(1)
+NMDS_after_and_IUCN_biome <- inner_join(data_after, NMDS_after_IUCN_biome)
+
+centroid_after_IUCN_biome <- NMDS_after_and_IUCN_biome %>%
+    group_by(Biome) %>% 
+    summarize(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2))
+
+NMDS_after_IUCN_biome_plot <- NMDS_after_and_IUCN_biome %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = Biome)) +
+    geom_point() +
+    stat_ellipse(show.legend = FALSE) +
+    geom_point(data = centroid_after_IUCN_biome, size = 5, shape = 21, color = "black",
+    aes(fill = Biome), show.legend = FALSE)
+NMDS_after_IUCN_biome_plot
+
+ggsave(plot = NMDS_after_IUCN_biome_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory_IUCN_Biome.png", sep = ""))
+ggsave(plot = NMDS_after_IUCN_biome_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory_IUCN_Biome.pdf", sep = ""))
+
+#NMDS after curatory with Realm IUCN classification
+set_seed(1)
+NMDS_after_and_IUCN_realm <- inner_join(data_after, NMDS_after_IUCN_realm)
+
+centroid_after_IUCN_realm <- NMDS_after_and_IUCN_realm %>%
+    group_by(Realm) %>% 
+    summarize(NMDS1 = mean(NMDS1), NMDS2 = mean(NMDS2))
+
+NMDS_after_IUCN_realm_plot <- NMDS_after_and_IUCN_realm %>%
+    ggplot(aes(x = NMDS1, y = NMDS2, color = Realm)) +
+    geom_point() +
+    stat_ellipse(show.legend = FALSE) +
+    geom_point(data = centroid_after_IUCN_realm, size = 5, shape = 21, color = "black",
+    aes(fill = Realm), show.legend = FALSE)
+NMDS_after_IUCN_realm_plot
+
+ggsave(plot = NMDS_after_IUCN_realm_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory_IUCN_Realm.png", sep = ""))
+ggsave(plot = NMDS_after_IUCN_realm_plot, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory_IUCN_Realm.pdf", sep = ""))
+
+#Joining NMDS_before_class_plot and NMDS_after_class_plot
+plot_before_and_after_NMDS <- plot_grid(NMDS_before_class_plot, NMDS_after_class_plot, ncol = 2, nrow = 1)
+plot_before_and_after_NMDS
+
+ggsave(plot = plot_before_and_after_NMDS, filename = paste("outputs/02_NMDS_plots/NMDS_before_and_after_curatory.png", sep = ""))
+ggsave(plot = plot_before_and_after_NMDS, filename = paste("outputs/02_NMDS_plots/NMDS_before_and_after_curatory.pdf", sep = ""))
+
+#Joining NMDS_after_class_plot and NMDS_after_IUCN_biome_plot
+plot_NMDS_old_and_new_IUCN_biome <- plot_grid(NMDS_after_class_plot, NMDS_after_IUCN_biome_plot, ncol = 2, nrow = 1)
+plot_NMDS_old_and_new_IUCN_biome
+
+ggsave(plot = plot_NMDS_old_and_new_IUCN_biome, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory_old_and_new_class_IUCN_biome.png", sep = ""))
+ggsave(plot = plot_NMDS_old_and_new_IUCN_biome, filename = paste("outputs/02_NMDS_plots/NMDS_after_curatory__old_and_new_class_IUCN_biome.pdf", sep = ""))
+
