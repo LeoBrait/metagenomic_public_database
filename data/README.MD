@@ -11,4 +11,4 @@ so it can be divided by the members of the group and curated.
 8. collected_metadata_read_sizes contain the table with the read sizes of the samples. 
 
 
-To acess the more atualized table, use the 
+To acess the more atualized table, use the "curated_metadata_with_IUCN_classification.csv" table in the IUCN_reclassification folder.
