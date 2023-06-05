@@ -8,4 +8,4 @@ so it can be divided by the members of the group and curated.
 5. metadata_after_curatory contain the metadata table after manual curatory by the lab members.
 6. IUCN_reclassification contain the list used to classificate the data acording to IUCN global ecosystem tipology and the metadata table after curatory AND with the IUCN classification.
 7. taxonomic_tables contain the taxonomic matixes at phylum level before and after curatory AND with IUCN reclassification.
-8.collected_readsizes contain the table with the read sizes of the samples. 
+8. collected_metadata_readsizes contain the table with the read sizes of the samples. 
