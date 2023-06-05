@@ -5,3 +5,4 @@ our environmental classification from our metadata. It also contain the biome_ta
 divided by the mg-rast "biome" environmental category.
 4. manual_treatment contain the biome_tables organized in folders by name similarity, for operational propouses only,
 so it can be divided by the members of the group and curated. 
+5. metadata_after_curatory contain the metadata table after manual curatory by the lab members.
