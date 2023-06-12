@@ -1,4 +1,0 @@
-samples,feature,material,env.package,metagenome_taxonomy,sample_name,project_name,investigation_type,sequence_type,continent,country,latitude,longitude,raw_biome,project_id,life_style,habitat,biosphere,ecosystem
-mgm4739968,surface layer,coastal water,water,NA,nador_lagoon_2,Metagenomes,metagenome,WGS,africa,Morocco,35.11,2.52,dilution basin mediterranean sea biome,mgp79744,free-living,salt_lake,marine,saline_water
-mgm4739971,surface layer,coastal water,water,NA,nador_lagoon_1,Metagenomes,metagenome,WGS,africa,Morocco,35.11,2.52,dilution basin mediterranean sea biome,mgp79744,free-living,salt_lake,marine,saline_water
-mgm4742213,surface layer,coastal water,water,NA,OSD24,OSD_Morocco_lagoon,metagenome,WGS,africa,Morocco,35.11,2.52,dilution basin mediterranean sea biome,mgp80120,free-living,salt_lake,marine,saline_water
