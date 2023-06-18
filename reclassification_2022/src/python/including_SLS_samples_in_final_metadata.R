@@ -8,3 +8,8 @@ sls_samples
 
 sls_samples_df <- df %>% filter(samples %in% sls_samples)
 View(sls_samples_df)
+
+df <- read_csv("final_metadata/final_IUCN_classification.csv")
+
+df <- df %>%
+    subset(select = -c())
