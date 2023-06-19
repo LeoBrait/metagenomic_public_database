@@ -12,4 +12,22 @@ View(sls_samples_df)
 df <- read_csv("final_metadata/final_IUCN_classification.csv")
 
 df <- df %>%
-    subset(select = -c())
+    subset(select = -c(metagenome_taxonomy, investigation_type))
+
+sls_samples_df <- sls_samples_df %>%
+    subset(select = -c(PI_lastname, seq_meth, drop))
+str(df)
+str(sls_samples_df)
+
+sls_samples_df[c("Realm", "Biome", "Functional_group")] <- NA
+str(sls_samples_df)
+
+sub_fresh <- df %>% 
+    filter(grepl("Subterranean", Realm))
+
+sls_samples_df[c("Realm")] <- "Subterranean-Freshwater"
+sls_samples_df[c("Biome")] <- "Subterranean_freshwaters"
+str(sls_samples_df)
+
+final_df <- rbind(df, sls_samples_df)
+View(final_df)
