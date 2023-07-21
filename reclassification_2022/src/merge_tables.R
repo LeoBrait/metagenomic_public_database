@@ -11,7 +11,8 @@ library(data.table)
 #with the argument pattern = "*.csv" to exlude the readme files,
 #the argument recursive = TRUE because the datasets are in subfolders,
 #and the argument full.names = TRUE to get the full directory.#
-files <- list.files(path = "data\\03_manual_treatment\\biome_tables_organized",
+files <- list.files(
+    path = "reclassification_2022//03_manual_treated//biome_tables_organized",
          pattern = "*.csv", full.names = TRUE, recursive = TRUE)
 
 View(files) #Viewing the list.
