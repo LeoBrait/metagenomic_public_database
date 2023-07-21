@@ -19,6 +19,7 @@ mgm4749863
 ```
 Alteration: due to the metadata description samples were moved from
 aqueous_humour to bovini_eye_aqueous_humour habitat.
+Brait: Returned to aqueous_humour.
 
 2. target:
 ```
@@ -121,3 +122,64 @@ mgm4776017
 ```
 Alteration: removed due to metadata been classified as host_associated and
 incorrect coordinates for coastal seawater classification.
+
+11. target:
+```
+mgm4461341
+mgm4461342
+mgm4461343
+mgm4461344
+mgm4461345
+mgm4461346
+mgm4461347
+mgm4461348
+mgm4461349
+mgm4461350
+mgm4461351
+mgm4461352
+mgm4461353
+mgm4461354
+mgm4461355
+mgm4461356
+mgm4461357
+mgm4461358
+mgm4461360
+mgm4461361
+mgm4461362
+mgm4461363
+mgm4461364
+mgm4461365
+mgm4461366
+mgm4461367
+mgm4461368
+mgm4461369
+mgm4461370
+mgm4461371
+mgm4461372
+mgm4461374
+mgm4461375
+mgm4461376
+mgm4461377
+mgm4461378
+mgm4461379
+mgm4461380
+mgm4461383
+mgm4743181
+mgm4754043
+mgm4754047
+mgm4754048
+mgm4754510
+mgm4754512
+mgm4754513
+mgm4754520
+mgm4754521
+
+```
+Alteration: minor corrections on coordinates.
+
+
+
+**Author:** Eduardo Galvão.
+**Revised by:** Brait LAS.
+
+
