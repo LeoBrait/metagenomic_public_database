@@ -43,3 +43,6 @@ mgm4620735
 ```
 Alteration: Changed biosphere to terrestrial.
 
+**Author:** Jorley Santos
+**Reviewer:** Brait LAS
+

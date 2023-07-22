@@ -17,4 +17,13 @@ Alteration: removed these samples because they are assembled.
 mgm4668302
 ```
 Alteration: changed the country name from China to Tiwan because it have the same coordinates from the other samples and the countries in them are Taiwan.
+
+3. Target
+```
+mgm4448187
+
+```
+Alteration: Removed due permission issues.
+
 **Author:** Diogo
+**Reviewer:** Brait LAS

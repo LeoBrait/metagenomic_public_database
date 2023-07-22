@@ -1,8 +1,8 @@
 1. This README is for documentating any alterations and observations in made in the datasets.
 
-#Alterations 
+## Alterations 
 
-##Specific
+## Specific
 
 1. Target
 ```
@@ -389,4 +389,113 @@ mgm4549838
 ```
 Alterations: changed the habitat from "plain_soil" to "pasture_soil" because the samples have "Pasture" in sample name.
 
+14. Target
+```
+mgm4599954
+mgm4627252
+```
+Alterations: removed because sample is assembly.
+
+15. Target
+```
+mgm4465556
+mgm4465558
+mgm4477749
+mgm4477751
+mgm4477755
+mgm4478030
+mgm4478037
+mgm4478290
+mgm4478291
+mgm4478292
+mgm4478934
+mgm4478938
+mgm4478939
+mgm4479311
+mgm4750411
+mgm4750538
+mgm4750539
+mgm4751389
+mgm4751392
+mgm4751395
+mgm4751396
+mgm4751576
+mgm4751577
+mgm4751584
+mgm4751599
+mgm4751712
+mgm4751755
+mgm4752317
+
+
+```
+Alterations: changed life -style to host-associated, ecosystem to plant-associated, habitat to rhizosphere.
+
+16. Target
+```
+mgm4486524
+mgm4486533
+mgm4486537
+mgm4486539
+mgm4486540
+mgm4486544
+mgm4486613
+mgm4486614
+mgm4486617
+
+```
+Alterations: changed habitat to mummy.
+
+17. Target
+```
+mgm4569530
+mgm4569531
+mgm4569533
+mgm4569534
+mgm4569535
+mgm4569536
+mgm4569537
+mgm4614815
+mgm4614816
+mgm4614817
+mgm4614818
+mgm4614819
+mgm4614820
+mgm4614821
+mgm4614822
+mgm4614823
+mgm4614824
+mgm4614825
+mgm4614826
+mgm4614827
+mgm4614828
+mgm4614829
+mgm4614830
+mgm4614831
+mgm4614832
+mgm4614833
+mgm4614834
+mgm4614835
+mgm4614836
+mgm4614837
+mgm4538778
+mgm4538779
+mgm4538997
+
+```
+Alterations: Removed due to permission issues.
+
+
+18. Target
+```
+mgm4688630
+mgm4688631
+mgm4688632
+mgm4688633
+```
+Alterations: Changed habitat to fruit associated.
+
+
+
 **Author:** Diogo Burgos
+**Reviewer:** Brait LAS

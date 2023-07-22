@@ -627,6 +627,164 @@ mgm4552774
 mgm4552775
 ```
 Alteration: changed the country from "USA" to "Egypt" because the coordinates are the seame as other samples from the same project that have Egypt as country. Also, the coordinates lead to Egypt.
-Observation: The name of the project is "Metagenomic analysis of GI microbiota from health US and Egyptian children" wich implies that the wrong information is not the country, but the coordinates, that probably should be different, leading to some location in USA, but there is no way to be shure in wich information is the error, so a idcided to change the country, but leaved this observation, in case pairs decide to remove these samples. 
+Observation: The name of the project is "Metagenomic analysis of GI microbiota from health US and Egyptian children" wich implies that the wrong information is not the country, but the coordinates, that probably should be different, leading to some location in USA, but there is no way to be shure in wich information is the error, so a idcided to change the country, but leaved this observation, in case pairs decide to remove these samples.
+
+31. Target
+```
+mgm4441205
+mgm4447810
+mgm4447811
+mgm4449956
+mgm4450130
+mgm4450131
+mgm4450171
+mgm4450172
+mgm4450328
+mgm4450628
+mgm4450629
+mgm4450630
+mgm4450631
+
+
+```
+Alteration: changed the habitat to rhizosphere.
+
+32. Target
+```
+mgm4460639
+mgm4460641
+mgm4460642
+mgm4460644
+mgm4499912
+mgm4499915
+mgm4507011
+mgm4507029
+mgm4519753
+mgm4519754
+mgm4519755
+mgm4519756
+mgm4519757
+mgm4519758
+mgm4519759
+mgm4519760
+mgm4519761
+mgm4519762
+mgm4519763
+mgm4519764
+mgm4519765
+mgm4519766
+mgm4519767
+mgm4519769
+mgm4519770
+mgm4519771
+mgm4519772
+mgm4519773
+mgm4519774
+mgm4519775
+mgm4519776
+mgm4521025
+mgm4521026
+mgm4521027
+mgm4521030
+mgm4521031
+mgm4521032
+mgm4524575
+mgm4524596
+mgm4524858
+mgm4527652
+mgm4527653
+mgm4528934
+mgm4528937
+mgm4529373
+mgm4529374
+mgm4529786
+mgm4537190
+mgm4537191
+mgm4537192
+mgm4537193
+mgm4537194
+mgm4537195
+mgm4552818
+mgm4552830
+mgm4594281
+mgm4594282
+
+
+
+
+```
+Alteration: Removed due permission issues.
+
+33. Target
+```
+mgm4526727
+mgm4526728
+mgm4526729
+mgm4526730
+mgm4526731
+mgm4526732
+
+```
+Alteration: changed biosphere to marine.
+
+34. Target
+```
+mgm4555634
+mgm4556372
+
+```
+Alteration: changed habitat to bioreactor.
+
+35. Target
+```
+mgm4621803
+mgm4621804
+mgm4621805
+mgm4621806
+mgm4621807
+mgm4621808
+mgm4633656
+mgm4633657
+
+```
+Alteration: changed habitat to wastewater treatment plant.
+
+36. Target
+```
+mgm4665263
+mgm4665264
+mgm4665265
+mgm4665266
+mgm4665267
+mgm4665270
+mgm4665271
+mgm4665272
+mgm4665273
+mgm4665276
+mgm4665277
+mgm4665278
+mgm4665279
+mgm4665280
+mgm4665281
+mgm4665282
+mgm4665283
+mgm4665284
+mgm4665285
+mgm4665286
+mgm4665287
+mgm4665288
+mgm4665289
+mgm4665291
+mgm4665292
+mgm4665293
+mgm4665294
+mgm4665295
+mgm4665296
+mgm4665297
+mgm4665298
+
+```
+Alteration: changed habitat to rumen.
 
 **Author:** Diogo Burgos
+**Reviewer:** Brait LAS.

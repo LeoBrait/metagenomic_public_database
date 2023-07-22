@@ -102,4 +102,11 @@ mgm4533813
 ```
 Alteration: changed the habitat from "estuarine_seawater" to "river", the ecosystem from "saline_water" to "freshwater" and the biosphere from "marine" to "freshwater" because in these samples the material is freshwater and the coordinates lead to a river location.
 
+5. Target
+```
+mgm4485981
+mgm4485982
+```
+Alteration: Removed for beind assembled.
 **Author:** Diogo Burgos
+**Reviewer:** Brait LAS
