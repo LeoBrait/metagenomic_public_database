@@ -1,23 +1,13 @@
-"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
-"mgm4612269","wood fall","wood","plant-associated",NA,"F3EC_unassembled","FSF","metagenome","WGS","europe","France",42.4666667,3.4666667,"wood fall","mgp12094","host-associated","wood_fall","marine","plant-associated"
-"mgm4623131","saline water aquarium","biofilm material","microbial mat|biofilm",NA,"T1FR1","MICADO","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp5272","free-living","saline_water_biofilm","marine","saline_water"
-"mgm4623132","saline water aquarium","biofilm material","microbial mat|biofilm",NA,"T5FR1","MICADO","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp5272","free-living","saline_water_biofilm","marine","saline_water"
-"mgm4623133","saline water aquarium","biofilm material","microbial mat|biofilm",NA,"T6FR2","MICADO","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp5272","free-living","saline_water_biofilm","marine","saline_water"
-"mgm4624935","wood fall","wood","plant-associated",NA,"T1_500m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624936","wood fall","wood","plant-associated",NA,"T1_N_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624937","wood fall","wood","plant-associated",NA,"T1_P_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624938","wood fall","wood","plant-associated",NA,"T2_3m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624939","wood fall","wood","plant-associated",NA,"T2_500m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624940","wood fall","wood","plant-associated",NA,"T3_3m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624941","wood fall","wood","plant-associated",NA,"T3_500m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624942","wood fall","wood","plant-associated",NA,"T4_3m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4624943","wood fall","wood","plant-associated",NA,"T4_500m_ERROR","WINE","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13088","host-associated","wood_fall","marine","plant-associated"
-"mgm4625757","wood fall","wood","plant-associated",NA,"T1_3m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625759","wood fall","wood","plant-associated",NA,"ERROR","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625760","wood fall","wood","plant-associated",NA,"T1_P","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625761","wood fall","wood","plant-associated",NA,"T2_3m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625762","wood fall","wood","plant-associated",NA,"T2_500m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625763","wood fall","wood","plant-associated",NA,"T3_3m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625764","wood fall","wood","plant-associated",NA,"T3_500m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625765","wood fall","wood","plant-associated",NA,"T4_3m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
-"mgm4625766","wood fall","wood","plant-associated",NA,"T4_500m","WINE1","metagenome","WGS",NA,"France",42.48343,3.128874,"wood fall","mgp13145","host-associated","wood_fall","marine","plant-associated"
+samples,feature,material,env.package,metagenome_taxonomy,sample_name,project_name,investigation_type,sequence_type,continent,country,latitude,longitude,raw_biome,project_id,life_style,habitat,biosphere,ecosystem
+mgm4612269,wood fall,wood,plant-associated,NA,F3EC_unassembled,FSF,metagenome,WGS,europe,France,42.4666667,3.4666667,wood fall,mgp12094,free-living,wood_decomposition,marine,saline_water
+mgm4623131,saline water aquarium,biofilm material,microbial mat|biofilm,NA,T1FR1,MICADO,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp5272,free-living,saline_water_biofilm,marine,saline_water
+mgm4623132,saline water aquarium,biofilm material,microbial mat|biofilm,NA,T5FR1,MICADO,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp5272,free-living,saline_water_biofilm,marine,saline_water
+mgm4623133,saline water aquarium,biofilm material,microbial mat|biofilm,NA,T6FR2,MICADO,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp5272,free-living,saline_water_biofilm,marine,saline_water
+mgm4625757,wood fall,wood,plant-associated,NA,T1_3m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625760,wood fall,wood,plant-associated,NA,T1_P,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625761,wood fall,wood,plant-associated,NA,T2_3m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625762,wood fall,wood,plant-associated,NA,T2_500m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625763,wood fall,wood,plant-associated,NA,T3_3m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625764,wood fall,wood,plant-associated,NA,T3_500m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625765,wood fall,wood,plant-associated,NA,T4_3m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water
+mgm4625766,wood fall,wood,plant-associated,NA,T4_500m,WINE1,metagenome,WGS,NA,France,42.48343,3.128874,wood fall,mgp13145,host-associated,wood_decomposition,marine,saline_water

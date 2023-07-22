@@ -18,3 +18,5 @@ mgm4721963
 
 Tundra biome:
 	Samples: mgm4482593 and mgm4483544 were removed, since they were from enrichment soil.
+
+**Author:** Barbosa, FAS
