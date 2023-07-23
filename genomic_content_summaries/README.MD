@@ -1,2 +1,1 @@
-## In the **collected_metadata_output-1.csv** file remains genomic content information of the samples, such as reads, GC content, etc.
-## The **datacollected_metadata_output-filtered.csv** is a version excluding some samples we suspect to be assembled.
+#this folder need some decisions to be made
