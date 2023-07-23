@@ -96,6 +96,7 @@ aquifer_samples <- aquifer_samples %>%
 
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
+unique(final_table$habitat)
 
 
 #count the number of samples per habitat
