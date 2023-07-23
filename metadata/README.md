@@ -2,6 +2,7 @@
 
 ## Description
 This folder contains several ways to categorize the public acessed samples.
+All samples are shotgun metagenome shortreads.
 The ['raw'](metadata/raw) folder contains the original metadata of samples and it is subdivided by database.
 The ['treated'](metadata/treated) folder contains the samples filtered and reclassified by the lab team.
 
