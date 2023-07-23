@@ -96,7 +96,7 @@ aquifer_samples <- aquifer_samples %>%
 
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
-unique(final_table$habitat)
+
 
 
 #count the number of samples per habitat
@@ -119,3 +119,11 @@ ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
   ) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
+
+write.csv(
+    final_table,
+    file = paste0(
+        "metadata/treated/",
+        "biome_classification.csv"
+    )
+)
