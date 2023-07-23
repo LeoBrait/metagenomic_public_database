@@ -249,5 +249,12 @@ mgm4626208
 ```
 Alteration: Moved to stromatolite habitat.
 
+16. Target
+```
+mgm4555202
+
+```
+Alteration: Changed habitat to salt_lake.
+
 **Author:** Jorley Santos
 **Reviewer:** Brait LAS

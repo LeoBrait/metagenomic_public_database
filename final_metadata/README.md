@@ -1,3 +1,0 @@
-## The **final_biome_classification.csv** is the final version of the Biome classification. There you will find environmental information of the metagenomic samples used in the BIOME studies, such as Habitat, Ecosystem, Life-style, Latitude and Longitude of each sample.
-
-## The **final_IUCN_classification.csv** contains the same samples, but their classification was based in the IUCN classification.
