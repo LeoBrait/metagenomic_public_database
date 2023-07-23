@@ -1,7 +1,11 @@
-1. This README is for documentating any alterations and observations in made in the datasets.
+ Alterations  
 
-Cold winter deserts and semideserts:
-	Samples from "contaminated soil" are actually incubated and enriched before sequencing, so they don't show the microbial community in real state. Removed following samples:
+## General:
+
+## Specific:
+
+1. target:
+```
 mgm4721951
 mgm4721952
 mgm4721953
@@ -15,8 +19,23 @@ mgm4721960
 mgm4721961
 mgm4721962
 mgm4721963
+```
+Alteration: Samples from "contaminated soil" are actually incubated and enriched before sequencing, so they don't show the microbial community in real state. Removed following samples:
 
-Tundra biome:
-	Samples: mgm4482593 and mgm4483544 were removed, since they were from enrichment soil.
+2. target:
+```
+mgm4482593
+mgm4483544
+
+```
+Alteration: Removed, since they were from enrichment soil.
+
+3. target:
+```
+mgm4575397
+
+```
+Alteration: Removed for being assembled.
 
 **Author:** Barbosa, FAS
+**Reviewer:** Brait LAS
