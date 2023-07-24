@@ -39,7 +39,8 @@ write.csv(
     file = paste0(
         "reclassification_2022/04_final_merge_and_reclassification/",
         "biome_classification/merged_metadata_raw.csv"
-    )
+    ),
+    row.names = FALSE
 )
 
 ## Clean aquifer samples
@@ -125,5 +126,6 @@ write.csv(
     file = paste0(
         "metadata/treated/",
         "biome_classification.csv"
-    )
+    ),
+    row.names = FALSE
 )
