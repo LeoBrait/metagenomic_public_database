@@ -128,6 +128,25 @@ ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
 
+final_table_before <- final_table
+final_table <- final_table_before
+
+
+# get seq method
+
+seq_method_df <- read_csv(
+  "reclassification_2022/01_original_data/metadata_categorized.csv"
+) %>%
+  select(samples, seq_meth)
+
+final_table <- final_table %>%
+  inner_join(seq_method_df, by = "samples")
+
+# remove seq_method == "assembled"
+final_table <- final_table %>%
+  filter(seq_meth != "assembled") %>%
+  rename("seq_method" = "seq_meth")
+
 write.csv(
     final_table,
     file = paste0(

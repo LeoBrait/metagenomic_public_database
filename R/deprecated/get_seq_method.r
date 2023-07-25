@@ -15,7 +15,6 @@ metadata_complete <- metadata_complete %>%
 merged_table <- genomic %>%
   inner_join(metadata_complete, by = "samples")
 unique(merged_table$seq_meth)
-
 write.csv(
     merged_table,
     file = paste0(
