@@ -103,8 +103,6 @@ final_table <- final_table %>%
  mutate(ecosystem =
   case_when(
     ecosystem == "plant-associated" ~ "plant_associated",
-    ecosystem == "plant_host-associated" ~ "plant_associated",
-    ecosystem == "plant_hots-associated" ~ "plant_associated",
     ecosystem == "plant_hots-associated" ~ "plant_associated",
     ecosystem == "plant_host-associated" ~ "plant_associated",
     TRUE ~ ecosystem
@@ -115,8 +113,6 @@ final_table <- final_table %>%
 x <- final_table %>%
   group_by(habitat) %>%
   summarise(n = n())
-
-
 
 
 #plot ordered
