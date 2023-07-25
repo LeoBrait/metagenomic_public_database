@@ -784,10 +784,10 @@
 "mgm4664911","free-living","terrestrial","soil","forest_soil","USA",42.42723,-72.2299
 "mgm4664916","free-living","terrestrial","soil","forest_soil","USA",42.42415,-72.25817
 "mgm4664928","free-living","terrestrial","soil","forest_soil","USA",42.392303,-72.25458
-"mgm4688630","host-associated","terrestrial","fruit_associated","plant-associated","Italy",41.89193,12.51133
-"mgm4688631","host-associated","terrestrial","fruit_associated","plant-associated","Italy",41.89193,12.51133
-"mgm4688632","host-associated","terrestrial","fruit_associated","plant-associated","Italy",41.89193,12.51133
-"mgm4688633","host-associated","terrestrial","fruit_associated","plant-associated","Italy",41.89193,12.51133
+"mgm4688630","host-associated","terrestrial","plant_hots-associated","plant-associated","Italy",41.89193,12.51133
+"mgm4688631","host-associated","terrestrial","plant_hots-associated","plant-associated","Italy",41.89193,12.51133
+"mgm4688632","host-associated","terrestrial","plant_hots-associated","plant-associated","Italy",41.89193,12.51133
+"mgm4688633","host-associated","terrestrial","plant_hots-associated","plant-associated","Italy",41.89193,12.51133
 "mgm4477749","host-associated","terrestrial","plant-associated","rhizosphere","Brazil",-11.6832502,-55.8357663
 "mgm4477751","host-associated","terrestrial","plant-associated","rhizosphere","Brazil",-11.6832502,-55.8357663
 "mgm4477755","host-associated","terrestrial","plant-associated","rhizosphere","Brazil",-11.6832502,-55.8357663
