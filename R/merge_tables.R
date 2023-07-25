@@ -106,6 +106,7 @@ final_table <- final_table %>%
     ecosystem == "plant_host-associated" ~ "plant_associated",
     ecosystem == "plant_hots-associated" ~ "plant_associated",
     ecosystem == "plant_hots-associated" ~ "plant_associated",
+    ecosystem == "plant_host-associated" ~ "plant_associated",
     TRUE ~ ecosystem
   )
  )
