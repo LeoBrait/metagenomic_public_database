@@ -98,6 +98,16 @@ aquifer_samples <- aquifer_samples %>%
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
 
+# typo correcting
+final_table <- final_table %>%
+ mutate(
+  case_when(
+    ecosystem == "plant-associated" ~ "plant_associated",
+    ecosystem == "plant_host-associated" ~ "plant_associated",
+    ecosystem == "plant_hots-associated" ~ "plant_associated",
+    TRUE ~ ecosystem
+  )
+ )
 
 
 #count the number of samples per habitat
