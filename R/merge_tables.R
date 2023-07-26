@@ -34,15 +34,6 @@ merged_table_raw <- merged_table_raw %>%
    filter(assembled == "no") %>%
    select(-assembled)
 
-write.csv(
-    merged_table_raw,
-    file = paste0(
-        "reclassification_2022/04_final_merge_and_reclassification/",
-        "biome_classification/merged_metadata_raw.csv"
-    ),
-    row.names = FALSE
-)
-
 ## Clean aquifer samples
 merged_table_clean <- merged_table_raw %>%
   filter(ecosystem != "groundwater") %>%
@@ -53,11 +44,7 @@ merged_table_clean <- merged_table_raw %>%
 )
 
 aquifer_samples <- read_csv(
-    paste0(
-       "reclassification_2022/04_final_merge_and_reclassification/",
-       "biome_classification/aquifer_samples.csv"
-    )
-)
+  "reclassification_2022/01_original_data/aquifer_samples.csv")
 
 aquifer_samples <- aquifer_samples %>%
  rename(
@@ -150,8 +137,8 @@ final_table <- final_table %>%
 write.csv(
     final_table,
     file = paste0(
-        "metadata/treated/",
-        "biome_classification.csv"
+        "reclassification_2022/04_final_merge_and_reclassification/",
+        "biome_classification/merged_metadata_raw.csv"
     ),
     row.names = FALSE
 )
