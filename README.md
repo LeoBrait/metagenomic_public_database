@@ -15,11 +15,10 @@ These datbase comprimises other works of the lab, such as:
 - in the [genomic_content_summaries](genomic_content_summaries/) folder you will find the genomic content information of our samples.  
 - in the [reclassification_2022](reclassification_2022/) folder you will find the pipelines we used to produce our final metadata. (control porpuses only)  
 
-## Colection and Classification Protocol 
+# 1. Colection and Classification Protocol 
+This step resolves the metadata and final samples to be used in the database.
 
-### 1. Metadata collection and curatory  
-  
-#### 1.1 Coleção  
+## 1.1 Coleção  
 - Coletamos as amostras no mg-rast de shotgun metagenomes [COLOCAR DATA] (n= 70,000)  
 - Essas amostras foram categorizadas subjetiva e grosseiramente em estilo de vida, ecosistema e habitats;  
 - O resultado foi a tabela [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv) (n= 7,044);  
@@ -27,11 +26,11 @@ These datbase comprimises other works of the lab, such as:
 - Resultado: [aquifer_samples](reclassification_2022/01_original_data/aquifer_samples.csv) (n= 109);  
 
     
-#### 1.2 Curadoria baseada no metadado do Mg-Rast
+## 1.2 Curadoria baseada no metadado do Mg-Rast
 - A partir do [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv), baixamos o json do metadado de cada metagenoma para a reclassificação fina das amostras utilizando o [script](Python/mgrast_download_metadata.py) e unimos as tabelas removendo as amostras com metagenomas assembled a partir do [script](R/merge_tables.R);  
 - O resultado foi a tabela [merged_metadata_raw](reclassification_2022/04_final_merge_and_reclassification/biome_classification/merged_metadata_raw.csv)  
 
-#### 1.3 Filtragem baseado nos sumários de dados genômicos
+## 1.3 Filtragem baseado nos sumários de dados genômicos
 - Após baixadas todas as amostras, empregamos filtros de qualidade genômicos, (mais detalhes [aqui](link_do_download) ) e sumarizamos as informações genômicas de cada amostra em uma [tabela](genomic_content_summaries/genomic_content_summaries.csv) (n= 6,015). As informações sumarizadas foram:  
 ```
 file_size                       total_number_of_reads
@@ -39,10 +38,10 @@ GC_content                      total_number_of_bases
 complete_sequence_size          average_read_size
 read_size_mode                  read_size_median
 lowest_read_size                highest_read_size
-seq_meth
-
 ```
-- A partir deste dado sumarizado, removemos todas as amostras com  
+- A partir deste dado sumarizado, removemos todas as amostras a partir de 10 mil reads
+
+# 2. Download of the samples
 
 
 
