@@ -21,23 +21,23 @@ These datbase comprimises other works of the lab, such as:
   
 #### 1.1 Coleção  
     
-- Coletamos as amostras no mg-rast de shotgun metagenomes [COLOCAR DATA] (n= 70,000)
-- Essas amostras foram categorizadas subjetiva e grosseiramente em estilo de vida, ecosistema e habitats;
-- O resultado foi a tabela [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv) (n= 7,044);
+- Coletamos as amostras no mg-rast de shotgun metagenomes [COLOCAR DATA] (n= 70,000)  
+- Essas amostras foram categorizadas subjetiva e grosseiramente em estilo de vida, ecosistema e habitats;  
+- O resultado foi a tabela [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv) (n= 7,044);  
 
-- No mesmo período coletamos amostras de aquíferos da plataforma NCBI e focam curadas manualmente (n = 109)
-- Resultado: [aquifer_samples](reclassification_2022/01_original_data/aquifer_samples.csv) (n= 109);
+- No mesmo período coletamos amostras de aquíferos da plataforma NCBI e focam curadas manualmente (n = 109)  
+- Resultado: [aquifer_samples](reclassification_2022/01_original_data/aquifer_samples.csv) (n= 109);  
 
     
 #### 1.2 Curadoria baseada no metadado do Mg-Rast
  
- - A partir do [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv), baixamos o json do metadado de cada metagenoma para a reclassificação fina das amostras utilizando o [script](Python/mgrast_download_metadata.py) e unimos as tabelas removendo as amostras com metagenomas assembled a partir do [script](R/merge_tables.R);
+ - A partir do [mg-rast_metadata](reclassification_2022/01_original_data/mg-rast_metadata.csv), baixamos o json do metadado de cada metagenoma para a reclassificação fina das amostras utilizando o [script](Python/mgrast_download_metadata.py) e unimos as tabelas removendo as amostras com metagenomas assembled a partir do [script](R/merge_tables.R);  
  
- - O resultado foi a tabela [merged_metadata_raw](reclassification_2022/04_final_merge_and_reclassification/biome_classification/merged_metadata_raw.csv)
+ - O resultado foi a tabela [merged_metadata_raw](reclassification_2022/04_final_merge_and_reclassification/biome_classification/merged_metadata_raw.csv)  
 
 #### 1.3 Filtragem baseado nos sumários de dados genômicos
 
-- Após baixadas todas as amostras, empregamos filtros de qualidade genômicos, (mais detalhes [aqui](link_do_download) ) e sumarizamos as informações genômicas de cada amostra em uma [tabela](genomic_content_summaries/genomic_content_summaries.csv) (n= 6,015). As informações sumarizadas foram:
+- Após baixadas todas as amostras, empregamos filtros de qualidade genômicos, (mais detalhes [aqui](link_do_download) ) e sumarizamos as informações genômicas de cada amostra em uma [tabela](genomic_content_summaries/genomic_content_summaries.csv) (n= 6,015). As informações sumarizadas foram:  
 
 ```
 file_size                       total_number_of_reads
@@ -49,7 +49,7 @@ seq_meth
 
 ```
 
-- A partir deste dado sumarizado, removemos todas as amostras com
+- A partir deste dado sumarizado, removemos todas as amostras com  
 
 
 
