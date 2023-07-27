@@ -1,16 +1,26 @@
+#' @Author: Brait LAS
+#' @Date: 2023-27-07
+#' @Reviewers: None
+#' @Last revision: None
+#' @Description: Merge files from biome classification andd add the SRA samples.
+#' After this you should run the checking_genomic_content.R
+
 library("tidyverse")
 library("data.table")
 library("jsonlite")
 
-
+############################ Load and merge tables #############################
 tables_paths <- list.files(
   path = "reclassification_2022/03_manual_treated/biome_tables_organized",
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
+aquifer_samples <- read_csv(
+  "reclassification_2022/01_original_data/aquifer_samples.csv")
+
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
-# Extract the sample ID from the "samples" column
+######################### Extracs assembled from Json Data #####################
 sample_id <- merged_table_raw$samples
 
 # Function to read JSON and extract "assembled" value
@@ -34,8 +44,8 @@ merged_table_raw <- merged_table_raw %>%
    filter(assembled == "no") %>%
    select(-assembled)
 
+########################### Add SRA to the table ###############################
 ## Remove aquifer samples to avoid duplicated samples
-
 merged_table_clean <- merged_table_raw %>%
   filter(ecosystem != "groundwater") %>%
   select(
@@ -89,6 +99,7 @@ aquifer_samples <- aquifer_samples %>%
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
 
+############################### Refined treatment ##############################
 # typo correcting
 final_table <- final_table %>%
  mutate(ecosystem =
@@ -105,8 +116,6 @@ x <- final_table %>%
   group_by(habitat) %>%
   summarise(n = n())
 
-
-#plot ordered
 ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
   geom_bar(stat = "identity", color = "blue") +
   geom_text(aes(label = n), hjust = -1.1) +
@@ -123,7 +132,8 @@ final_table_before <- final_table
 final_table <- final_table_before
 
 
-# get seq method and PI lastname
+# remove some more assembled samples ---
+# and get seq method and PI lastname
 
 seq_method_df <- read_csv(
   "reclassification_2022/01_original_data/metadata_categorized.csv"
@@ -133,7 +143,7 @@ seq_method_df <- read_csv(
 final_table <- final_table %>%
   inner_join(seq_method_df, by = "samples")
 
-# remove seq_method == "assembled"
+
 final_table <- final_table %>%
   filter(seq_meth != "assembled") %>%
   rename("seq_method" = "seq_meth")
