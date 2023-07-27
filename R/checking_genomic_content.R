@@ -64,7 +64,8 @@ write.csv(
         "reclassification_2022/05_genomic_content_filter/",
         "problematic_samples.csv"
     ),
-    row.names = FALSE)
+    row.names = FALSE
+)
 
 # summary of problematic samples per habitat
 problematic_samples_df %>%
@@ -76,7 +77,7 @@ problematic_samples_df %>%
             "problematic_habitat_summary.csv"
         ),
         row.names = FALSE
-        )
+    )
 
 # summary of problematic samples per ecosystem
 problematic_samples_df %>%
@@ -88,7 +89,7 @@ problematic_samples_df %>%
             "problematic_ecosystem_summary.csv"
         ),
         row.names = FALSE
-        )
+    )
 
 # summary of problematic samples per life_style
 problematic_samples_df %>%
@@ -100,7 +101,7 @@ problematic_samples_df %>%
             "problematic_life_style_summary.csv"
         ),
         row.names = FALSE
-        )
+    )
 
 ############################ Produce cleaned tables ############################
 
