@@ -137,7 +137,7 @@ final_table <- final_table %>%
 write.csv(
     final_table,
     file = paste0(
-        "reclassification_2022/04_final_merge_and_reclassification/",
+        "reclassification_2022/04_metadata_curated/",
         "biome_classification/merged_metadata_raw.csv"
     ),
     row.names = FALSE
