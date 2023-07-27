@@ -11,6 +11,7 @@ options(scipen = 999)
 
 genomic_summary <- read_csv("genomic_content_summaries/genomic_summary.csv")
 
+
 metadata <- read_csv(
     paste0(
         "reclassification_2022/04_metadata_curated/",
@@ -119,7 +120,7 @@ write.csv(
 
 # cleaned metadata ---------------------
 clean_metadata <- metadata %>%
-    filter(!samples %in% problematic_samples_full) %>%
+    filter(!samples %in% problematic_samples_full) #%>%
     write.csv(
         "metadata/treated/biome_classification.csv",
         row.names = FALSE
