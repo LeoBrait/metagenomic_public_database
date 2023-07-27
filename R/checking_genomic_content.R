@@ -11,7 +11,6 @@ options(scipen = 999)
 
 genomic_summary <- read_csv("genomic_content_summaries/genomic_summary.csv")
 
-
 metadata <- read_csv(
     paste0(
         "reclassification_2022/04_metadata_curated/",
@@ -19,11 +18,17 @@ metadata <- read_csv(
     )
 )
 
+
 # Merge --------------------------------
 merged_table <- genomic_summary %>%
     inner_join(metadata, by = "samples")
 
 ###################### 2. Check for problematic samples ########################
+
+problematic_nondownloaded_samples <- setdiff(
+    metadata$samples,
+    genomic_summary$samples
+)
 
 problematic_sanger_samples <- merged_table %>%
     filter(seq_method == "sanger") %>%
@@ -45,13 +50,14 @@ problematic_illumina_samples <- merged_table %>%
     pull(samples)
 
 problematic_samples_full <- c(
+    problematic_nondownloaded_samples,
     problematic_sanger_samples,
     problematic_iontorrent_samples,
     problematic_454_samples,
     problematic_illumina_samples
 )
 
-problematic_samples_df <- merged_table %>%
+problematic_samples_df <- metadata %>%
     filter(samples %in% problematic_samples_full)
 
 # impact evaluation --------------------
@@ -120,7 +126,7 @@ write.csv(
 
 # cleaned metadata ---------------------
 clean_metadata <- metadata %>%
-    filter(!samples %in% problematic_samples_full) #%>%
+    filter(!samples %in% problematic_samples_full) %>%
     write.csv(
         "metadata/treated/biome_classification.csv",
         row.names = FALSE
