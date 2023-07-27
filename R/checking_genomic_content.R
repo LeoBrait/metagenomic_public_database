@@ -25,40 +25,40 @@ merged_table <- genomic_summary %>%
 
 ###################### 2. Check for problematic samples ########################
 
-problematic_nondownloaded_samples <- setdiff(
+problematicsamples_nondownloaded <- setdiff(
     metadata$samples,
     genomic_summary$samples
 )
 
-problematic_sanger_samples <- merged_table %>%
+problematicsamples_sanger <- merged_table %>%
     filter(seq_method == "sanger") %>%
     pull(samples)
 
-problematic_iontorrent_samples <- merged_table %>%
+problematicsamples_iontorrent <- merged_table %>%
     filter(seq_method == "ion torrent") %>%
     filter(highest_read_size > 800) %>%
     pull(samples)
 
-problematic_454_samples <- merged_table %>%
+problematicsamples_454 <- merged_table %>%
     filter(seq_method == "454") %>%
     filter(highest_read_size > 700) %>%
     pull(samples)
 
-problematic_illumina_samples <- merged_table %>%
+problematicsamples_illumina <- merged_table %>%
     filter(seq_method == "illumina") %>%
     filter(highest_read_size > 600) %>%
     pull(samples)
 
-problematic_samples_full <- c(
-    problematic_nondownloaded_samples,
-    problematic_sanger_samples,
-    problematic_iontorrent_samples,
-    problematic_454_samples,
-    problematic_illumina_samples
+problematicsamples_full <- c(
+    problematicsamples_nondownloaded,
+    problematicsamples_sanger,
+    problematicsamples_iontorrent,
+    problematicsamples_454,
+    problematicsamples_illumina
 )
 
 problematic_samples_df <- metadata %>%
-    filter(samples %in% problematic_samples_full)
+    filter(samples %in% problematicsamples_full)
 
 # impact evaluation --------------------
 problematic_samples_df %>%
@@ -113,7 +113,7 @@ problematic_samples_df %>%
 ############################ Produce cleaned tables ############################
 
 clean_table <- merged_table %>%
-    filter(!samples %in% problematic_samples_full)
+    filter(!samples %in% problematicsamples_full)
 
 write.csv(
     clean_table,
@@ -126,7 +126,7 @@ write.csv(
 
 # cleaned metadata ---------------------
 clean_metadata <- metadata %>%
-    filter(!samples %in% problematic_samples_full) %>%
+    filter(!samples %in% problematicsamples_full) %>%
     write.csv(
         "metadata/treated/biome_classification.csv",
         row.names = FALSE
