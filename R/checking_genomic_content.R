@@ -74,7 +74,7 @@ problematic_samples_df %>%
     write.csv(
         paste0(
             "reclassification_2022/05_genomic_content_filter/",
-            "problematic_habitat_summary.csv"
+            "summary_problematic_habitat.csv"
         ),
         row.names = FALSE
     )
@@ -86,7 +86,7 @@ problematic_samples_df %>%
     write.csv(
         paste0(
             "reclassification_2022/05_genomic_content_filter/",
-            "problematic_ecosystem_summary.csv"
+            "summary_problematic_ecosystem.csv"
         ),
         row.names = FALSE
     )
@@ -98,7 +98,7 @@ problematic_samples_df %>%
     write.csv(
         paste0(
             "reclassification_2022/05_genomic_content_filter/",
-            "problematic_life_style_summary.csv"
+            "summary_problematic_life_style.csv"
         ),
         row.names = FALSE
     )
