@@ -52,31 +52,68 @@ problematic_samples_df %>%
     group_by(seq_method) %>%
     summarise(count = n())
 
-problematic_samples_df %>%
-    group_by(habitat) %>%
-    summarise(count = n())
-
-problematic_samples_df %>%
-    group_by(ecosystem) %>%
-    summarise(count = n())
-
-problematic_samples_df %>%
-    group_by(life_style) %>%
-    summarise(count = n())
-
 write.csv(
     problematic_samples_df,
-    "problematic_samples.csv",
-    row.names = FALSE
-)
+    paste0(
+        "reclassification_2022/05_genomic_content_filter/",
+        "problematic_samples.csv"
+    ),
+    row.names = FALSE)
 
-############################ Produce cleaned table #############################
+# summary of problematic samples per habitat
+problematic_samples_df %>%
+    group_by(habitat) %>%
+    summarise(count = n()) %>%
+    write.csv(
+        paste0(
+            "reclassification_2022/05_genomic_content_filter/",
+            "problematic_habitat_summary.csv"
+        ),
+        row.names = FALSE
+        )
+
+# summary of problematic samples per ecosystem
+problematic_samples_df %>%
+    group_by(ecosystem) %>%
+    summarise(count = n()) %>%
+    write.csv(
+        paste0(
+            "reclassification_2022/05_genomic_content_filter/",
+            "problematic_ecosystem_summary.csv"
+        ),
+        row.names = FALSE
+        )
+
+# summary of problematic samples per life_style
+problematic_samples_df %>%
+    group_by(life_style) %>%
+    summarise(count = n()) %>%
+    write.csv(
+        paste0(
+            "reclassification_2022/05_genomic_content_filter/",
+            "problematic_life_style_summary.csv"
+        ),
+        row.names = FALSE
+        )
+
+############################ Produce cleaned tables ############################
 
 clean_table <- merged_table %>%
     filter(!samples %in% problematic_samples_full)
 
 write.csv(
     clean_table,
-    "clean_table.csv",
+    paste0(
+        "reclassification_2022/05_genomic_content_filter/",
+        "genomic_content_clean_table.csv"
+    ),
     row.names = FALSE
 )
+
+# cleaned metadata ---------------------
+clean_metadata <- metadata %>%
+    filter(!samples %in% problematic_samples_full) %>%
+    write.csv(
+        "metadata/treated/biome_classification.csv",
+        row.names = FALSE
+    )
