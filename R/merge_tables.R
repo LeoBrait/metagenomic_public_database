@@ -34,15 +34,19 @@ merged_table_raw <- merged_table_raw %>%
    filter(assembled == "no") %>%
    select(-assembled)
 
-## Clean aquifer samples
+## Remove aquifer samples to avoid duplicated samples
+
 merged_table_clean <- merged_table_raw %>%
   filter(ecosystem != "groundwater") %>%
   select(
       samples,    life_style,  biosphere,
     ecosystem,       habitat,    country,
-     latitude,     longitude
+    project_name, latitude,     longitude
 )
 
+## Get metadata of groundwater database from article published
+#by Brait and Barbosa, since their metadata
+#is already validated and published
 aquifer_samples <- read_csv(
   "reclassification_2022/01_original_data/aquifer_samples.csv")
 
@@ -79,7 +83,7 @@ aquifer_samples <- aquifer_samples %>%
    select(
       samples,    life_style,  biosphere,
     ecosystem,       habitat,    country,
-     latitude,     longitude
+    project_name, latitude,     longitude
 )
 
 
@@ -119,12 +123,12 @@ final_table_before <- final_table
 final_table <- final_table_before
 
 
-# get seq method
+# get seq method and PI lastname
 
 seq_method_df <- read_csv(
   "reclassification_2022/01_original_data/metadata_categorized.csv"
 ) %>%
-  select(samples, seq_meth)
+  select(samples, PI_lastname, seq_meth)
 
 final_table <- final_table %>%
   inner_join(seq_method_df, by = "samples")
