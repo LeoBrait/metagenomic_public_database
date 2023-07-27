@@ -1,3 +1,10 @@
+#' @Author: Brait LAS
+#' @Date: 2023-27-07
+#' @Reviewers: None
+#' @Last revision: None
+#' @Description: Merge files from biome classification andd add the SRA samples.
+#' After this you should run the checking_genomic_content.R
+
 library("tidyverse")
 library("data.table")
 library("jsonlite")
