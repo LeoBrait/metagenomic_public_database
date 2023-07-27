@@ -1,37 +1,82 @@
 library(tidyverse)
 options(scipen = 999)
 
-df <- read_csv("genomic_content_summaries/genomic_summary.csv")
-samples_to_see <- df %>%
-    filter(highest_read_size > 600)
+################################### Read data ##################################
 
-metadata <- read_csv("metadata/treated/biome_classification.csv")
+genomic_summary <- read_csv("genomic_content_summaries/genomic_summary.csv")
 
-df_final <- samples_to_see %>%
+metadata <- read_csv(
+    paste0(
+        "reclassification_2022/04_metadata_curated/",
+        "biome_classification/merged_metadata_raw.csv"
+    )
+)
+
+# Merge --------------------------------
+merged_table <- genomic_summary %>%
     inner_join(metadata, by = "samples")
 
-# filter samples with NA
-df_final <- df_final %>%
-    filter(!is.na(habitat))
+###################### 2. Check for problematic samples ########################
 
-# count samples by life_style
-df_final %>%
-    group_by(life_style) %>%
+problematic_sanger_samples <- merged_table %>%
+    filter(seq_method == "sanger") %>%
+    pull(samples)
+
+problematic_iontorrent_samples <- merged_table %>%
+    filter(seq_method == "ion torrent") %>%
+    filter(highest_read_size > 800) %>%
+    pull(samples)
+
+problematic_454_samples <- merged_table %>%
+    filter(seq_method == "454") %>%
+    filter(highest_read_size > 700) %>%
+    pull(samples)
+
+problematic_illumina_samples <- merged_table %>%
+    filter(seq_method == "illumina") %>%
+    filter(highest_read_size > 600) %>%
+    pull(samples)
+
+problematic_samples_full <- c(
+    problematic_sanger_samples,
+    problematic_iontorrent_samples,
+    problematic_454_samples,
+    problematic_illumina_samples
+)
+
+problematic_samples_df <- merged_table %>%
+    filter(samples %in% problematic_samples_full)
+
+# impact evaluation --------------------
+problematic_samples_df %>%
+    group_by(seq_method) %>%
     summarise(count = n())
 
-#count by habitat
-df_final %>%
+problematic_samples_df %>%
     group_by(habitat) %>%
     summarise(count = n())
 
-#count by ecosystem
-df_final %>%
+problematic_samples_df %>%
     group_by(ecosystem) %>%
     summarise(count = n())
 
+problematic_samples_df %>%
+    group_by(life_style) %>%
+    summarise(count = n())
 
+write.csv(
+    problematic_samples_df,
+    "problematic_samples.csv",
+    row.names = FALSE
+)
 
+############################ Produce cleaned table #############################
 
-hist(
-    df$total_number_of_reads,
-    breaks = 100000, col = "blue", xlab = "Total number of reads", main = "Histogram of total number of reads", xlim = c(0, 50000))
+clean_table <- merged_table %>%
+    filter(!samples %in% problematic_samples_full)
+
+write.csv(
+    clean_table,
+    "clean_table.csv",
+    row.names = FALSE
+)
