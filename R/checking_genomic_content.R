@@ -1,3 +1,9 @@
+# Author: Brait LAS
+# Date: 2023-27-07
+# Reviewers: None
+# Last revision: None
+# Description: Check for assembled metagenomes and filter them.
+
 library(tidyverse)
 options(scipen = 999)
 
