@@ -3,30 +3,41 @@
 #' @Reviewers: None
 #' @Last revision: None
 #' @Description: Merge files from biome classification andd add the SRA samples.
-#' After this you should run the checking_genomic_content.R
+#' After this you should run the 03_checking_genomic_content.R
 
-library("tidyverse")
-library("data.table")
-library("jsonlite")
+################################ Environment ###################################
+
+source("R/src/install_and_load.R")
+install_and_load(
+  libs = c(
+    "tidyverse" = "any",
+    "data.table" = "any",
+    "jsonlite" = "any"),
+  loc = "r_libs"
+)
 
 ############################ Load and merge tables #############################
 tables_paths <- list.files(
-  path = "reclassification_2022/03_manual_treated/biome_tables_organized",
+  path = "treating_data/03_manual_treated/biome_tables_organized",
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
 aquifer_samples <- read_csv(
-  "reclassification_2022/01_original_data/aquifer_samples.csv")
+  "treating_data/01_original_data/aquifer_samples.csv")
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
-######################### Extracs assembled from Json Data #####################
-sample_id <- merged_table_raw$samples
+######################### Extracts assembled from Json Data ####################
+
 
 # Function to read JSON and extract "assembled" value
 get_assembled_value <- function(sample_id) {
   json_file <- paste0(sample_id, "_metadata.json")
-  json_path <- file.path("metadata/raw", json_file)
+  json_path <-
+    file.path(
+      "treating_data/01_original_data/mgrast_json",
+      json_file
+    )
   if (file.exists(json_path)) {
     parsed_data <- fromJSON(json_path)
     assembled_value <- parsed_data$pipeline_parameters$assembled
@@ -58,7 +69,7 @@ merged_table_clean <- merged_table_raw %>%
 #by Brait and Barbosa, since their metadata
 #is already validated and published
 aquifer_samples <- read_csv(
-  "reclassification_2022/01_original_data/aquifer_samples.csv")
+  "treating_data/01_original_data/aquifer_samples.csv")
 
 aquifer_samples <- aquifer_samples %>%
  rename(
@@ -128,15 +139,12 @@ ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
 
-final_table_before <- final_table
-final_table <- final_table_before
-
 
 # remove some more assembled samples ---
 # and get seq method and PI lastname
 
 seq_method_df <- read_csv(
-  "reclassification_2022/01_original_data/metadata_categorized.csv"
+  "treating_data/01_original_data/gross_classification.csv"
 ) %>%
   select(samples, PI_lastname, seq_meth)
 
@@ -151,7 +159,7 @@ final_table <- final_table %>%
 write.csv(
     final_table,
     file = paste0(
-        "reclassification_2022/04_metadata_curated/",
+        "treating_data/04_metadata_curated/",
         "biome_classification/merged_metadata_raw.csv"
     ),
     row.names = FALSE

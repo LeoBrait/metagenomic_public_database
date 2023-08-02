@@ -27,7 +27,7 @@ install_and_load(
 
 # metadata from mg-rast
 metadata_raw <- read.csv(
-  "treating_data//01_original_data//mg-rast_metadata.csv", sep = ";")
+  "treating_data//01_original_data//mgrast_raw.csv", sep = ";")
 
 # metdata from gross curatory
 gross_classified <- read.csv(
