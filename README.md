@@ -21,7 +21,7 @@ This step resolves the metadata and final samples to be used in the database.
 ## 1.1 Coleção  
 - Coletamos as amostras no mg-rast de shotgun metagenomes [COLOCAR DATA] (n= 70,000)  
 - Essas amostras foram categorizadas subjetiva e grosseiramente em estilo de vida, ecosistema e habitats;  
-- O resultado foi a tabela [mg-rast_metadata](treating_data/01_original_data/gross_classification.csv) (n= 7,044);  
+- O resultado foi a tabela [gross_classification](treating_data/01_original_data/gross_classification.csv) (n= 7,044);  
 - No mesmo período coletamos amostras de aquíferos da plataforma NCBI e focam curadas manualmente (n = 109)  
 - Resultado: [aquifer_samples](treating_data/01_original_data/aquifer_samples.csv) (n= 109);  
 
