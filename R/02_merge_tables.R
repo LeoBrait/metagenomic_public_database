@@ -160,7 +160,7 @@ write.csv(
     final_table,
     file = paste0(
         "treating_data/04_merged_treated/",
-        "merged_classified_metadata.csv"
+        "fine_labeled.csv"
     ),
     row.names = FALSE
 )
