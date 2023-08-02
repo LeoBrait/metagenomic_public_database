@@ -1,7 +1,7 @@
 #' @title Split metadata
 #' @description We splited data for collaborative work.
 #' @param metadata_raw is a table of metadata obtained by the mg-rast API.
-#' @param gross_classified is a table of these samples after a gross curatory.
+#' @param coarse_classified is a table of these samples after a gross curatory.
 #' It also contains some SRA samples.
 #' @param preprocessed is the table we finally split for refined curatory.
 #' @param raw_biomes vector with biomes names given by mg-rast. It is used to
@@ -30,8 +30,8 @@ metadata_raw <- read.csv(
   "treating_data//01_original_data//mgrast_raw.csv", sep = ";")
 
 # metdata from gross curatory
-gross_classified <- read.csv(
-  "treating_data//01_original_data//gross_classification.csv")
+coarse_classified <- read.csv(
+  "treating_data//01_original_data//coarse_classification.csv")
 
 ################################# Treat data ###################################
 metadata_raw <-
@@ -46,8 +46,8 @@ metadata_raw <-
     mutate(raw_biome = biome) %>%
     select(-biome)
 
-gross_classified <-
-  gross_classified %>%
+coarse_classified <-
+  coarse_classified %>%
     select(
          samples,   project_id,   biome,
       life_style,  environment,  habitat
@@ -60,7 +60,7 @@ gross_classified <-
 
 #change column name from sample to samples
 colnames(metadata_raw)[1] <- "samples"
-preprocessed <- left_join(metadata_raw, gross_classified, by = "samples")
+preprocessed <- left_join(metadata_raw, coarse_classified, by = "samples")
 
 write.csv(
   preprocessed,

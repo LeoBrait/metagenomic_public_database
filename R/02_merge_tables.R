@@ -18,7 +18,7 @@ install_and_load(
 
 ############################ Load and merge tables #############################
 tables_paths <- list.files(
-  path = "treating_data/03_manual_treated/biome_tables_organized",
+  path = "treating_data/03_manual_labeling/",
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
@@ -144,7 +144,7 @@ ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
 # and get seq method and PI lastname
 
 seq_method_df <- read_csv(
-  "treating_data/01_original_data/gross_classification.csv"
+  "treating_data/01_original_data/coarse_classification.csv"
 ) %>%
   select(samples, PI_lastname, seq_meth)
 
@@ -158,9 +158,6 @@ final_table <- final_table %>%
 
 write.csv(
     final_table,
-    file = paste0(
-        "treating_data/04_merged_treated/",
-        "fine_labeled.csv"
-    ),
+    file = "treating_data/04_merged_labeled/fine_labeled.csv",
     row.names = FALSE
 )
