@@ -12,7 +12,8 @@ async def download_sample_metadata(session, sample_id):
     )
 
     # Check if the metadata file already exists
-    if os.path.exists(f"metadata/raw/{sample_id}_metadata.json"):
+    if os.path.exists("treating_data/01_original_data/mgrast_json/"
+                        f"{sample_id}_metadata.json"):
         print(
             f"Metadata for sample {sample_id} already downloaded. Skipping..."
         )
