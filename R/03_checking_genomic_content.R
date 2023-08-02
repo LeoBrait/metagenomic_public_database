@@ -4,8 +4,19 @@
 #' @LastRevision: None
 #' @Description: Check for assembled metagenomes and filter them.
 
-library(tidyverse)
-options(scipen = 999)
+################################ Environment ###################################
+if (!file.exists("r_libs")) {
+  dir.create("r_libs")
+}
+
+source("R/src/install_and_load.R")
+install_and_load(
+  libs = c(
+    "tidyverse" = "any",
+    "data.table" = "any",
+    "jsonlite" = "any"),
+  loc = "r_libs"
+)
 
 ################################### Read data ##################################
 
@@ -18,12 +29,39 @@ metadata <- read_csv(
     )
 )
 
+######################### Extracts assembled from Json Data ####################
 
+
+# Function to read JSON and extract "assembled" value
+get_assembled_value <- function(sample_id) {
+  json_file <- paste0(sample_id, "_metadata.json")
+  json_path <-
+    file.path(
+      "treating_data/01_original_data/mgrast_json",
+      json_file
+    )
+  if (file.exists(json_path)) {
+    parsed_data <- fromJSON(json_path)
+    assembled_value <- parsed_data$pipeline_parameters$assembled
+    return(assembled_value)
+  } else {
+    return(NA)
+  }
+}
+
+metadata$assembled <- sapply(
+    metadata$samples,
+    get_assembled_value
+)
+
+metadata <- metadata %>%
+   filter(assembled == "no") %>%
+   select(-assembled)
+
+###################### 2. Check for problematic samples ########################
 # Merge --------------------------------
 merged_table <- genomic_summary %>%
     inner_join(metadata, by = "samples")
-
-###################### 2. Check for problematic samples ########################
 
 problematicsamples_nondownloaded <- setdiff(
     metadata$samples,

@@ -6,13 +6,15 @@
 #' After this you should run the 03_checking_genomic_content.R
 
 ################################ Environment ###################################
+if (!file.exists("r_libs")) {
+  dir.create("r_libs")
+}
 
 source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
-    "tidyverse" = "any",
-    "data.table" = "any",
-    "jsonlite" = "any"),
+    "tidyverse" = "any"
+  ),
   loc = "r_libs"
 )
 
@@ -26,34 +28,6 @@ aquifer_samples <- read_csv(
   "treating_data/01_original_data/aquifer_samples.csv")
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
-
-######################### Extracts assembled from Json Data ####################
-
-
-# Function to read JSON and extract "assembled" value
-get_assembled_value <- function(sample_id) {
-  json_file <- paste0(sample_id, "_metadata.json")
-  json_path <-
-    file.path(
-      "treating_data/01_original_data/mgrast_json",
-      json_file
-    )
-  if (file.exists(json_path)) {
-    parsed_data <- fromJSON(json_path)
-    assembled_value <- parsed_data$pipeline_parameters$assembled
-    return(assembled_value)
-  } else {
-    return(NA)
-  }
-}
-
-merged_table_raw$assembled <- sapply(
-    merged_table_raw$samples,
-    get_assembled_value
-)
-merged_table_raw <- merged_table_raw %>%
-   filter(assembled == "no") %>%
-   select(-assembled)
 
 ########################### Add SRA to the table ###############################
 ## Remove aquifer samples to avoid duplicated samples
@@ -122,26 +96,8 @@ final_table <- final_table %>%
   )
  )
 
-#count the number of samples per habitat
-x <- final_table %>%
-  group_by(habitat) %>%
-  summarise(n = n())
 
-ggplot(x, aes(x = reorder(habitat, -n), y = n)) +
-  geom_bar(stat = "identity", color = "blue") +
-  geom_text(aes(label = n), hjust = -1.1) +
-  coord_flip() +
-  labs(
-    x = "Habitat",
-    y = "Number of samples",
-    title = "Number of samples per habitat"
-  ) +
-  theme_bw() +
-  theme(plot.title = element_text(hjust = 0.5))
-
-
-# remove some more assembled samples ---
-# and get seq method and PI lastname
+# get seq method and PI lastname
 
 seq_method_df <- read_csv(
   "treating_data/01_original_data/coarse_classification.csv"
