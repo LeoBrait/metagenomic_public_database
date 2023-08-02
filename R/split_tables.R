@@ -1,5 +1,24 @@
-library("tidyverse")
-unique(X$biosphere)
+#' @title Split metadata table by biome
+#' @description Split metadata table by biome
+#' @param metadata_merged metadata table with merged biomes
+#' @param raw_biomes vector with biomes names
+#' @return csv files with metadata tables for each biome
+
+
+################################# Environment ##################################
+source("R/src/install_and_load.R")
+
+if (!dir.exists("r_libs")) {
+  dir.create("r_libs")
+}
+
+install_and_load(
+  libs = c("tidyverse" = "any"),
+  loc = "r_libs"
+)
+
+################################### Load data ##################################
+
 metadata_raw <- read.csv(
   "data//01_original_data//mg-rast_metadata.csv", sep = ";")
 
