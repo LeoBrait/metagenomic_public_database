@@ -22,12 +22,7 @@ install_and_load(
 
 genomic_summary <- read_csv("genomic_content_summaries/genomic_summary.csv")
 
-metadata <- read_csv(
-    paste0(
-        "reclassification_2022/04_metadata_curated/",
-        "biome_classification/merged_metadata_raw.csv"
-    )
-)
+metadata <- read_csv("treating_data/03_manual_labeling/merged_and_labeled.csv")
 
 ######################### Extracts assembled from Json Data ####################
 
@@ -45,7 +40,7 @@ get_assembled_value <- function(sample_id) {
     assembled_value <- parsed_data$pipeline_parameters$assembled
     return(assembled_value)
   } else {
-    return(NA)
+    return("no")
   }
 }
 
@@ -106,7 +101,7 @@ problematic_samples_df %>%
 write.csv(
     problematic_samples_df,
     paste0(
-        "reclassification_2022/05_genomic_content_filter/",
+        "treating_data/05_genomic_content_filter/",
         "problematic_samples.csv"
     ),
     row.names = FALSE
@@ -118,7 +113,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "reclassification_2022/05_genomic_content_filter/",
+            "treating_data/05_genomic_content_filter/",
             "summary_problematic_habitat.csv"
         ),
         row.names = FALSE
@@ -130,7 +125,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "reclassification_2022/05_genomic_content_filter/",
+            "treating_data/05_genomic_content_filter/",
             "summary_problematic_ecosystem.csv"
         ),
         row.names = FALSE
@@ -142,7 +137,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "reclassification_2022/05_genomic_content_filter/",
+            "treating_data/05_genomic_content_filter/",
             "summary_problematic_life_style.csv"
         ),
         row.names = FALSE
@@ -156,7 +151,7 @@ clean_table <- merged_table %>%
 write.csv(
     clean_table,
     paste0(
-        "reclassification_2022/05_genomic_content_filter/",
+        "treating_data/05_genomic_content_filter/",
         "genomic_content_clean_table.csv"
     ),
     row.names = FALSE
@@ -166,6 +161,6 @@ write.csv(
 clean_metadata <- metadata %>%
     filter(!samples %in% problematicsamples_full) %>%
     write.csv(
-        "metadata/treated/biome_classification.csv",
+        "metadata/biome_classification.csv",
         row.names = FALSE
     )
