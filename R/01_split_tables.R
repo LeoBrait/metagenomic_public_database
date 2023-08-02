@@ -27,11 +27,11 @@ install_and_load(
 
 # metadata from mg-rast
 metadata_raw <- read.csv(
-  "treating_data//01_original_data//mgrast_raw.csv", sep = ";")
+  "data_processing//01_original_data//mgrast_raw.csv", sep = ";")
 
 # metdata from gross curatory
 coarse_classified <- read.csv(
-  "treating_data//01_original_data//coarse_classification.csv")
+  "data_processing//01_original_data//coarse_classification.csv")
 
 ################################# Treat data ###################################
 metadata_raw <-
@@ -64,7 +64,7 @@ preprocessed <- left_join(metadata_raw, coarse_classified, by = "samples")
 
 write.csv(
   preprocessed,
-  "treating_data//01_original_data//preprocessed_metadata.csv",
+  "data_processing//01_original_data//preprocessed_metadata.csv",
   row.names = FALSE
 )
 
@@ -80,7 +80,7 @@ for (x in 1:length(raw_biomes)) {
   write.csv(
     subset,
     paste0(
-      "treating_data//02_dismembered_tables//",
+      "data_processing//02_dismembered_tables//",
       raw_biomes[x],
       ".csv"
     ),

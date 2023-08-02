@@ -20,9 +20,9 @@ install_and_load(
 
 ################################### Read data ##################################
 
-genomic_summary <- read_csv("genomic_content_summaries/genomic_summary.csv")
+genomic_summary <- read_csv("summaries/genomic_read_summary.csv")
 
-metadata <- read_csv("treating_data/03_manual_labeling/merged_and_labeled.csv")
+metadata <- read_csv("data_processing/03_manual_labeling/merged_and_labeled.csv")
 
 ######################### Extracts assembled from Json Data ####################
 
@@ -32,7 +32,7 @@ get_assembled_value <- function(sample_id) {
   json_file <- paste0(sample_id, "_metadata.json")
   json_path <-
     file.path(
-      "treating_data/01_original_data/mgrast_json",
+      "data_processing/01_original_data/mgrast_json",
       json_file
     )
   if (file.exists(json_path)) {
@@ -101,7 +101,7 @@ problematic_samples_df %>%
 write.csv(
     problematic_samples_df,
     paste0(
-        "treating_data/05_genomic_content_filter/",
+        "data_processing/05_genomic_content_filter/",
         "problematic_samples.csv"
     ),
     row.names = FALSE
@@ -113,7 +113,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "treating_data/05_genomic_content_filter/",
+            "data_processing/05_genomic_content_filter/",
             "summary_problematic_habitat.csv"
         ),
         row.names = FALSE
@@ -125,7 +125,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "treating_data/05_genomic_content_filter/",
+            "data_processing/05_genomic_content_filter/",
             "summary_problematic_ecosystem.csv"
         ),
         row.names = FALSE
@@ -137,7 +137,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "treating_data/05_genomic_content_filter/",
+            "data_processing/05_genomic_content_filter/",
             "summary_problematic_life_style.csv"
         ),
         row.names = FALSE
@@ -151,7 +151,7 @@ clean_table <- merged_table %>%
 write.csv(
     clean_table,
     paste0(
-        "treating_data/05_genomic_content_filter/",
+        "data_processing/05_genomic_content_filter/",
         "genomic_content_clean_table.csv"
     ),
     row.names = FALSE

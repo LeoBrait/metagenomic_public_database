@@ -20,12 +20,12 @@ install_and_load(
 
 ############################ Load and merge tables #############################
 tables_paths <- list.files(
-  path = "treating_data/03_manual_labeling/",
+  path = "data_processing/03_manual_labeling/",
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
 aquifer_samples <- read_csv(
-  "treating_data/01_original_data/aquifer_samples.csv")
+  "data_processing/01_original_data/aquifer_samples.csv")
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
@@ -43,7 +43,7 @@ merged_table_clean <- merged_table_raw %>%
 #by Brait and Barbosa, since their metadata
 #is already validated and published
 aquifer_samples <- read_csv(
-  "treating_data/01_original_data/aquifer_samples.csv")
+  "data_processing/01_original_data/aquifer_samples.csv")
 
 aquifer_samples <- aquifer_samples %>%
  rename(
@@ -100,7 +100,7 @@ final_table <- final_table %>%
 # get seq method and PI lastname
 
 seq_method_df <- read_csv(
-  "treating_data/01_original_data/coarse_classification.csv"
+  "data_processing/01_original_data/coarse_classification.csv"
 ) %>%
   select(samples, PI_lastname, seq_meth)
 
@@ -114,6 +114,6 @@ final_table <- final_table %>%
 
 write.csv(
     final_table,
-    file = "treating_data/03_manual_labeling/merged_and_labeled.csv",
+    file = "data_processing/03_manual_labeling/merged_and_labeled.csv",
     row.names = FALSE
 )

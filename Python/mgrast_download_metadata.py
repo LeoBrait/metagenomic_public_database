@@ -12,7 +12,7 @@ async def download_sample_metadata(session, sample_id):
     )
 
     # Check if the metadata file already exists
-    if os.path.exists("treating_data/01_original_data/mgrast_json/"
+    if os.path.exists("data_processing/01_original_data/mgrast_json/"
                         f"{sample_id}_metadata.json"):
         print(
             f"Metadata for sample {sample_id} already downloaded. Skipping..."
@@ -53,7 +53,7 @@ async def download_samples(sample_ids):
             if json_data:
                 
                 with open(
-                    "treating_data/01_original_data/mgrast_json/"
+                    "data_processing/01_original_data/mgrast_json/"
                         f"{sample_id}_metadata.json",
                     "w"
                 ) as outfile:
@@ -85,7 +85,7 @@ async def main():
 
 if __name__ == "__main__":
     metadata = pd.read_csv(
-        "treating_data/01_original_data/mgrast_raw.csv", sep=";"
+        "data_processing/01_original_data/mgrast_raw.csv", sep=";"
     )
     sample_list = metadata["sample"].tolist()
     asyncio.run(main())
