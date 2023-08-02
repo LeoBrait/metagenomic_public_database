@@ -22,7 +22,10 @@ install_and_load(
 
 genomic_summary <- read_csv("summaries/genomic_read_summary.csv")
 
-metadata <- read_csv("data_processing/03_manual_labeling/merged_and_labeled.csv")
+metadata <-
+    read_csv(
+        "data_processing/03_manual_labeling/merged_and_labeled.csv"
+    )
 
 ######################### Extracts assembled from Json Data ####################
 
