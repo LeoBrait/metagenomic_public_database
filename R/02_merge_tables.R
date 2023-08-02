@@ -159,8 +159,8 @@ final_table <- final_table %>%
 write.csv(
     final_table,
     file = paste0(
-        "treating_data/04_metadata_curated/",
-        "biome_classification/merged_metadata_raw.csv"
+        "treating_data/04_merged_treated/",
+        "merged_classified_metadata.csv"
     ),
     row.names = FALSE
 )
