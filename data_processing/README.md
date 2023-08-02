@@ -2,7 +2,7 @@
 Description of the folder contents and resumed information about the data processing.
 
 ## [01_original_data](01_original_data/)
-- [mgrast_raw.csv](01_original_data/mgrast_) contains only information obtained by the mg-rast API.
+- [mgrast_raw.csv](01_original_data/mgrast_raw.csv) contains only information obtained by the mg-rast API.
 All samples (n = 7044) are the result of a manual filtering by the mg-rast site done in 2017.
 - [mgrast_json](01_original_data/mgrast_json/) contains the zip of json files obtained by the mg-rast API of 7043 sample ids. It is stored in a separate folder for better organization when extracting the data.
 - [coarse_classification](01_original_data/coarse_classification.csv) contains the samples after a coarse curatory of this data, which was the first steps into biome categorization. It also contains some SRA samples.
