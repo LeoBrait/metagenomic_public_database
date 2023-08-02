@@ -50,8 +50,11 @@ async def download_samples(sample_ids):
 
         for sample_id, json_data in zip(sample_ids, results):
             if json_data:
+                
                 with open(
-                    f"metadata/raw/{sample_id}_metadata.json", "w"
+                    "treating_data/01_original_data/mgrast_json/"
+                        f"{sample_id}_metadata.json",
+                    "w"
                 ) as outfile:
                     json.dump(json_data, outfile)
                     print(f"Metadata for sample {sample_id} downloaded.")
@@ -81,7 +84,7 @@ async def main():
 
 if __name__ == "__main__":
     metadata = pd.read_csv(
-        "reclassification_2022/01_original_data/mg-rast_metadata.csv", sep=";"
+        "treating_data/01_original_data/mgrast_raw.csv", sep=";"
     )
     sample_list = metadata["sample"].tolist()
     asyncio.run(main())
