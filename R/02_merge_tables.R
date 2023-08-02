@@ -114,6 +114,6 @@ final_table <- final_table %>%
 
 write.csv(
     final_table,
-    file = "treating_data/04_merged_labeled/fine_labeled.csv",
+    file = "treating_data/03_manual_labeling/merged_and_labeled.csv",
     row.names = FALSE
 )
