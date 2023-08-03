@@ -47,6 +47,10 @@ get_assembled_value <- function(sample_id) {
   }
 }
 
+unzip(
+    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip", 
+    exdir = "data_processing/01_original_data/mgrast_json")
+
 merged_table_raw$assembled <- sapply(
     merged_table_raw$samples,
     get_assembled_value
