@@ -27,34 +27,6 @@ metadata <-
         "data_processing/03_manual_labeling/merged_and_labeled.csv"
     )
 
-######################### Extracts assembled from Json Data ####################
-
-
-# Function to read JSON and extract "assembled" value
-get_assembled_value <- function(sample_id) {
-  json_file <- paste0(sample_id, "_metadata.json")
-  json_path <-
-    file.path(
-      "data_processing/01_original_data/mgrast_json",
-      json_file
-    )
-  if (file.exists(json_path)) {
-    parsed_data <- fromJSON(json_path)
-    assembled_value <- parsed_data$pipeline_parameters$assembled
-    return(assembled_value)
-  } else {
-    return("no")
-  }
-}
-
-metadata$assembled <- sapply(
-    metadata$samples,
-    get_assembled_value
-)
-
-metadata <- metadata %>%
-   filter(assembled == "no") %>%
-   select(-assembled)
 
 ###################### 2. Check for problematic samples ########################
 # Merge --------------------------------

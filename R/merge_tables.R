@@ -6,17 +6,14 @@
 #' After this you should run the 03_checking_genomic_content.R
 
 ################################ Environment ###################################
-if (!file.exists("r_libs")) {
-  dir.create("r_libs")
-}
+
 
 source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
     "tidyverse" = "any",
     "data.table" = "any"
-  ),
-  loc = "r_libs"
+  )
 )
 
 ############################ Load and merge tables #############################
@@ -29,6 +26,35 @@ aquifer_samples <- read_csv(
   "data_processing/01_original_data/aquifer_samples.csv")
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
+
+######################### Extracts assembled from Json Data ####################
+
+
+# Function to read JSON and extract "assembled" value
+get_assembled_value <- function(sample_id) {
+  json_file <- paste0(sample_id, "_metadata.json")
+  json_path <-
+    file.path(
+      "data_processing/01_original_data/mgrast_json",
+      json_file
+    )
+  if (file.exists(json_path)) {
+    parsed_data <- fromJSON(json_path)
+    assembled_value <- parsed_data$pipeline_parameters$assembled
+    return(assembled_value)
+  } else {
+    return("no")
+  }
+}
+
+merged_table_raw$assembled <- sapply(
+    merged_table_raw$samples,
+    get_assembled_value
+)
+
+merged_table_raw <- merged_table_raw %>%
+   filter(assembled == "no") %>%
+   select(-assembled)
 
 ########################### Add SRA to the table ###############################
 ## Remove aquifer samples to avoid duplicated samples

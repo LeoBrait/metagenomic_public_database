@@ -14,29 +14,23 @@
 ################################# Environment ##################################
 source("R/src/install_and_load.R")
 
-if (!dir.exists("r_libs")) {
-  dir.create("r_libs")
-}
-
 install_and_load(
-  libs = c("tidyverse" = "any"),
-  loc = "r_libs"
+  libs = c("tidyverse" = "any")
 )
-
 ################################### Load data ##################################
 
 # metadata from mg-rast
 metadata_raw <- read.csv(
   "data_processing//01_original_data//mgrast_raw.csv", sep = ";")
 
-# metdata from gross curatory
+# metdata from coarse curatory
 coarse_classified <- read.csv(
   "data_processing//01_original_data//coarse_classification.csv")
 
 ################################# Treat data ###################################
 metadata_raw <-
   metadata_raw %>%
-    select(
+  select(
              sample,          biome,              feature,
            material,    env.package,  metagenome_taxonomy,
         sample_name,   project_name,   investigation_type,
@@ -70,6 +64,7 @@ write.csv(
 
 ################################# Split data ###################################
 preprocessed$raw_biome <- gsub("/", "_slash_", preprocessed$raw_biome)
+preprocessed$raw_biome <- tolower(preprocessed$raw_biome)
 preprocessed$raw_biome <- as.factor(preprocessed$raw_biome)
 
 raw_biomes <- levels(preprocessed$raw_biome)
