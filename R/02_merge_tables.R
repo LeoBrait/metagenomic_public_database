@@ -13,14 +13,15 @@ if (!file.exists("r_libs")) {
 source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
-    "tidyverse" = "any"
+    "tidyverse" = "any",
+    "data.table" = "any"
   ),
   loc = "r_libs"
 )
 
 ############################ Load and merge tables #############################
 tables_paths <- list.files(
-  path = "data_processing/03_manual_labeling/",
+  path = "data_processing/03_manual_labeling/splited/",
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
@@ -98,7 +99,6 @@ final_table <- final_table %>%
 
 
 # get seq method and PI lastname
-
 seq_method_df <- read_csv(
   "data_processing/01_original_data/coarse_classification.csv"
 ) %>%
@@ -117,3 +117,14 @@ write.csv(
     file = "data_processing/03_manual_labeling/merged_and_labeled.csv",
     row.names = FALSE
 )
+
+mgrast_list <- final_table %>%
+    filter(str_detect(samples, "mgm")) %>%
+    pull(samples)
+writeLines(mgrast_list, "data_processing/04_download_sequences/mgrast_list.txt")
+
+
+sra_list <- final_table %>%
+    filter(!str_detect(samples, "mgm")) %>%
+    pull(samples)
+writeLines(sra_list, "data_processing/04_download_sequences/sra_list.txt")
