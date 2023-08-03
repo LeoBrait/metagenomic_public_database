@@ -21,6 +21,10 @@ For more Details, please check the [readme](data_processing/README.md) file.
 - The [metadata](metadata/) contains the BIOME and IUCN classifications of these samples.   
 - The [summaries](summaries/) folder contains information about the samples, such as the number of reads, GC content, etc.
 
+## Usage
+
+## Troubleshooting
+
 
 
 
