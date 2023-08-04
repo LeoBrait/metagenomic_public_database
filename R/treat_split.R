@@ -1,9 +1,7 @@
 #' @title Split metadata
-#' @description We splited data for collaborative work.
-#' @param metadata_raw is a table of metadata obtained by the mg-rast API.
-#' @param coarse_classified is a table of these samples after a gross curatory.
-#' It also contains some SRA samples.
-#' @param coarse_classified is the table we finally split for refined curatory.
+#' @description Here we treat and split data for collaborative work.
+#' @param coarse_classified is a table of mg-rast samples after a coarse
+#' curatory.
 #' @param raw_biomes vector with biomes names given by mg-rast. It is used to
 #' split the tables in the folder "02_dismembered_tables".
 #' @Author Brait LAS.

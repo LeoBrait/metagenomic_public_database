@@ -27,8 +27,6 @@ aquifer_samples <- read_csv(
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
-
-
 ########################### Add SRA to the table ###############################
 ## Remove aquifer samples to avoid duplicated samples
 merged_table_clean <- merged_table_raw %>%
@@ -51,7 +49,7 @@ aquifer_samples <- aquifer_samples %>%
     "ecosystem" = "level_2",
     "habitat" = "level_3",
     "country" = "Country",
- )
+  )
 
 aquifer_samples <- aquifer_samples %>%
     mutate(habitat =
@@ -81,7 +79,6 @@ aquifer_samples <- aquifer_samples %>%
     project_name, latitude,     longitude
 )
 
-
 final_table <- rbind(merged_table_clean, aquifer_samples)
 
 ############################### Refined treatment ##############################
@@ -95,18 +92,6 @@ final_table <- final_table %>%
     TRUE ~ ecosystem
   )
  )
-
-
-# get seq method and PI lastname
-# seq_method_df <- read_csv(
-#   "data_processing/01_original_data/coarse_classification.csv"
-# ) %>%
-#   select(samples, PI_lastname, seq_meth)
-
-# final_table <- final_table %>%
-#   inner_join(seq_method_df, by = "samples")
-
-
 
 
 write.csv(
