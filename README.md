@@ -67,6 +67,8 @@ Rscript R/merge_tables.R
 2. Downloading sequences
 Pablo, preciso que vc siga a lógica que temos aqui, baixe as amostras que faltam utilize para a geração do [novo sumário de reads](summaries/genomic_read_summary.csv) e a partir disso executar o script de [remoção de assemble](R/remove_assembled.R). Repare que dentro do script remove_assembled.R temos um vetor  problematicsamples_nondownloaded que contém as amostras que não foram baixadas, e tá dando 700. Precisamos sanar isso. Eu vi que vc usa umas listas txt pra baixas as amostras. Eu atualizei a lista com todas as amostras que precisamos baixar a partir da curadoria do metadado e deixei guardadas na pasta [04_download_sequences](data_processing/04_download_sequences/). Espero que seja útil!
 
+A minha é ideia é que após o script de remove assembled, que é o que produz o metadado final, as pastas dentro do data_processing não precisem ser mais numeradas, pq daí então a ordem deixa de ser linear. Quero dizer que o usuário pode seguir para o sistema de anotação que quiser a partir daí, kraken, subsystem, patric, watever.
+
 
 ## Troubleshooting
 
