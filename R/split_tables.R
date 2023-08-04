@@ -3,7 +3,7 @@
 #' @param metadata_raw is a table of metadata obtained by the mg-rast API.
 #' @param coarse_classified is a table of these samples after a gross curatory.
 #' It also contains some SRA samples.
-#' @param preprocessed is the table we finally split for refined curatory.
+#' @param coarse_classified is the table we finally split for refined curatory.
 #' @param raw_biomes vector with biomes names given by mg-rast. It is used to
 #' split the tables in the folder "02_dismembered_tables".
 #' @Author Brait LAS.
@@ -21,74 +21,26 @@ install_and_load(
 )
 ################################### Load data ##################################
 
-# metadata from mg-rast
-metadata_raw <- read.csv(
-  "data_processing//01_original_data//mgrast_raw.csv", sep = ";")
-
 # metdata from coarse curatory
 coarse_classified <- read.csv(
-  "data_processing//01_original_data//coarse_classification.csv")
+  "data_processing//01_original_data//mgrast_coarse_classification.csv")
 
 ################################# Treat data ###################################
 
-metadata_raw <-
-  metadata_raw %>%
-  select(
-             sample,          biome,              feature,
-           material,    env.package,  metagenome_taxonomy,
-        sample_name,   project_name,   investigation_type,
-      sequence_type,      continent,              country,
-           latitude,      longitude
-    ) %>%
-    mutate(raw_biome = biome) %>%
-    select(-biome)
-
-coarse_classified <-
-  coarse_classified %>%
-    select(
-         samples,   project_id,   biome,
-      life_style,  environment,  habitat,
-     PI_lastname,     seq_meth
-    ) %>%
-    mutate(
-      biosphere = biome,
-      ecosystem = environment
-    ) %>%
-    select(-biome, -environment)
-
-#change column name from sample to samples
-colnames(metadata_raw)[1] <- "samples"
-preprocessed <- full_join(metadata_raw, coarse_classified, by = "samples")
-
-preprocessed <- preprocessed %>%
-filter(str_detect(samples, "mgm"))
-
-
-write.csv(
-  preprocessed,
-  "data_processing//01_original_data//mgrast_coarse_classification.csv",
-  row.names = FALSE
-)
-
-############################ Cuuuuut
-preprocessed <- preprocessed %>%
+coarse_classified <- coarse_classified %>%
   select(
   -PI_lastname,     -seq_meth
   )
 
-preprocessed <- preprocessed %>%
-filter(str_detect(samples, "mgm"))
-
-
 ################################# Split data ###################################
-preprocessed$raw_biome <- gsub("/", "_slash_", preprocessed$raw_biome)
-preprocessed$raw_biome <- tolower(preprocessed$raw_biome)
-preprocessed$raw_biome[is.na(preprocessed$raw_biome)] <- "no_biome"
-preprocessed$raw_biome <- as.factor(preprocessed$raw_biome)
+coarse_classified$raw_biome <- gsub("/", "_slash_", coarse_classified$raw_biome)
+coarse_classified$raw_biome <- tolower(coarse_classified$raw_biome)
+coarse_classified$raw_biome[is.na(coarse_classified$raw_biome)] <- "no_biome"
+coarse_classified$raw_biome <- as.factor(coarse_classified$raw_biome)
 
-raw_biomes <- levels(preprocessed$raw_biome)
+raw_biomes <- levels(coarse_classified$raw_biome)
 for (x in 1:length(raw_biomes)) {
-  subset <- subset(preprocessed, raw_biome == raw_biomes[x])
+  subset <- subset(coarse_classified, raw_biome == raw_biomes[x])
   write.csv(
     subset,
     paste0(
@@ -110,8 +62,8 @@ tables_paths <- list.files(
 
 recall_table <- do.call(rbind, lapply(tables_paths, fread))
 
-setdiff(preprocessed$samples, recall_table$samples)
-setdiff(recall_table$samples, preprocessed$samples)
+setdiff(coarse_classified$samples, recall_table$samples)
+setdiff(recall_table$samples, coarse_classified$samples)
 
 setdiff(metadata_raw$samples, recall_table$samples)
 setdiff(recall_table$samples, metadata_raw$samples)
