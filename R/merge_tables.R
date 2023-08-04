@@ -2,8 +2,8 @@
 #' @Date: 2023-27-07
 #' @Reviewers: None
 #' @Last revision: None
-#' @Description: Merge files from biome classification andd add the SRA samples.
-#' After this you should run the 03_checking_genomic_content.R
+#' @Description: Merge files from biome classification and the aquifer samples.
+#' After this you should run the remove_assembled.R
 
 ################################ Environment ###################################
 
@@ -17,67 +17,29 @@ install_and_load(
 )
 
 ############################ Load and merge tables #############################
-tables_paths <- list.files(
-  path = "data_processing/03_manual_labeling/splited/",
-  pattern = "*.csv", full.names = TRUE, recursive = TRUE
-)
+tables_paths <-
+  list.files(
+    path = "data_processing/03_manual_labeling/splited/",
+    pattern = "*.csv", full.names = TRUE, recursive = TRUE
+  )
 
-aquifer_samples <- read_csv(
-  "data_processing/01_original_data/aquifer_samples.csv")
+aquifer_samples <-
+  read_csv(
+    "data_processing/01_original_data/aquifer_samples.csv"
+  )
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
-########################### Add SRA to the table ###############################
-## Remove aquifer samples to avoid duplicated samples
+########################### Add Aquifers samples ###############################
+
 merged_table_clean <- merged_table_raw %>%
   filter(ecosystem != "groundwater") %>%
   select(
-      samples,    life_style,  biosphere,
-    ecosystem,       habitat,    country,
-    project_name, latitude,     longitude
-)
-
-## Get metadata of groundwater database from article published
-#by Brait and Barbosa, since their metadata
-#is already validated and published
-aquifer_samples <- read_csv(
-  "data_processing/01_original_data/aquifer_samples.csv")
-
-aquifer_samples <- aquifer_samples %>%
- rename(
-    "life_style" = "level_1",
-    "ecosystem" = "level_2",
-    "habitat" = "level_3",
-    "country" = "Country",
+         samples,    life_style,     biosphere,
+       ecosystem,       habitat,       country,
+    project_name,      latitude,     longitude,
+     PI_lastname,      seq_meth,    project_id
   )
-
-aquifer_samples <- aquifer_samples %>%
-    mutate(habitat =
-      case_when(
-        habitat == "Porous Contaminated" ~ "porous_contaminated",
-        habitat == "Karst-Porous" ~ "karst_porous",
-        habitat == "Mine" ~ "mine",
-        habitat == "Subsurface saline" ~ "subsurface_saline",
-        habitat == "Geyser" ~ "geyser",
-        habitat == "Porous" ~ "porous",
-        TRUE ~ habitat
-      )
-    ) %>%
-    mutate(biosphere =
-      case_when(
-        habitat == "subsurface_saline" ~ "marine",
-        TRUE ~ "freshwater"
-      )
-    )
-
-
-
-aquifer_samples <- aquifer_samples %>%
-   select(
-      samples,    life_style,  biosphere,
-    ecosystem,       habitat,    country,
-    project_name, latitude,     longitude
-)
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
 
@@ -93,20 +55,20 @@ final_table <- final_table %>%
   )
  )
 
-
+############################## Write data ######################################
 write.csv(
     final_table,
     file = "data_processing/03_manual_labeling/merged_and_labeled.csv",
     row.names = FALSE
 )
 
-mgrast_list <- final_table %>%
+final_table %>%
     filter(str_detect(samples, "mgm")) %>%
-    pull(samples)
-writeLines(mgrast_list, "data_processing/04_download_sequences/mgrast_list.txt")
+    pull(samples) %>%
+    writeLines("data_processing/04_download_sequences/mgrast_list.txt")
 
 
-sra_list <- final_table %>%
+final_table %>%
     filter(!str_detect(samples, "mgm")) %>%
-    pull(samples)
-writeLines(sra_list, "data_processing/04_download_sequences/sra_list.txt")
+    pull(samples) %>%
+    writeLines("data_processing/04_download_sequences/sra_list.txt")
