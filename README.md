@@ -33,12 +33,24 @@ conda activate biome_database
 ```
 
 ## Procediments and script order
-This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The coarse classification was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
+This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The [coarse classification](data_processing/01_original_data/coarse_classification.csv) was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
 
 
 1. Metadata treatment
-    
--  The first script [treat_split.R](R/treat_split.R) gather the coarse the first [coarse classification](data_processing/01_original_data/coarse_classification.csv), clean it from some assembled samples and split it in the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work in a fine labeling. To run the correspondent script, just type:
+
+- From the coarse classification [table](data_processing/01_original_data/coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
+
+```bash
+unzip data_processing/01_original_data/mgrast_json/mgrast_raw.zip -d data_processing/01_original_data/mgrast_json/
+```
+
+Or (not recomended) you can download all samples all over again by typing:
+
+```bash
+python3 Python/mgrast_download_metadata.py
+```
+
+- To clean our data from some assembled samples we used [treat_split.R](R/treat_split.R). This script also splited the data in subsets on the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work of a fine labeling. To run the correspondent script, just type:
 
 ```bash
 Rscript R/treat_split.R

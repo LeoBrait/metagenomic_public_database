@@ -2,322 +2,282 @@
 # Alterations  
 
 ## General:
-- minor changes in coordinates incongruencies
+
 
 ## Specific:
 
 1. target:
 ```
-mgm4704667
-mgm4704668
-mgm4704669
-mgm4704670
-mgm4704671
-mgm4708965
-mgm4708967
-mgm4708968
-mgm4708969
-mgm4708970
-mgm4708971
-mgm4708972
-mgm4708973
-mgm4708974
-mgm4708976
-mgm4708977
-mgm4708978
+mgm4448044
 ```
-alteration: due to the metadata description, the samples were moved to the
-coral_reef_biofilm habitat.
+alteration: first categorization.
 
 2. target:
 
 ```
-mgm4739968
-mgm4739971
-mgm4742213
+mgm4753257
+mgm4753258
+mgm4753259
+mgm4753260
+mgm4753261
+mgm4753262
+mgm4753263
+mgm4753264
+mgm4753265
+mgm4753266
+mgm4753267
+mgm4753268
+
 ```
-alteration: due to the metadata description, the samples were moved to the
-coastal_seawater to salt_lake habitat.
+alteration: Changed habitat to human_feces
 
 3. target:
+
 ```
-mgm4537102
-mgm4537103
-mgm4537104
-mgm4537105
+mgm4753763
+mgm4754113
+mgm4754114
+mgm4754195
+mgm4754196
+mgm4754442
+mgm4754463
+mgm4754464
+mgm4754519
+mgm4754900
+mgm4754901
+mgm4754902
+mgm4754903
+mgm4755173
+mgm4755174
+mgm4755175
+mgm4755370
+mgm4755372
+mgm4755527
+mgm4755528
+mgm4755660
+mgm4755661
+mgm4755664
+mgm4755667
+mgm4755755
+mgm4755756
+mgm4755757
+mgm4755758
+mgm4755759
+
 ```
-observation: The project says some samples are from frost-flower but don't
-identify it.
+alteration: Changed habitat to contaminated_water. The projecs mentions a contaminated river, but does not differentiate the samples.
 
 4. target:
+
 ```
-mgm4581720
-mgm4581721
-mgm4581722
-mgm4581723
-mgm4581724
-mgm4581725
-mgm4581726
-mgm4581727
-mgm4581728
-mgm4581729
-mgm4581730
-mgm4581731
-mgm4581732
-mgm4581733
-mgm4581734
-mgm4581735
-mgm4581736
-mgm4581737
-mgm4581738
-mgm4581739
-mgm4581740
-mgm4581741
-mgm4581742
-mgm4581744
-mgm4581745
-mgm4581746
-mgm4581747
-mgm4581748
-mgm4581749
-mgm4581750
-mgm4581751
-mgm4581752
-mgm4581753
-mgm4581754
-mgm4581755
-mgm4581756
-mgm4581757
-mgm4581758
-mgm4581759
-mgm4581760
-mgm4581761
-mgm4581762
-mgm4581763
-mgm4581764
-mgm4581765
-mgm4581766
-mgm4581767
-mgm4581768
-mgm4581769
-mgm4581770
-mgm4581771
-mgm4581772
-mgm4581773
-mgm4581776
-mgm4581777
-mgm4581778
-mgm4581779
-mgm4581780
-mgm4581781
-mgm4581782
-mgm4581783
-mgm4581784
-mgm4581785
-mgm4581786
-mgm4581787
-mgm4581788
-mgm4581789
-mgm4581790
-mgm4723009
-mgm4723011
-mgm4446969
-mgm4441621
-mgm4441622
-mgm4441623
-mgm4441624
-mgm4441627
-```	
-Alteration: removed these samples because they are assembled.
+mgm4554152
+mgm4554154
+mgm4554155
+mgm4554156
+mgm4554157
+mgm4554158
+mgm4554159
 
-
+```
+alteration: Removed due the lack of coordinates.
 
 5. target:
+
 ```
-mgm4714016
-mgm4714017
-mgm4714019
-mgm4714022
-mgm4714024
-mgm4714026
-mgm4714027
-mgm4714028
-mgm4714029
-mgm4714030
-mgm4714032
-mgm4714033
-mgm4714034
-mgm4714035
-mgm4714036
-mgm4714039
-```	
-Alteration: changed the habitat from continental_slope_sediment to 
-oil_affected_sediment.
+mgm4536375
+mgm4536376
+mgm4536388
+mgm4536389
+
+```
+alteration: Removed for being groundwater.
 
 6. target:
+
 ```
-mgm4479000
-mgm4479001
-mgm4479002
-mgm4443733
-mgm4443734
-```	
-Alteration: Removed for being metranscriptomes.
+mgm4536155
+mgm4536156
+mgm4536157
+mgm4536158
+mgm4536159
+mgm4728600
+mgm4728601
+mgm4728602
+mgm4728603
+mgm4728604
+mgm4728605
+mgm4728606
+mgm4728607
+mgm4728608
+mgm4728609
+mgm4728610
+mgm4728611
+mgm4728612
+mgm4728613
+mgm4728614
+mgm4728615
+mgm4728616
+mgm4728617
+mgm4628187
+mgm4628188
+mgm4628189
+mgm4628190
+mgm4628191
+mgm4628192
+mgm4628194
+mgm4628195
+mgm4603523
+mgm4603524
+mgm4603525
+mgm4603526
+mgm4603527
+mgm4603528
+mgm4603529
+mgm4603530
+mgm4603531
+mgm4603532
+mgm4603533
+mgm4603534
+mgm4603535
+mgm4603536
+mgm4603537
+mgm4603538
+mgm4603539
+mgm4603540
+mgm4603542
+mgm4603543
+mgm4603544
+mgm4603545
+mgm4603546
+mgm4603547
+mgm4603548
+mgm4603549
+mgm4603550
+mgm4603551
+mgm4603552
+mgm4603553
+mgm4603554
+mgm4603555
+mgm4603556
+mgm4603557
+mgm4603558
+mgm4603559
+mgm4603560
+mgm4603561
+mgm4603562
+mgm4603563
+mgm4603564
+mgm4603565
+mgm4603566
+mgm4603567
+mgm4603568
+mgm4603569
+mgm4603570
 
 
+
+```
+alteration: moved to reactor sludge.
 
 7. target:
+
 ```
-mgm4525341
+mgm4701410
+mgm4701411
+mgm4701412
+mgm4701413
+mgm4701414
+mgm4701415
+mgm4701416
+mgm4701417
+mgm4701418
+mgm4701419
+mgm4701420
+mgm4701421
+mgm4701423
+mgm4701424
+mgm4701425
+mgm4701427
+mgm4701428
+mgm4701429
+mgm4701430
+mgm4701431
+
 ```
-Alteration: changed from free-living to host associated. It is a sea-worm
-metagenome.
+Alteration: moved to contaminated_sediment
 
 8. target:
+
 ```
-mgm4526719
-mgm4526720
-mgm4526721
-mgm4526722
-mgm4526723
-mgm4526724
-mgm4526725
-```	
-Alteration: changed biosphere to marine. They are whales
+mgm4622647
+mgm4622648
+mgm4622650
+mgm4622651
+mgm4622652
+mgm4622653
+mgm4622654
+mgm4622655
+mgm4622656
+mgm4622657
+mgm4622658
+mgm4622659
+mgm4622660
+mgm4624924
+mgm4628866
+mgm4628867
+mgm4628868
+mgm4628869
+mgm4628870
+mgm4628871
+mgm4628872
+mgm4628874
+mgm4628875
+mgm4691131
+mgm4691132
+mgm4691133
+mgm4691134
+mgm4691135
+mgm4691136
+mgm4691137
+mgm4691138
+mgm4691139
+mgm4691140
+mgm4691141
+mgm4691142
+mgm4691143
+mgm4691144
+mgm4691145
+mgm4691146
+mgm4691147
+mgm4691148
+mgm4691149
+mgm4691150
+mgm4691151
+
+```
+Alteration: moved to wastewater reclaimed water
 
 9. target:
-```
-mgm4566339
-```	
-Alteration: removed for lack of coordinates
 
-10. target:
 ```
-mgm4664706
-mgm4446970
-mgm4486661
-mgm4486662
-mgm4486663
-mgm4486664
-mgm4486665
-mgm4486666
-mgm4486667
-mgm4486669
-```	
-Alteration: removed for being private data.
+mgm4441347
+mgm4445126
+mgm4445129
+mgm4448044
+mgm4529907
+mgm4622354
+mgm4711609
+mgm4718321
+mgm4720071
+mgm4727054
+mgm4727384
+mgm4730300
+mgm4730301
+mgm4749374
 
-11. target:
 ```
-mgm4718936
-mgm4718937
-```
-alteration: changed from saline_water to sediment ecosystem. 
-
-12. target:
-```
-mgm4641054
-```	
-Alteration: removed for being private data.
-
-13. target:
-```
-mgm4573676
-mgm4573677
-```	
-Alteration: changed habitat to marine biofilm.
-
-14. target:
-```
-mgm4762274
-mgm4762275
-mgm4762276
-mgm4762277
-mgm4762278
-mgm4762279
-mgm4762280
-mgm4762281
-mgm4762282
-mgm4762283
-mgm4762284
-mgm4762285
-mgm4762286
-mgm4762287
-mgm4762288
-mgm4762289
-mgm4762290
-mgm4762291
-mgm4762292
-mgm4762293
-mgm4762294
-mgm4762295
-mgm4762296
-mgm4762297
-mgm4762298
-mgm4762299
-mgm4762304
-mgm4762307
-mgm4762308
-mgm4762309
-mgm4762310
-mgm4762311
-mgm4762312
-mgm4762313
-mgm4762314
-mgm4762315
-mgm4762316
-mgm4762317
-mgm4762318
-mgm4762319
-mgm4762320
-mgm4762321
-mgm4762322
-mgm4768634
-mgm4768635
-mgm4768636
-mgm4768637
-mgm4768638
-mgm4768639
-mgm4768640
-mgm4768641
-mgm4768642
-```
-Alteration: Moved to animal_host-associated ecosystem. These are shark samples.
-
-15. target:
-```
-mgm4443702
-mgm4443703
-mgm4443704
-mgm4443705
-mgm4443706
-mgm4443707
-mgm4443708
-mgm4443709
-```
-Alteration: removed for being a manipulative experiment.
-
-16. target:
-```
-mgm4443765
-```
-Alteration: removed for being a isolated genome.
-
-17. target:
-```mgm4713017
-mgm4713020
-mgm4713021
-mgm4713022
-mgm4713025
-mgm4713028
-mgm4713031
-mgm4713033
-mgm4713035
-mgm4713037
-```
-Alteration: changed habitat to sludge bioreactor.
-
+Alteration: removed due lack of geographic coordinates.
 
 
 
 **Author:** Brait LAS.
-**Revised by:** Barbosa, FAS.

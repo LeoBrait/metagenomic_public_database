@@ -2,7 +2,7 @@
 Description of the folder contents and resumed information about the data processing.
 
 ## [01_original_data](01_original_data/)
-- [mgrast_json](01_original_data/mgrast_json/) contains the zip of json files obtained by the mg-rast API of N?? sample id's by a [Python script](../Python/mgrast_download_metadata.py). It is stored in a separate folder for better organization when extracting the data.
+- [mgrast_json](01_original_data/mgrast_json/) contains the zip of json files obtained by the mg-rast API of 7043 sample id's by a [Python script](../Python/mgrast_download_metadata.py). It is stored in a separate folder for better organization when extracting the data.
 - [MG-rast coarse_classification](01_original_data/mgrast_coarse_classification.csv) contains the samples after a coarse curatory of this data, which was the first steps into biome categorization.
 - [aquifer_samples](01_original_data/aquifer_samples.csv) ia previously curated data from SRA and Mg-Rast. This table is already in its last stage and it is only used for merge in the end of the metadata curatory process.
 
