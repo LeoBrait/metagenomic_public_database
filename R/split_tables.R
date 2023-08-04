@@ -30,6 +30,7 @@ coarse_classified <- read.csv(
   "data_processing//01_original_data//coarse_classification.csv")
 
 ################################# Treat data ###################################
+
 metadata_raw <-
   metadata_raw %>%
   select(
@@ -46,7 +47,8 @@ coarse_classified <-
   coarse_classified %>%
     select(
          samples,   project_id,   biome,
-      life_style,  environment,  habitat
+      life_style,  environment,  habitat,
+     PI_lastname,     seq_meth
     ) %>%
     mutate(
       biosphere = biome,
@@ -56,13 +58,27 @@ coarse_classified <-
 
 #change column name from sample to samples
 colnames(metadata_raw)[1] <- "samples"
-preprocessed <- left_join(metadata_raw, coarse_classified, by = "samples")
+preprocessed <- full_join(metadata_raw, coarse_classified, by = "samples")
+
+preprocessed <- preprocessed %>%
+filter(str_detect(samples, "mgm"))
+
 
 write.csv(
   preprocessed,
-  "data_processing//01_original_data//preprocessed_metadata.csv",
+  "data_processing//01_original_data//mgrast_coarse_classification.csv",
   row.names = FALSE
 )
+
+############################ Cuuuuut
+preprocessed <- preprocessed %>%
+  select(
+  -PI_lastname,     -seq_meth
+  )
+
+preprocessed <- preprocessed %>%
+filter(str_detect(samples, "mgm"))
+
 
 ################################# Split data ###################################
 preprocessed$raw_biome <- gsub("/", "_slash_", preprocessed$raw_biome)
