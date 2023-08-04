@@ -7,7 +7,6 @@
 
 ################################ Environment ###################################
 
-
 source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
@@ -23,67 +22,12 @@ tables_paths <- list.files(
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
-#reapir artifact
-recover <- read.csv(
-  "data_processing//01_original_data//mgrast_coarse_classification.csv") %>%
-  select(
-    samples, PI_lastname, seq_meth
-  )
-
-for (table_path in tables_paths) {
-  table <- read_csv(table_path)
-  table <- table %>%
-    left_join(
-      recover,
-      by = "samples"
-    )
-  write.csv(
-    table,
-    table_path,
-    row.names = FALSE
-  )
-}
-
-
-
-
 aquifer_samples <- read_csv(
   "data_processing/01_original_data/aquifer_samples.csv")
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
-######################### Extracts assembled from Json Data ####################
 
-
-# Function to read JSON and extract "assembled" value
-get_assembled_value <- function(sample_id) {
-  json_file <- paste0(sample_id, "_metadata.json")
-  json_path <-
-    file.path(
-      "data_processing/01_original_data/mgrast_json",
-      json_file
-    )
-  if (file.exists(json_path)) {
-    parsed_data <- fromJSON(json_path)
-    assembled_value <- parsed_data$pipeline_parameters$assembled
-    return(assembled_value)
-  } else {
-    return("no")
-  }
-}
-
-unzip(
-    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip", 
-    exdir = "data_processing/01_original_data/mgrast_json")
-
-merged_table_raw$assembled <- sapply(
-    merged_table_raw$samples,
-    get_assembled_value
-)
-
-merged_table_raw <- merged_table_raw %>%
-   filter(assembled == "no") %>%
-   select(-assembled)
 
 ########################### Add SRA to the table ###############################
 ## Remove aquifer samples to avoid duplicated samples
@@ -154,18 +98,16 @@ final_table <- final_table %>%
 
 
 # get seq method and PI lastname
-seq_method_df <- read_csv(
-  "data_processing/01_original_data/coarse_classification.csv"
-) %>%
-  select(samples, PI_lastname, seq_meth)
+# seq_method_df <- read_csv(
+#   "data_processing/01_original_data/coarse_classification.csv"
+# ) %>%
+#   select(samples, PI_lastname, seq_meth)
 
-final_table <- final_table %>%
-  inner_join(seq_method_df, by = "samples")
+# final_table <- final_table %>%
+#   inner_join(seq_method_df, by = "samples")
 
 
-final_table <- final_table %>%
-  filter(seq_meth != "assembled") %>%
-  rename("seq_method" = "seq_meth")
+
 
 write.csv(
     final_table,

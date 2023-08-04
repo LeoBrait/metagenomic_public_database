@@ -17,7 +17,8 @@ source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
     "tidyverse" = "any",
-    "data.table" = "any")
+    "data.table" = "any",
+    "jsonlite" = "any")
 )
 ################################### Load data ##################################
 
@@ -27,10 +28,40 @@ coarse_classified <- read.csv(
 
 ################################# Treat data ###################################
 
+# Function to read JSON and extract "assembled" value
+get_assembled_value <- function(sample_id) {
+  json_file <- paste0(sample_id, "_metadata.json")
+  json_path <-
+    file.path(
+      "data_processing/01_original_data/mgrast_json",
+      json_file
+    )
+  if (file.exists(json_path)) {
+    parsed_data <- fromJSON(json_path)
+    assembled_value <- parsed_data$pipeline_parameters$assembled
+    return(assembled_value)
+  } else {
+    return("no")
+  }
+}
+
+unzip(
+    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip", 
+    exdir = "data_processing/01_original_data/mgrast_json")
+
+coarse_classified$assembled <- sapply(
+    coarse_classified$samples,
+    get_assembled_value
+)
+
 coarse_classified <- coarse_classified %>%
-  select(
-  -PI_lastname,     -seq_meth
-  )
+   filter(assembled == "no") %>%
+   select(-assembled)
+
+coarse_classified <- coarse_classified %>%
+  filter(seq_meth != "assembled") %>%
+  rename("seq_method" = "seq_meth")
+
 
 ################################# Split data ###################################
 coarse_classified$raw_biome <- gsub("/", "_slash_", coarse_classified$raw_biome)
