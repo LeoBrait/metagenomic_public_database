@@ -3,3 +3,13 @@
 "mgm4445126",NA,NA,NA,NA,NA,"Polar Micorboial Mats",NA,"WGS",NA,NA,NA,NA,"no_biome","mgp2964","free-living","coastal_marine_sediment","marine","sediment"
 "mgm4445129",NA,NA,NA,NA,NA,"Polar Micorboial Mats",NA,"WGS",NA,NA,NA,NA,"no_biome","mgp2964","free-living","coastal_marine_sediment","marine","sediment"
 "mgm4448044",NA,NA,"human-gut",NA,"BGIgutGeneSet","Human Gut Microbial Metagenome","metagenome","WGS","europe",NA,NA,NA,"no_biome",NA,NA,NA,NA,NA
+"mgm4529907",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp5298","host-associated","human_feces","terrestrial","human_host-associated"
+"mgm4622354",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp12701","free-living","lake","freshwater","freshwater"
+"mgm4711609",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp19238","free-living","sludge","freshwater","wastewater"
+"mgm4718321",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp19999","host-associated","chyme","terrestrial","animal_host-associated"
+"mgm4720071",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp20252","free-living","coastal_seawater","marine","saline_water"
+"mgm4727054",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp20934","free-living","saline_marsh_sediment","marine","sediment"
+"mgm4727384",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp20922","free-living","grassland","terrestrial","soil"
+"mgm4730300",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp14051","free-living","stream_biofilm","freshwater","freshwater"
+"mgm4730301",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp14051","free-living","stream_biofilm","freshwater","freshwater"
+"mgm4749374",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp80207","free-living","compost","terrestrial","soil"
