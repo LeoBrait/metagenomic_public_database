@@ -43,7 +43,9 @@ merged_table_clean <- merged_table_raw %>%
 
 final_table <- rbind(merged_table_clean, aquifer_samples)
 
+
 ############################### Refined treatment ##############################
+
 # typo correcting
 final_table <- final_table %>%
  mutate(ecosystem =
@@ -54,6 +56,10 @@ final_table <- final_table %>%
     TRUE ~ ecosystem
   )
  )
+
+#remove duplicated samples
+final_table <- final_table %>%
+  distinct(samples, .keep_all = TRUE)
 
 ############################## Write data ######################################
 write.csv(

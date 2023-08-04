@@ -56,8 +56,18 @@ python3 Python/mgrast_download_metadata.py
 Rscript R/treat_split.R
 ```
 
-- The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification.
+- The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification. 
 
+- The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_labeled.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
+    
+```bash 
+Rscript R/merge_tables.R
+```
+
+2. Downloading sequences
+Pablo, preciso que vc siga a lógica que temos aqui, baixe as amostras que faltam utilize para a geração do [novo sumário de reads](summaries/genomic_read_summary.csv) e a partir disso executar o script de [remoção de assemble](R/remove_assembled.R). Repare que dentro do script remove_assembled.R temos um vetor  problematicsamples_nondownloaded que contém as amostras que não foram baixadas, e tá dando 700. Precisamos sanar isso.
+
+```bash
 
 ## Troubleshooting
 

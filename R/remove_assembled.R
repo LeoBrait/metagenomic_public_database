@@ -5,17 +5,13 @@
 #' @Description: Check for assembled metagenomes and filter them.
 
 ################################ Environment ###################################
-if (!file.exists("r_libs")) {
-  dir.create("r_libs")
-}
 
 source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
     "tidyverse" = "any",
     "data.table" = "any",
-    "jsonlite" = "any"),
-  loc = "r_libs"
+    "jsonlite" = "any")
 )
 
 ################################### Read data ##################################
@@ -39,21 +35,21 @@ problematicsamples_nondownloaded <- setdiff(
 )
 
 problematicsamples_sanger <- merged_table %>%
-    filter(seq_method == "sanger") %>%
+    filter(seq_meth == "sanger") %>%
     pull(samples)
 
 problematicsamples_iontorrent <- merged_table %>%
-    filter(seq_method == "ion torrent") %>%
+    filter(seq_meth == "ion torrent") %>%
     filter(highest_read_size > 800) %>%
     pull(samples)
 
 problematicsamples_454 <- merged_table %>%
-    filter(seq_method == "454") %>%
+    filter(seq_meth == "454") %>%
     filter(highest_read_size > 700) %>%
     pull(samples)
 
 problematicsamples_illumina <- merged_table %>%
-    filter(seq_method == "illumina") %>%
+    filter(seq_meth == "illumina") %>%
     filter(highest_read_size > 600) %>%
     pull(samples)
 
@@ -70,7 +66,7 @@ problematic_samples_df <- metadata %>%
 
 # impact evaluation --------------------
 problematic_samples_df %>%
-    group_by(seq_method) %>%
+    group_by(seq_meth) %>%
     summarise(count = n())
 
 write.csv(
