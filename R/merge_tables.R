@@ -23,6 +23,30 @@ tables_paths <- list.files(
   pattern = "*.csv", full.names = TRUE, recursive = TRUE
 )
 
+#reapir artifact
+recover <- read.csv(
+  "data_processing//01_original_data//mgrast_coarse_classification.csv") %>%
+  select(
+    samples, PI_lastname, seq_meth
+  )
+
+for (table_path in tables_paths) {
+  table <- read_csv(table_path)
+  table <- table %>%
+    left_join(
+      recover,
+      by = "samples"
+    )
+  write.csv(
+    table,
+    table_path,
+    row.names = FALSE
+  )
+}
+
+
+
+
 aquifer_samples <- read_csv(
   "data_processing/01_original_data/aquifer_samples.csv")
 

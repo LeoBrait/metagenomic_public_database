@@ -1,2 +1,2 @@
-samples,feature,material,env.package,metagenome_taxonomy,sample_name,project_name,investigation_type,sequence_type,continent,country,latitude,longitude,raw_biome,project_id,life_style,habitat,biosphere,ecosystem
-mgm4639061,water body,ocean water,water,NA,SRR034455,test marine project,metagenome,WGS,NA,Japan,35.6894875,139.6917064,ocean water,mgp14057,free-living,oceanic_seawater,marine,saline_water
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem","PI_lastname","seq_meth"
+"mgm4639061","water body","ocean water","water",NA,"SRR034455","test marine project","metagenome","WGS",NA,"Japan",35.6894875,139.6917064,"ocean water","mgp14057","free-living","oceanic_seawater","marine","saline_water","tsujimoto","454"
