@@ -1,11 +1,11 @@
-"samples","project_id","life_style","habitat","biosphere","ecosystem","PI_lastname","seq_meth"
-"mgm4529907","mgp5298","host-associated","human_feces","terrestrial","human_host-associated","wang","454"
-"mgm4622354","mgp12701","free-living","lake","freshwater","freshwater","tripathy","illumina"
-"mgm4711609","mgp19238","free-living","sludge","freshwater","wastewater","joshi","illumina"
-"mgm4718321","mgp19999","host-associated","chyme","terrestrial","animal_host-associated","guan","illumina"
-"mgm4720071","mgp20252","free-living","coastal_seawater","marine","saline_water","ocean sampling day team","illumina"
-"mgm4727054","mgp20934","free-living","saline_marsh_sediment","marine","sediment","helgason","illumina"
-"mgm4727384","mgp20922","free-living","grassland","terrestrial","soil","nelson","illumina"
-"mgm4730300","mgp14051","free-living","stream_biofilm","freshwater","freshwater","aunins","illumina"
-"mgm4730301","mgp14051","free-living","stream_biofilm","freshwater","freshwater","aunins","illumina"
-"mgm4749374","mgp80207","free-living","compost","terrestrial","soil","lu","illumina"
+samples,project_id,life_style,habitat,biosphere,ecosystem,PI_lastname,seq_meth
+mgm4529907,mgp5298,host-associated,human_feces,terrestrial,human_host-associated,wang,454
+mgm4622354,mgp12701,free-living,lake,freshwater,freshwater,tripathy,illumina
+mgm4711609,mgp19238,free-living,sludge,freshwater,wastewater,joshi,illumina
+mgm4718321,mgp19999,host-associated,chyme,terrestrial,animal_host-associated,guan,illumina
+mgm4720071,mgp20252,free-living,coastal_seawater,marine,saline_water,ocean sampling day team,illumina
+mgm4727054,mgp20934,free-living,saline_marsh_sediment,marine,sediment,helgason,illumina
+mgm4727384,mgp20922,free-living,grassland,terrestrial,soil,nelson,illumina
+mgm4730300,mgp14051,free-living,stream_biofilm,freshwater,freshwater,aunins,illumina
+mgm4730301,mgp14051,free-living,stream_biofilm,freshwater,freshwater,aunins,illumina
+mgm4749374,mgp80207,free-living,compost,terrestrial,soil,lu,illumina
