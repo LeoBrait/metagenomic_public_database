@@ -1,5 +1,6 @@
-#' @title Split metadata
+#' @title Treat end split metadata
 #' @description Here we treat and split data for collaborative work.
+#' The main goal of the this data treatment is to remove assembled samples.
 #' @param coarse_classified is a table of mg-rast samples after a coarse
 #' curatory.
 #' @param raw_biomes vector with biomes names given by mg-rast. It is used to
@@ -25,6 +26,8 @@ coarse_classified <- read.csv(
   "data_processing//01_original_data//mgrast_coarse_classification.csv")
 
 ################################# Treat data ###################################
+# Description: Remove assembled samples.
+
 
 # Function to read JSON and extract "assembled" value
 get_assembled_value <- function(sample_id) {
@@ -44,7 +47,7 @@ get_assembled_value <- function(sample_id) {
 }
 
 unzip(
-    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip", 
+    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip",
     exdir = "data_processing/01_original_data/mgrast_json")
 
 coarse_classified$assembled <- sapply(

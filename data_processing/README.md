@@ -2,24 +2,20 @@
 Description of the folder contents and resumed information about the data processing.
 
 ## [01_original_data](01_original_data/)
-- [mgrast_raw.csv](01_original_data/mgrast_raw.csv) contains only information obtained by the mg-rast API.
-All samples (n = 7044) are the result of a manual filtering by the mg-rast site done in 2017.
-- [mgrast_json](01_original_data/mgrast_json/) contains the zip of json files obtained by the mg-rast API of 7043 sample id's by a [Python script](../Python/mgrast_download_metadata.py). It is stored in a separate folder for better organization when extracting the data.
-- [coarse_classification](01_original_data/coarse_classification.csv) contains the samples after a coarse curatory of this data, which was the first steps into biome categorization. It also contains some SRA samples.
-- [preprocessed_metadata](01_original_data/preprocessed_metadata.csv) is the merged data of the previous two tables achieved by an [R-script](../R/split_tables.R). We used this as a model for the refined curatory.
-- [aquifer_samples](01_original_data/aquifer_samples.csv) is the result of the refined and manual curatory of aquifer SRA samples. This table is on its last stage and it is only used for merge in the end of the metadata curatory process.
+- [mgrast_json](01_original_data/mgrast_json/) contains the zip of json files obtained by the mg-rast API of N?? sample id's by a [Python script](../Python/mgrast_download_metadata.py). It is stored in a separate folder for better organization when extracting the data.
+- [MG-rast coarse_classification](01_original_data/mgrast_coarse_classification.csv) contains the samples after a coarse curatory of this data, which was the first steps into biome categorization.
+- [aquifer_samples](01_original_data/aquifer_samples.csv) ia previously curated data from SRA and Mg-Rast. This table is already in its last stage and it is only used for merge in the end of the metadata curatory process.
 
 ## [02_dismembered_tables](02_dismembered_tables/)
-- Tables splited by mg-rast biome classification got through the R-script [01_split_tables.R](../R/split_tables.R).
+- Tables splited by mg-rast biome classification got through the R-script [01_treat_split.R](../R/treat_split.R).
 
 ## [03_manual_labeling](03_manual_labeling/)
-- Initially, the same content as the [02_dismembered_tables](dismembered_tables/). Then we manually grouped the tables into tematic folders.
+- It have the same content as the [02_dismembered_tables](dismembered_tables/), but thematically organized for manual curatory.
 
-- Each table there was manually analyzed and finelly labeled.  
+- Each table there was manually analyzed and detailed categorized.  
 This processes have many subjective decisions of the team, but some standard procedures was the reading of the project description, and mg-rast metadata in the look for contradictions. We also used samples names to remove samples suspected to being of contigs, scaffolds, assemblies, RNA and cDNA sequencing.
 
-
-- Each directory there contains a README.MD file serving as a logbook of the manual curatory process.
+- Each directory there contains a README.MD file serving as a log-book of the manual curatory process.
 
 ## [04_assembled_removal](04_assembled_removal/)
 

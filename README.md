@@ -5,8 +5,8 @@
 **warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
 ## Introduction  
   
-The BIOME metagenomic public database contains 5272 metagenomic samples collected from MG-RAST and NCBI databases. The samples were recategorized based on two methods, the authoral BIOME classification and the IUCN classification.  
-These datbase comprimises other works of the lab, such as:
+The BIOME metagenomic public database contains N?? metagenomic samples collected from MG-RAST and NCBI databases. The samples were recategorized based on two methods, the authoral BIOME classification and the IUCN classification.  
+This database comprimises other works of the lab, such as:
 - [Aquifers Landscapes](https://github.com/MeirellesLab/aquifer_metagenomes)
 - [New Microbial Keystones](https://github.com/MeirellesLab/keystones_paper)
 
@@ -18,20 +18,34 @@ These datbase comprimises other works of the lab, such as:
 - The [metadata](metadata/) contains the BIOME and IUCN classifications of these samples.   
 - The [summaries](summaries/) folder contains information about the samples, such as the number of reads, GC content, etc.
 
+## Requirements
+All scripts were executed in a Linux environment by bash, R and Python scripts.
+- **R** version 4.3.1
+- **Python** version 3.7.3
+- **Bash** version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+- **Linux** Ubuntu 22.04 LTS (WSL2)
+
+We also used the Anaconda 3 environment solver. You can install and use the required python packages by typing:
+
+```bash
+conda create --name biome_database --file Python/requirements.txt
+conda activate biome_database
+```
+
 ## Procediments and script order
-This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The coarse classification was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate. After the metadata curatory....
+This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The coarse classification was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
 
 
 1. Metadata treatment
     
--  The first script [split_tables.R](R/split_tables.R) gather the coarse the first [coarse classification](data_processing/01_original_data/coarse_classification.csv) + its respective [original metadatada from Mg-rast](data_processing/01_original_data/mgrast_metadata.csv) and produces a [preprocessed metadata](data_processing/01_original_data/preprocessed_metadata.csv). This preprocessed metadta is then splited by mg-rast biome classification in the folder [02_dismembered_tables](data_processing/02_dismembered_tables/) to facilitate the work in a fine labeling. To run it, just type:
+-  The first script [treat_split.R](R/treat_split.R) gather the coarse the first [coarse classification](data_processing/01_original_data/coarse_classification.csv), clean it from some assembled samples and split it in the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work in a fine labeling. To run the correspondent script, just type:
 
 ```bash
-Rscript R/split_tables.R
+Rscript R/treat_split.R
 ```
 
-- The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/). There we executed the fine and detailed classification.
-- Completed the manual refinement of the data, we proced
+- The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification.
+
 
 ## Troubleshooting
 

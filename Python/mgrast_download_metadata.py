@@ -85,7 +85,7 @@ async def main():
 
 if __name__ == "__main__":
     metadata = pd.read_csv(
-        "data_processing/01_original_data/mgrast_raw.csv", sep=";"
+        "data_processing/01_original_data/mgrast_coarse_classification.csv"
     )
-    sample_list = metadata["sample"].tolist()
+    sample_list = metadata["samples"].tolist()
     asyncio.run(main())
