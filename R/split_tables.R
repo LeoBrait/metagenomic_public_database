@@ -83,8 +83,8 @@ for (x in 1:length(raw_biomes)) {
   )
 }
 
-############################## Checkage protocol ###############################
-# Check if all MG-RAST samples are in the splited tables.
+############################## Checking protocol ###############################
+# Do from back to front.
 
 tables_paths <- list.files(
   path = "data_processing/02_dismembered_tables/",
@@ -95,20 +95,3 @@ recall_table <- do.call(rbind, lapply(tables_paths, fread))
 
 setdiff(coarse_classified$samples, recall_table$samples)
 setdiff(recall_table$samples, coarse_classified$samples)
-
-setdiff(metadata_raw$samples, recall_table$samples)
-setdiff(recall_table$samples, metadata_raw$samples)
-
-#missing mgm samples found! Gettin' them
-setdiff(coarse_classified$samples, recall_table$samples)
-vector <- setdiff(coarse_classified$samples, recall_table$samples)
-vector <- vector[str_detect(vector, "mgm")]
-
-missing_mgm <- coarse_classified %>%
-  filter(samples %in% vector)
-
-write.csv(
-  missing_mgm,
-  "data_processing//02_dismembered_tables//missing_mgm.csv",
-  row.names = FALSE
-)
