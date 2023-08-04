@@ -36,7 +36,7 @@ conda activate biome_database
 This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The [coarse classification](data_processing/01_original_data/coarse_classification.csv) was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
 
 
-1. Metadata treatment
+### Metadata treatment
 
 - From the coarse classification [table](data_processing/01_original_data/coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
 
@@ -64,7 +64,7 @@ Rscript R/treat_split.R
 Rscript R/merge_tables.R
 ```
 
-2. Downloading sequences
+### Downloading sequences
 Pablo, preciso que vc siga a lógica que temos aqui, baixe as amostras que faltam utilize para a geração do [novo sumário de reads](summaries/genomic_read_summary.csv) e a partir disso executar o script de [remoção de assemble](R/remove_assembled.R). Repare que dentro do script remove_assembled.R temos um vetor  problematicsamples_nondownloaded que contém as amostras que não foram baixadas, e tá dando 700. Precisamos sanar isso. Eu vi que vc usa umas listas txt pra baixas as amostras. Eu atualizei a lista com todas as amostras que precisamos baixar a partir da curadoria do metadado e deixei guardadas na pasta [04_download_sequences](data_processing/04_download_sequences/). Espero que seja útil!
 
 A minha é ideia é que após o script de remove assembled, que é o que produz o metadado final, as pastas dentro do data_processing não precisem ser mais numeradas, pq daí então a ordem deixa de ser linear. Quero dizer que o usuário pode seguir para o sistema de anotação que quiser a partir daí, kraken, subsystem, patric, watever.
