@@ -15,7 +15,9 @@
 source("R/src/install_and_load.R")
 
 install_and_load(
-  libs = c("tidyverse" = "any")
+  libs = c(
+    "tidyverse" = "any",
+    "data.table" = "any")
 )
 ################################### Load data ##################################
 
@@ -65,11 +67,10 @@ write.csv(
 ################################# Split data ###################################
 preprocessed$raw_biome <- gsub("/", "_slash_", preprocessed$raw_biome)
 preprocessed$raw_biome <- tolower(preprocessed$raw_biome)
+preprocessed$raw_biome[is.na(preprocessed$raw_biome)] <- "no_biome"
 preprocessed$raw_biome <- as.factor(preprocessed$raw_biome)
 
 raw_biomes <- levels(preprocessed$raw_biome)
-
-
 for (x in 1:length(raw_biomes)) {
   subset <- subset(preprocessed, raw_biome == raw_biomes[x])
   write.csv(
@@ -82,3 +83,33 @@ for (x in 1:length(raw_biomes)) {
     row.names = FALSE
   )
 }
+
+############################## Checkage protocol ###############################
+# Check if all MG-RAST samples are in the splited tables.
+
+tables_paths <- list.files(
+  path = "data_processing/02_dismembered_tables/",
+  pattern = "*.csv", full.names = TRUE, recursive = TRUE
+)
+
+recall_table <- do.call(rbind, lapply(tables_paths, fread))
+
+setdiff(preprocessed$samples, recall_table$samples)
+setdiff(recall_table$samples, preprocessed$samples)
+
+setdiff(metadata_raw$samples, recall_table$samples)
+setdiff(recall_table$samples, metadata_raw$samples)
+
+#missing mgm samples found! Gettin' them
+setdiff(coarse_classified$samples, recall_table$samples)
+vector <- setdiff(coarse_classified$samples, recall_table$samples)
+vector <- vector[str_detect(vector, "mgm")]
+
+missing_mgm <- coarse_classified %>%
+  filter(samples %in% vector)
+
+write.csv(
+  missing_mgm,
+  "data_processing//02_dismembered_tables//missing_mgm.csv",
+  row.names = FALSE
+)

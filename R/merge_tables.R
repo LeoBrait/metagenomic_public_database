@@ -12,7 +12,8 @@ source("R/src/install_and_load.R")
 install_and_load(
   libs = c(
     "tidyverse" = "any",
-    "data.table" = "any"
+    "data.table" = "any",
+    "jsonlite" = "any"
   )
 )
 

@@ -1,0 +1,5 @@
+"samples","feature","material","env.package","metagenome_taxonomy","sample_name","project_name","investigation_type","sequence_type","continent","country","latitude","longitude","raw_biome","project_id","life_style","habitat","biosphere","ecosystem"
+"mgm4441347",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no_biome","mgp2321","free-living","alkaline_salt_lake","marine","saline_water"
+"mgm4445126",NA,NA,NA,NA,NA,"Polar Micorboial Mats",NA,"WGS",NA,NA,NA,NA,"no_biome","mgp2964","free-living","coastal_marine_sediment","marine","sediment"
+"mgm4445129",NA,NA,NA,NA,NA,"Polar Micorboial Mats",NA,"WGS",NA,NA,NA,NA,"no_biome","mgp2964","free-living","coastal_marine_sediment","marine","sediment"
+"mgm4448044",NA,NA,"human-gut",NA,"BGIgutGeneSet","Human Gut Microbial Metagenome","metagenome","WGS","europe",NA,NA,NA,"no_biome",NA,NA,NA,NA,NA
