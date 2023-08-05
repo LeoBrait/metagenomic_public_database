@@ -130,8 +130,10 @@ write.csv(
 
 # cleaned metadata ---------------------
 clean_metadata <- metadata %>%
-    filter(!samples %in% problematicsamples_full) %>%
-    write.csv(
-        "metadata/biome_classification.csv",
-        row.names = FALSE
+    filter(!samples %in% problematicsamples_full)
+
+write.csv(
+    clean_metadata,
+    "metadata/biome_classification.csv",
+    row.names = FALSE
     )
