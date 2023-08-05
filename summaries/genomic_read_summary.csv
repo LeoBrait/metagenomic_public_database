@@ -1,4 +1,4 @@
-"sample","file_size","total_number_of_reads","GC_content","total_number_of_bases","complete_sequence_length","average_read_size","read_size_mode","read_size_median","lowest_read_size","highest_read_size"
+"samples","file_size","total_number_of_reads","GC_content","total_number_of_bases","complete_sequence_length","average_read_size","read_size_mode","read_size_median","lowest_read_size","highest_read_size"
 "DRR125227",5445633857,44859524,"0.5768281758068469",4434663734,4434663734,9885668278602332,100,1000,50,100
 "ERR2108715",2447154563,14367768,"0.6159031621330321",2118826100,2118826100,14747079017422888,151,1510,50,151
 "ERR2136696",120041343,701194,"0.4069632687818091",104736902,104736902,1493693642558265,150,1500,50,151
