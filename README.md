@@ -38,7 +38,7 @@ This database started as a coarse curatory of the mg-rast metagenomic samples fo
 
 ### Metadata treatment
 
-- From the coarse classification [table](data_processing/01_original_data/coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
+1. From the coarse classification [table](data_processing/01_original_data/coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
 
 ```bash
 unzip data_processing/01_original_data/mgrast_json/mgrast_raw.zip -d data_processing/01_original_data/mgrast_json/
@@ -50,22 +50,22 @@ Or (not recomended) you can download all samples all over again by typing:
 python3 Python/mgrast_download_metadata.py
 ```
 
-- To clean our data from some assembled samples we used [treat_split.R](R/treat_split.R). This script also splited the data in subsets on the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work of a fine labeling. To run the correspondent script, just type:
+2. To clean our data from some assembled samples we used [treat_split.R](R/treat_split.R). This script also splited the data in subsets on the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work of a fine labeling. To run the correspondent script, just type:
 
 ```bash
 Rscript R/treat_split.R
 ```
 
-- The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification. 
+3. The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification. 
 
-- The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_labeled.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
+4. The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_labeled.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
     
 ```bash 
 Rscript R/merge_tables.R
 ```
 
 ### Downloading sequences
-Pablo, preciso que vc siga a lógica que temos aqui, baixe as amostras que faltam utilize para a geração do [novo sumário de reads](summaries/genomic_read_summary.csv) e a partir disso executar o script de [remoção de assemble](R/remove_assembled.R). Repare que dentro do script remove_assembled.R temos um vetor  problematicsamples_nondownloaded que contém as amostras que não foram baixadas, e tá dando 700. Precisamos sanar isso. Eu vi que vc usa umas listas txt pra baixas as amostras. Eu atualizei a lista com todas as amostras que precisamos baixar a partir da curadoria do metadado e deixei guardadas na pasta [04_download_sequences](data_processing/04_download_sequences/). Espero que seja útil!
+Pablo, preciso que vc siga a lógica que temos aqui, baixe as amostras que faltam utilize para a geração do [novo sumário de reads](summaries/genomic_read_summary.csv) e a partir disso executar o script de [remoção de assemble](R/remove_assembled.R). Repare que dentro do script remove_assembled.R temos um vetor  ``problematicsamples_nondownloaded`` que contém as amostras que não foram baixadas, e tá dando 700. Precisamos sanar isso. Eu vi que vc usa umas listas txt pra baixas as amostras. Eu atualizei a lista com todas as amostras que precisamos baixar a partir da curadoria do metadado e deixei guardadas na pasta [04_download_sequences](data_processing/04_download_sequences/). Espero que seja útil!
 
 A minha é ideia é que após o script de remove assembled, que é o que produz o metadado final, as pastas dentro do data_processing não precisem ser mais numeradas, pq daí então a ordem deixa de ser linear. Quero dizer que o usuário pode seguir para o sistema de anotação que quiser a partir daí, kraken, subsystem, patric, watever.
 
