@@ -72,7 +72,7 @@ problematic_samples_df %>%
 write.csv(
     problematic_samples_df,
     paste0(
-        "data_processing/04_assembled_removal/",
+        "data_processing/06_assembled_removal/",
         "problematic_samples.csv"
     ),
     row.names = FALSE
@@ -84,7 +84,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "data_processing/04_assembled_removal/",
+            "data_processing/06_assembled_removal/",
             "summary_problematic_habitat.csv"
         ),
         row.names = FALSE
@@ -96,7 +96,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "data_processing/04_assembled_removal/",
+            "data_processing/06_assembled_removal/",
             "summary_problematic_ecosystem.csv"
         ),
         row.names = FALSE
@@ -108,7 +108,7 @@ problematic_samples_df %>%
     summarise(count = n()) %>%
     write.csv(
         paste0(
-            "data_processing/04_assembled_removal/",
+            "data_processing/06_assembled_removal/",
             "summary_problematic_life_style.csv"
         ),
         row.names = FALSE
@@ -122,7 +122,7 @@ clean_table <- merged_table %>%
 write.csv(
     clean_table,
     paste0(
-        "data_processing/04_assembled_removal/",
+        "data_processing/06_assembled_removal/",
         "genomic_content_clean_table.csv"
     ),
     row.names = FALSE

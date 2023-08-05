@@ -17,7 +17,7 @@ This processes have many subjective decisions of the team, but some standard pro
 
 - Each directory there contains a README.MD file serving as a log-book of the manual curatory process.
 
-## [04_assembled_removal](04_assembled_removal/)
+## [06_assembled_removal](06_assembled_removal/)
 
 **we need to add the samples download before this step**
 
@@ -27,11 +27,11 @@ This is the Final step of the metadata curatory process.
 
 - For internal consume we also prepared some additional summaries:
     - Summaries of samples removed by genomic content filter on each category;
-        - [Life-Style](04_assembled_removal/summary_problematic_life_style.csv);
-        - [Ecosystem](04_assembled_removal/summary_problematic_ecosystem.csv)
-        - [Habitat](04_assembled_removal/summary_problematic_habitat.csv)
-    - [Problematic samples for removal](04_assembled_removal/problematic_samples.csv);
-    - [Cleaned table of samples to be used in downstream analysis](04_assembled_removal/genomic_content_clean_table.csv).
+        - [Life-Style](06_assembled_removal/summary_problematic_life_style.csv);
+        - [Ecosystem](06_assembled_removal/summary_problematic_ecosystem.csv)
+        - [Habitat](06_assembled_removal/summary_problematic_habitat.csv)
+    - [Problematic samples for removal](06_assembled_removal/problematic_samples.csv);
+    - [Cleaned table of samples to be used in downstream analysis](06_assembled_removal/genomic_content_clean_table.csv).
 
 - From this point we produce a very important file, the [biome_classification](../metadata/biome_classification.csv)
 
