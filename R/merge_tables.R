@@ -64,7 +64,7 @@ final_table <- final_table %>%
 ############################## Write data ######################################
 write.csv(
     final_table,
-    file = "data_processing/03_manual_labeling/merged_and_labeled.csv",
+    file = "data_processing/03_manual_labeling/merged_and_classified.csv",
     row.names = FALSE
 )
 

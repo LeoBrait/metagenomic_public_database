@@ -58,7 +58,7 @@ Rscript R/treat_split.R
 
 3. The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification. 
 
-4. The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_labeled.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
+4. The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_classified.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
     
 ```bash 
 Rscript R/merge_tables.R
