@@ -2,3 +2,4 @@ desktop.ini
 **/mgrast_json/*.json
 r_libs/
 data_processing/02_dismembered_tables/original/
+annotated_metagenomes/*.csv

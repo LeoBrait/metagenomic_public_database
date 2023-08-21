@@ -14,6 +14,10 @@ install_and_load(
     "jsonlite" = "any")
 )
 
+unzip(
+    "annotated_metagenomes/kraken_biomedb_relative.zip",
+    exdir = "annotated_metagenomes/")
+
 ################################### Read data ##################################
 
 genomic_summary <- read_csv("summaries/genomic_read_summary.csv")
@@ -23,63 +27,83 @@ metadata <-
         "data_processing/03_manual_labeling/merged_and_classified.csv"
     )
 
+phyla <- read_csv("annotated_metagenomes/kraken_biomedb_relative_phyla.csv")
+
 
 ###################### 2. Check for problematic samples ########################
+
 # Merge --------------------------------
 merged_table <- genomic_summary %>%
     inner_join(metadata, by = "samples")
 
-problematicsamples_nondownloaded <- setdiff(
+badsamples_nondownloaded <- setdiff(
     metadata$samples,
     genomic_summary$samples
 )
 
-problematicsamples_sanger <- merged_table %>%
+badsamples_lowreads <- merged_table %>%
+    filter(total_number_of_reads < 1000000) %>%
+    pull(samples)
+
+badsamples_sanger <- merged_table %>%
     filter(seq_meth == "sanger") %>%
     pull(samples)
 
-problematicsamples_iontorrent <- merged_table %>%
+badsamples_iontorrent <- merged_table %>%
     filter(seq_meth == "ion torrent") %>%
     filter(highest_read_size > 800) %>%
     pull(samples)
 
-problematicsamples_454 <- merged_table %>%
+badsamples_454 <- merged_table %>%
     filter(seq_meth == "454") %>%
     filter(highest_read_size > 700) %>%
     pull(samples)
 
-problematicsamples_illumina <- merged_table %>%
+badsamples_illumina <- merged_table %>%
     filter(seq_meth == "illumina") %>%
     filter(highest_read_size > 600) %>%
     pull(samples)
 
-problematicsamples_full <- c(
-    problematicsamples_nondownloaded,
-    problematicsamples_sanger,
-    problematicsamples_iontorrent,
-    problematicsamples_454,
-    problematicsamples_illumina
+# Get richness
+badsamples_lowrichness <- phyla %>%
+    gather(taxon,  abundance, -samples) %>%
+    filter(abundance != 0) %>%
+    group_by(samples) %>%
+    summarise(richness = n_distinct(taxon)) %>%
+    ungroup() %>%
+    filter(richness < 50) %>%
+    pull(samples)
+
+# merge all badsamples
+badsamples_full <- c(
+    badsamples_lowrichness,
+    badsamples_lowreads,
+    badsamples_nondownloaded,
+    badsamples_sanger,
+    badsamples_iontorrent,
+    badsamples_454,
+    badsamples_illumina
 )
 
-problematic_samples_df <- metadata %>%
-    filter(samples %in% problematicsamples_full)
+badsamples_df <- metadata %>%
+    filter(samples %in% badsamples_full)
 
 # impact evaluation --------------------
-problematic_samples_df %>%
+badsamples_df %>%
     group_by(seq_meth) %>%
     summarise(count = n())
 
 write.csv(
-    problematic_samples_df,
+    badsamples_df,
     paste0(
         "data_processing/06_assembled_removal/",
-        "problematic_samples.csv"
+        "badsamples.csv"
     ),
     row.names = FALSE
 )
 
 # summary of problematic samples per habitat
-problematic_samples_df %>%
+badsamples_df %>%
     group_by(habitat) %>%
     summarise(count = n()) %>%
     write.csv(
@@ -91,7 +115,7 @@ problematic_samples_df %>%
     )
 
 # summary of problematic samples per ecosystem
-problematic_samples_df %>%
+badsamples_df %>%
     group_by(ecosystem) %>%
     summarise(count = n()) %>%
     write.csv(
@@ -103,7 +127,7 @@ problematic_samples_df %>%
     )
 
 # summary of problematic samples per life_style
-problematic_samples_df %>%
+badsamples_df %>%
     group_by(life_style) %>%
     summarise(count = n()) %>%
     write.csv(
@@ -117,7 +141,7 @@ problematic_samples_df %>%
 ############################ Produce cleaned tables ############################
 
 clean_table <- merged_table %>%
-    filter(!samples %in% problematicsamples_full)
+    filter(!samples %in% badsamples_full)
 
 write.csv(
     clean_table,
@@ -130,7 +154,7 @@ write.csv(
 
 # cleaned metadata ---------------------
 clean_metadata <- metadata %>%
-    filter(!samples %in% problematicsamples_full)
+    filter(!samples %in% badsamples_full)
 
 write.csv(
     clean_metadata,

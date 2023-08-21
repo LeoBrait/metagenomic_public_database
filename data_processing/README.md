@@ -30,7 +30,7 @@ This is the Final step of the metadata curatory process.
         - [Life-Style](06_assembled_removal/summary_problematic_life_style.csv);
         - [Ecosystem](06_assembled_removal/summary_problematic_ecosystem.csv)
         - [Habitat](06_assembled_removal/summary_problematic_habitat.csv)
-    - [Problematic samples for removal](06_assembled_removal/problematic_samples.csv);
+    - [Problematic samples for removal](06_assembled_removal/badsamples.csv);
     - [Cleaned table of samples to be used in downstream analysis](06_assembled_removal/genomic_content_clean_table.csv).
 
 - From this point we produce a very important file, the [biome_classification](../metadata/biome_classification.csv)
