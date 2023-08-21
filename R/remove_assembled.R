@@ -1,6 +1,6 @@
 #' @Author: Brait LAS
 #' @Date: 2023-27-07
-#' @Reviewers: None
+#' @Reviewers: Barbosa FAS
 #' @LastRevision: None
 #' @Description: Check for assembled metagenomes and filter them.
 
