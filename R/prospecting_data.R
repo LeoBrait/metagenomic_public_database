@@ -8,7 +8,8 @@ install_and_load(
   libs = c(
     "tidyverse" = "any",
     "ggplot2" = "any",
-    "ggpubr" = "any"
+    "ggpubr" = "any",
+    "viridis" = "any"
   )
 )
 

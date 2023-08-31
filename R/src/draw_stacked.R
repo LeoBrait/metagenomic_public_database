@@ -16,7 +16,9 @@
 
 
 library(ggplot2)
+library(viridis)
 draw_stacked <- function(data, facet, fill_var, title) {
+
 
   plot <- ggplot(
     data = data,

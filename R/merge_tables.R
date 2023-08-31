@@ -28,6 +28,15 @@ aquifer_samples <-
     "data_processing/01_original_data/aquifer_samples.csv"
   )
 
+#### TODO: Provisore chunk: the result of this operation must be later used to
+#### filter the aquifer samples of banfield right into the aquifer_samples
+#### original set.
+aquifer_samples <- aquifer_samples %>%
+  filter(PI_lastname != "banfield")
+####
+
+
+
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
 
 ########################### Add Aquifers samples ###############################
