@@ -32,7 +32,7 @@ aquifer_samples <-
 #### filter the aquifer samples of banfield right into the aquifer_samples
 #### original set.
 aquifer_samples <- aquifer_samples %>%
-  filter(PI_lastname != "banfield")
+  filter(PI_lastname %in% c("banfield", "Banfield"))
 ####
 
 

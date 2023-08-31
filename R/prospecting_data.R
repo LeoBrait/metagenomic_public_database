@@ -80,7 +80,7 @@ for (i in ecosystems) {
   plot <- draw_stacked(
     data = subset(merged_df_long, ecosystem == i),
     fill_var = "taxon",
-    facet = "habitat",
+    facet = "PI_lastname",
     title = paste0("taxa of ", i, sep = "")
   )
   ggsave(
@@ -94,7 +94,7 @@ for (i in ecosystems) {
   plot <- draw_stacked(
     data = subset(merged_df_long, ecosystem == i),
     fill_var = "radiation",
-    facet = "habitat",
+    facet = "PI_lastname",
     title = paste0("radiation of ", i, sep = "")
   )
   ggsave(
