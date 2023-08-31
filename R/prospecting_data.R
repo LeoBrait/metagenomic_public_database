@@ -18,8 +18,8 @@ unzip(
 )
 
 ################################### Load data ##################################
-aquifer_metadata <- read_csv(
-  "data_processing/01_original_data/aquifer_samples.csv"
+metadata <- read_csv(
+  "metadata/biome_classification.csv"
 )
 
 phyla <- read_csv(
@@ -28,22 +28,7 @@ phyla <- read_csv(
 
 radiation <- read_csv("summaries/radiation_phyla.csv")
 
-bad_samples_vector <- c(
-  "SRR4343427", "SRR4343429", "SRR4343430", "SRR4343434",
-  "SRR4343431", "SRR4343440", "SRR3989308", "SRR3989310",
-  "SRR3989311", "SRR3989312", "SRR3989313", "SRR3989315",
-  "DRR125227",  "SRR1658343", "SRR1658462", "SRR1658465",
-  "SRR1658469", "SRR1658472", "SRR2177362", "SRR2177950",
-  "SRR2177952", "SRR2177968", "SRR2177986", "SRR3308675",
-  "SRR3309137", "SRR3309326", "SRR3309327"
-)
-
-aquifer_metadata <- aquifer_metadata %>%
-  filter(!samples %in% bad_samples_vector)
-
 ################################# Data processing ##############################
-
-
 dpann_radiation <- radiation %>%
   filter(microgroup == "DPANN") %>%
   pull(taxon)
@@ -53,20 +38,20 @@ cpr_radiation <- radiation %>%
   pull(taxon)
 
 
-
 source("R/src/merge_sampleinfo.R")
-
 merged_df <- merge_sampleinfo(
   annotation_df = phyla,
-  metadata_df = aquifer_metadata,
-  metadata_variables = c("habitat", "project_id", "seq_meth", "PI_lastname")
+  metadata_df = metadata,
+  metadata_variables = c(
+    "habitat", "project_id", "seq_meth", "PI_lastname", "ecosystem"
+  )
 )
 
 merged_df_long <- gather(
   merged_df,
   key = "taxon",
   value = "relative_abundance",
-  -c("samples", "habitat", "project_id", "seq_meth", "PI_lastname")
+  -c("samples", "habitat", "project_id", "seq_meth", "PI_lastname", "ecosystem")
 ) %>%
   mutate(
     radiation = factor(
@@ -78,85 +63,64 @@ merged_df_long <- gather(
     )
   )
 
-good_long <- merged_df_long %>%
-  filter(!samples %in% bad_samples_vector)
-
-bad_long <- merged_df_long %>%
-  filter(samples %in% bad_samples_vector)
-
-
 ##################################### Plot #####################################
+plot_dir <- "figures/phyla_composition/"
+if (!file.exists(plot_dir)) {
+  dir.create(plot_dir)
+}
 
-good_plot <-
-  ggplot(
-    data = good_long,
+ecosystems <- unique(merged_df$ecosystem)
+source("R/src/draw_stacked.R")
+
+# taxa composition
+plot_list <- list()
+for (i in ecosystems) {
+
+  plot_list[[i]] <- ggplot(
+    data = subset(merged_df_long, ecosystem == i),
     aes(x = samples, y = relative_abundance, fill = taxon)
   ) +
-  geom_bar(stat = "identity") +
-  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
+    geom_bar(stat = "identity") +
+    facet_grid(cols = vars(habitat), space = "free", scales = "free") +
 
-  theme_pubr() +
-  theme(
-    axis.text.x = element_text(angle = 90, hjust = 1),
-    legend.position = "none"
+    theme_pubr() +
+    theme(
+      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm")),
+      legend.position = "none"
+    ) +
+    ggtitle(paste0("TAXA OF ", i, sep = ""))
+  ggsave(
+    filename = paste0(plot_dir, i, "_taxon.png", sep = ""),
+    plot = plot_list[[i]],
+    width = unit(12, "cm"),
+    height = unit(9, "cm")
+
   )
+}
 
-bad_plot <-
-  ggplot(
-    data = bad_long,
-    aes(x = samples, y = relative_abundance, fill = taxon)
-  ) +
-  geom_bar(stat = "identity") +
-  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
-  theme_pubr() +
-  theme(
-    axis.text.x = element_text(angle = 90, hjust = 1),
-    legend.position = "none"
-  )
+#radiation composition
+plot_list <- list()
+for (i in ecosystems) {
 
-taxa_plot <- ggarrange(bad_plot, good_plot, widths = c(0.4, 1))
-
-good_plot <-
-  ggplot(
-    data = good_long,
+  plot_list[[i]] <- ggplot(
+    data = subset(merged_df_long, ecosystem == i),
     aes(x = samples, y = relative_abundance, fill = radiation)
   ) +
-  geom_bar(stat = "identity") +
-  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
+    geom_bar(stat = "identity") +
+    facet_grid(cols = vars(habitat), space = "free", scales = "free") +
 
-  theme_pubr() +
-  theme(
-    axis.text.x = element_text(angle = 90, hjust = 1),
-    legend.position = "none"
+    theme_pubr() +
+    theme(
+      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm")),
+      legend.position = "none"
+    ) +
+    ggtitle(paste0("RADIATIONS OF ", i, sep = ""))
+  ggsave(
+    filename = paste0(plot_dir, i, "_radiation.png", sep = ""),
+    plot = plot_list[[i]],
+    width = unit(12, "cm"),
+    height = unit(9, "cm")
   )
-
-bad_plot <-
-  ggplot(
-    data = bad_long,
-    aes(x = samples, y = relative_abundance, fill = radiation)
-  ) +
-  geom_bar(stat = "identity") +
-  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
-  theme_pubr() +
-  theme(
-    axis.text.x = element_text(angle = 90, hjust = 1),
-    legend.position = "none"
-  )
-
-radiation_plot <- ggarrange(bad_plot, good_plot, widths = c(0.4, 1))
-
-final <- ggarrange(
-  taxa_plot,
-  radiation_plot,
-  nrow = 2
-)
-
-
-ggsave(
-  final,
-  filename = "figures/stacked_radiation.png",
-  width = 20,
-  height = 10
-)
+}
 
 
