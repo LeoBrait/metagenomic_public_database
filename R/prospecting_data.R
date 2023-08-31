@@ -72,55 +72,34 @@ if (!file.exists(plot_dir)) {
 ecosystems <- unique(merged_df$ecosystem)
 source("R/src/draw_stacked.R")
 
-# taxa composition
-plot_list <- list()
+
 for (i in ecosystems) {
 
-  plot_list[[i]] <- ggplot(
+  # taxa -------------------------------
+  plot <- draw_stacked(
     data = subset(merged_df_long, ecosystem == i),
-    aes(x = samples, y = relative_abundance, fill = taxon)
-  ) +
-    geom_bar(stat = "identity") +
-    facet_grid(cols = vars(habitat), space = "free", scales = "free") +
-
-    theme_pubr() +
-    theme(
-      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm")),
-      legend.position = "none"
-    ) +
-    ggtitle(paste0("TAXA OF ", i, sep = ""))
+    fill_var = "taxon",
+    facet = "habitat",
+    title = paste0("taxa of ", i, sep = "")
+  )
   ggsave(
     filename = paste0(plot_dir, i, "_taxon.png", sep = ""),
-    plot = plot_list[[i]],
+    plot = plot,
     width = unit(12, "cm"),
     height = unit(9, "cm")
-
   )
-}
 
-#radiation composition
-plot_list <- list()
-for (i in ecosystems) {
-
-  plot_list[[i]] <- ggplot(
+  # radiation --------------------------
+  plot <- draw_stacked(
     data = subset(merged_df_long, ecosystem == i),
-    aes(x = samples, y = relative_abundance, fill = radiation)
-  ) +
-    geom_bar(stat = "identity") +
-    facet_grid(cols = vars(habitat), space = "free", scales = "free") +
-
-    theme_pubr() +
-    theme(
-      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm")),
-      legend.position = "none"
-    ) +
-    ggtitle(paste0("RADIATIONS OF ", i, sep = ""))
+    fill_var = "radiation",
+    facet = "habitat",
+    title = paste0("radiation of ", i, sep = "")
+  )
   ggsave(
     filename = paste0(plot_dir, i, "_radiation.png", sep = ""),
-    plot = plot_list[[i]],
+    plot = plot,
     width = unit(12, "cm"),
     height = unit(9, "cm")
   )
 }
-
-
