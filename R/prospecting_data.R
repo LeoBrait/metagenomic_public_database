@@ -12,6 +12,11 @@ install_and_load(
   )
 )
 
+unzip(
+  "annotated_metagenomes/kraken_biomedb_relative.zip",
+  exdir = "annotated_metagenomes/"
+)
+
 ################################### Load data ##################################
 aquifer_metadata <- read_csv(
   "data_processing/01_original_data/aquifer_samples.csv"
@@ -20,6 +25,8 @@ aquifer_metadata <- read_csv(
 phyla <- read_csv(
   "annotated_metagenomes/kraken_biomedb_relative_phyla.csv"
 )
+
+radiation <- read_csv("summaries/radiation_phyla.csv")
 
 bad_samples_vector <- c(
   "SRR4343427", "SRR4343429", "SRR4343430", "SRR4343434",
@@ -31,7 +38,22 @@ bad_samples_vector <- c(
   "SRR3309137", "SRR3309326", "SRR3309327"
 )
 
+aquifer_metadata <- aquifer_metadata %>%
+  filter(!samples %in% bad_samples_vector)
+
 ################################# Data processing ##############################
+
+
+dpann_radiation <- radiation %>%
+  filter(microgroup == "DPANN") %>%
+  pull(taxon)
+
+cpr_radiation <- radiation %>%
+  filter(microgroup == "CPR") %>%
+  pull(taxon)
+
+
+
 source("R/src/merge_sampleinfo.R")
 
 merged_df <- merge_sampleinfo(
@@ -45,20 +67,19 @@ merged_df_long <- gather(
   key = "taxon",
   value = "relative_abundance",
   -c("samples", "habitat", "project_id", "seq_meth", "PI_lastname")
-)
+) %>%
+  mutate(
+    radiation = factor(
+      case_when(
+        taxon %in% dpann_radiation ~ "DPANN",
+        taxon %in% cpr_radiation ~ "CPR",
+        TRUE ~ "Bonafide"
+      )
+    )
+  )
 
 good_long <- merged_df_long %>%
-  filter(!samples %in% bad_samples_vector) %>%
-  filter(relative_abundance >= 0.01)
-
-good_long_lowabundant <- merged_df_long %>%
-  filter(!samples %in% bad_samples_vector) %>%
-  filter(relative_abundance < 0.01) %>%
-  group_by(samples, habitat, project_id, seq_meth, PI_lastname) %>%
-  summarise(relative_abundance = sum(relative_abundance)) %>%
-  mutate(taxon = "others")
-
-good_long <- bind_rows(good_long, good_long_lowabundant)
+  filter(!samples %in% bad_samples_vector)
 
 bad_long <- merged_df_long %>%
   filter(samples %in% bad_samples_vector)
@@ -72,7 +93,7 @@ good_plot <-
     aes(x = samples, y = relative_abundance, fill = taxon)
   ) +
   geom_bar(stat = "identity") +
-  facet_grid(cols = vars(PI_lastname), space = "free", scales = "free") +
+  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
 
   theme_pubr() +
   theme(
@@ -86,19 +107,56 @@ bad_plot <-
     aes(x = samples, y = relative_abundance, fill = taxon)
   ) +
   geom_bar(stat = "identity") +
-  facet_grid(cols = vars(PI_lastname), space = "free", scales = "free") +
+  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
   theme_pubr() +
   theme(
     axis.text.x = element_text(angle = 90, hjust = 1),
     legend.position = "none"
   )
 
-final <- ggarrange(bad_plot, good_plot, widths = c(0.4, 1))
+taxa_plot <- ggarrange(bad_plot, good_plot, widths = c(0.4, 1))
+
+good_plot <-
+  ggplot(
+    data = good_long,
+    aes(x = samples, y = relative_abundance, fill = radiation)
+  ) +
+  geom_bar(stat = "identity") +
+  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
+
+  theme_pubr() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.position = "none"
+  )
+
+bad_plot <-
+  ggplot(
+    data = bad_long,
+    aes(x = samples, y = relative_abundance, fill = radiation)
+  ) +
+  geom_bar(stat = "identity") +
+  facet_grid(cols = vars(habitat), space = "free", scales = "free") +
+  theme_pubr() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.position = "none"
+  )
+
+radiation_plot <- ggarrange(bad_plot, good_plot, widths = c(0.4, 1))
+
+final <- ggarrange(
+  taxa_plot,
+  radiation_plot,
+  nrow = 2
+)
 
 
 ggsave(
   final,
-  filename = "figures/stacked_plot.png",
+  filename = "figures/stacked_radiation.png",
   width = 20,
   height = 10
 )
+
+
