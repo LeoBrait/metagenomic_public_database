@@ -27,6 +27,7 @@
 "fish",8
 "forest_soil",26
 "freshwater_biofilm",14
+"geyser",1
 "grassland",120
 "hot_spring",9
 "human-gut",23
@@ -35,12 +36,14 @@
 "human_feces",268
 "hydrothermal_vent",4
 "hypersaline_water",8
+"karst_porous",5
 "lake",12
 "lake_sediment",1
 "lung",57
 "mangrove_sediment",30
 "marine_biofilm",2
 "meadow_soil",18
+"mine",2
 "oceanic_seawater",71
 "park_soil",32
 "pasture_soil",26
@@ -48,6 +51,8 @@
 "permafrost",15
 "plant-associated",20
 "polar_seawater",6
+"porous",3
+"porous_contaminated",1
 "reactor_sludge",14
 "reclaimed_water",7
 "rhizosphere",129
