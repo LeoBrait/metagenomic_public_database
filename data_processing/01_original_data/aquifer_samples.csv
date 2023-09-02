@@ -27,11 +27,9 @@ SRR1573952,free-living,PRJNA258175,groundwater,porous_contaminated,Oak Ridge Int
 SRR1573955,free-living,PRJNA258175,groundwater,porous_contaminated,Oak Ridge Integrated Field Research Challenge (OR-IFRC) Metagenomes,35.94,-84.34,Zhou,illumina,USA,freshwater
 SRR1573960,free-living,PRJNA258175,groundwater,porous_contaminated,Oak Ridge Integrated Field Research Challenge (OR-IFRC) Metagenomes,35.94,-84.34,Zhou,illumina,USA,freshwater
 SRR1633224,free-living,PRJNA265029,groundwater,mine,MIMS Environmental/Metagenome sample from deep subsurface fracture water,-26.416806,27.427222,Morrison,illumina,South Africa,freshwater
-SRR1658463,free-living,PRJNA268031,groundwater,porous_contaminated,Rifle CO metagenome from aquifer,39.537,-107.783,Banfield,illumina,USA,freshwater
 SRR2043728,free-living,PRJNA283788,groundwater,porous,Pacific Northwest National Laboratroy,46.371,-119.276,Nelson,illumina,USA,freshwater
 SRR2177953,free-living,PRJNA292723,groundwater,porous_contaminated,Rifle groundwater metagenome and metatranscriptome following nitrate amendment Raw sequence reads,39.32,-107.46,Karaoz,illumina,USA,freshwater
 SRR2177956,free-living,PRJNA292723,groundwater,porous_contaminated,Rifle groundwater metagenome and metatranscriptome following nitrate amendment Raw sequence reads,39.32,-107.46,Karaoz,illumina,USA,freshwater
-SRR3308741,free-living,PRJNA268031,groundwater,porous_contaminated,Rifle CO metagenome from aquifer,39.537,-107.783,Banfield,illumina,USA,freshwater
 SRR3546449,free-living,PRJNA321556,groundwater,subsurface_saline,groundwater metagenome,45.045278,141.859444,Hernsdorf,illumina,Japan,marine
 SRR3546450,free-living,PRJNA321556,groundwater,subsurface_saline,groundwater metagenome,45.045278,141.859444,Hernsdorf,illumina,Japan,marine
 SRR3546451,free-living,PRJNA321556,groundwater,subsurface_saline,groundwater metagenome,45.045278,141.859444,Hernsdorf,illumina,Japan,marine
@@ -45,12 +43,4 @@ SRR5248198,free-living,PRJNA366142,groundwater,porous_contaminated,"Bioremediate
 SRR5248199,free-living,PRJNA366143,groundwater,porous_contaminated,"Bioremediated contaminated groundwater from EPA Superfund site, New Mexico - Sample SAE3-47 metagenome",36.000305,-106.072539,Reiss,illumina,USA,freshwater
 SRR5248218,free-living,PRJNA366144,groundwater,porous_contaminated,"Bioremediated contaminated groundwater from EPA Superfund site, New Mexico - Sample HSE6-05 metagenome",36.000305,-106.072539,Reiss,illumina,USA,freshwater
 SRR5248219,free-living,PRJNA366145,groundwater,porous_contaminated,"Bioremediated contaminated groundwater from EPA Superfund site, New Mexico - Sample HSE6-23 metagenome",36.000305,-106.072539,Reiss,illumina,USA,freshwater
-SRR5468912,free-living,PRJNA367347,groundwater,geyser,"Groundwater sediment microbial communities from an aquifer in East River, Colorado, USA - East River MetaG ERMZT100 metagenome",38.836269,-106.947211,Banfield,illumina,USA,freshwater
-SRR5468955,free-living,PRJNA367349,groundwater,geyser,"Groundwater sediment microbial communities from an aquifer in East River, Colorado, USA - East River MetaG ERMLT700 metagenome",38.836269,-106.947211,Banfield,illumina,USA,freshwater
-SRR5468956,free-living,PRJNA367350,groundwater,geyser,"Groundwater sediment microbial communities from an aquifer in East River, Colorado, USA - East River MetaG ERMLT890 metagenome",38.836269,-106.947211,Banfield,illumina,USA,freshwater
-SRR5468957,free-living,PRJNA367348,groundwater,geyser,"Groundwater sediment microbial communities from an aquifer in East River, Colorado, USA - East River MetaG ERMZT299 metagenome",38.836269,-106.947211,Banfield,illumina,USA,freshwater
-SRR5487656,free-living,PRJNA375484,groundwater,geyser,Groundwater microbial communities from aquifer in Utah USA,38.938,-110.134,Banfield,illumina,USA,freshwater
-SRR6050920,free-living,PRJNA405973,groundwater,geyser,Groundwater microbial communities from aquifer in Utah USA,38.938,-110.134,Banfield,illumina,USA,freshwater
-SRR6050958,free-living,PRJNA405975,groundwater,geyser,Groundwater microbial communities from aquifer in Utah USA,38.938,-110.134,Banfield,illumina,USA,freshwater
-SRR6050961,free-living,PRJNA405974,groundwater,geyser,Groundwater microbial communities from aquifer in Utah USA,38.938,-110.134,Banfield,illumina,USA,freshwater
 SRR7193715,free-living,PRJNA472439,groundwater,subsurface_saline,"Groundwater microbial communities from the Olkiluoto Island deep subsurface site, Finland - KR46_J_MetaG metagenome",61.235625,21.475795,Dopson,illumina,Finland,marine

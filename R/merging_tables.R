@@ -28,13 +28,6 @@ aquifer_samples <-
     "data_processing/01_original_data/aquifer_samples.csv"
   )
 
-#### TODO: Provisore chunk: the result of this operation must be later used to
-#### filter the aquifer samples of banfield right into the aquifer_samples
-#### original set.
-aquifer_samples <- aquifer_samples %>%
-  filter(!PI_lastname %in% c("banfield", "Banfield"))
-####
-
 
 
 merged_table_raw <- do.call(rbind, lapply(tables_paths, fread))
@@ -57,14 +50,14 @@ final_table <- rbind(merged_table_clean, aquifer_samples)
 
 # typo correcting
 final_table <- final_table %>%
- mutate(ecosystem =
-  case_when(
-    ecosystem == "plant-associated" ~ "plant_associated",
-    ecosystem == "plant_hots-associated" ~ "plant_associated",
-    ecosystem == "plant_host-associated" ~ "plant_associated",
-    TRUE ~ ecosystem
+  mutate(
+    ecosystem = case_when(
+      ecosystem == "plant-associated" ~ "plant_associated",
+      ecosystem == "plant_hots-associated" ~ "plant_associated",
+      ecosystem == "plant_host-associated" ~ "plant_associated",
+      TRUE ~ ecosystem
+    )
   )
- )
 
 #remove duplicated samples
 final_table <- final_table %>%
@@ -72,18 +65,18 @@ final_table <- final_table %>%
 
 ############################## Write data ######################################
 write.csv(
-    final_table,
-    file = "data_processing/03_manual_labeling/merged_and_classified.csv",
-    row.names = FALSE
+  final_table,
+  file = "data_processing/03_manual_labeling/merged_and_classified.csv",
+  row.names = FALSE
 )
 
 final_table %>%
-    filter(str_detect(samples, "mgm")) %>%
-    pull(samples) %>%
-    writeLines("data_processing/04_download_sequences/mgrast_list.txt")
+  filter(str_detect(samples, "mgm")) %>%
+  pull(samples) %>%
+  writeLines("data_processing/04_download_sequences/mgrast_list.txt")
 
 
 final_table %>%
-    filter(!str_detect(samples, "mgm")) %>%
-    pull(samples) %>%
-    writeLines("data_processing/04_download_sequences/sra_list.txt")
+  filter(!str_detect(samples, "mgm")) %>%
+  pull(samples) %>%
+  writeLines("data_processing/04_download_sequences/sra_list.txt")

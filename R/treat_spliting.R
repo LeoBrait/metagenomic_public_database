@@ -17,13 +17,15 @@ install_and_load(
   libs = c(
     "tidyverse" = "any",
     "data.table" = "any",
-    "jsonlite" = "any")
+    "jsonlite" = "any"
+  )
 )
 ################################### Load data ##################################
 
 # metdata from coarse curatory
 coarse_classified <- read.csv(
-  "data_processing//01_original_data//mgrast_coarse_classification.csv")
+  "data_processing//01_original_data//mgrast_coarse_classification.csv"
+)
 
 ################################# Treat data ###################################
 # Description: Remove assembled samples.
@@ -47,17 +49,18 @@ get_assembled_value <- function(sample_id) {
 }
 
 unzip(
-    "data_processing/01_original_data/mgrast_json/mgrast_raw.zip",
-    exdir = "data_processing/01_original_data/mgrast_json")
+  "data_processing/01_original_data/mgrast_json/mgrast_raw.zip",
+  exdir = "data_processing/01_original_data/mgrast_json"
+)
 
 coarse_classified$assembled <- sapply(
-    coarse_classified$samples,
-    get_assembled_value
+  coarse_classified$samples,
+  get_assembled_value
 )
 
 coarse_classified <- coarse_classified %>%
-   filter(assembled == "no") %>%
-   select(-assembled)
+  filter(assembled == "no") %>%
+  select(-assembled)
 
 coarse_classified <- coarse_classified %>%
   filter(seq_meth != "assembled") %>%
