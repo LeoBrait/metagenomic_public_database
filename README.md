@@ -1,16 +1,14 @@
 # BIOME METAGENOMIC PUBLIC DATABASE
 
 **warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
-**warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
-**warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
-## Introduction  
+### Introduction  
   
 The BIOME metagenomic public database contains N?? metagenomic samples collected from MG-RAST and NCBI databases. The samples were recategorized based on two methods, the authoral BIOME classification and the IUCN classification.  
 This database comprimises other works of the lab, such as:
 - [Aquifers Landscapes](https://github.com/MeirellesLab/aquifer_metagenomes)
 - [New Microbial Keystones](https://github.com/MeirellesLab/keystones_paper)
 
-## Data organization
+### Data organization
 - **The [data_processing](data_processing/) contains step-by-step used to process the data.**  
     - The data_processing folder is procedimental and used by the scripts to produce the ready-to-use data contained in all cited bellow.
     For more Details, please check the [readme](data_processing/README.md) file.  
@@ -18,7 +16,11 @@ This database comprimises other works of the lab, such as:
 - The [metadata](metadata/) contains the BIOME and IUCN classifications of these samples.   
 - The [summaries](summaries/) folder contains information about the samples, such as the number of reads, GC content, etc.
 
-## Requirements
+### Data Presentation
+
+## Reproductibility
+
+### Requirements
 All scripts were executed in a Linux environment by bash, R and Python scripts.
 - **R** version 4.3.1
 - **Python** version 3.7.3
@@ -32,13 +34,13 @@ conda create --name biome_database --file Python/requirements.txt
 conda activate biome_database
 ```
 
-## Procediments and script order
-This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The [coarse classification](data_processing/01_original_data/coarse_classification.csv) was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
+### Procediments and script order
+This database started as a coarse curatory of the mg-rast metagenomic samples followed by a fine and detailed reclassification. The [coarse classification](data_processing/01_original_data/mgrast_coarse_classification.csv) was done in the seek of short-reads metagenomes from natural environments that could be classified in life-style, ecosystem and habitats. The fine and detailed reclassification used the same principles, but more accurate.
 
 
-### Metadata treatment
+#### Metadata treatment
 
-1. From the coarse classification [table](data_processing/01_original_data/coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
+1. From the coarse classification [table](data_processing/01_original_data/mgrast_coarse_classification.csv) we downloaded the metadata of all samples by a [python script](Python/mgrast_download_metadata.py). All metadata is stored in a [zip file](data_processing/01_original_data/mgrast_json/mgrast_raw.zip). You will need to unzip it to perform the next steps.
 
 ```bash
 unzip data_processing/01_original_data/mgrast_json/mgrast_raw.zip -d data_processing/01_original_data/mgrast_json/
@@ -50,10 +52,10 @@ Or (not recomended) you can download all samples all over again by typing:
 python3 Python/mgrast_download_metadata.py
 ```
 
-2. To clean our data from some assembled samples we used [treat_split.R](R/treat_split.R). This script also splited the data in subsets on the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work of a fine labeling. To run the correspondent script, just type:
+2. To clean our data from some assembled samples we used [treat_spliting.R](R/treat_spliting.R). This script also splited the data in subsets on the [02_dismembered_tables](data_processing/02_dismembered_tables/) folder to facilitate the work of a fine labeling. To run the correspondent script, just type:
 
 ```bash
-Rscript R/treat_split.R
+Rscript R/treat_spliting.R
 ```
 
 3. The splited tables from [02_dismembered_tables](data_processing/02_dismembered_tables/) were manually grouped by themes in the folder [03_maunual_labeling](data_processing/03_manual_labeling/), where we performed a refined and detailed classification. 
@@ -61,19 +63,19 @@ Rscript R/treat_split.R
 4. The content of the folder got joined, them merged with [aquifer samples](data_processing/01_original_data/aquifer_samples.csv), resulting in the [merged and labeled table](data_processing/03_manual_labeling/merged_and_classified.csv), the [mgrast sample list](data_processing/04_download_sequences/mgrast_list.txt) and [sra sample list](data_processing/04_download_sequences/sra_list.txt) . For this we used:
     
 ```bash 
-Rscript R/merge_tables.R
+Rscript R/merging_tables.R
 ```
 
-### Downloading sequences
+#### Downloading sequences
 
 Missing step
-### clean from assembled samples
+#### clean from assembled samples
 
 ```bash 
-Rscript R/remove_assembled.R
+Rscript R/removing_assembled.R
 ```
 
-## Troubleshooting
+### Troubleshooting
 
 
 

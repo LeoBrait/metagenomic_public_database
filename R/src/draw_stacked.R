@@ -16,7 +16,6 @@
 
 
 library(ggplot2)
-library(viridis)
 draw_stacked <- function(data, facet, fill_var, title) {
 
 
@@ -29,8 +28,7 @@ draw_stacked <- function(data, facet, fill_var, title) {
 
     theme_pubr() +
     theme(
-      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm")),
-      legend.position = "none"
+      axis.text.x = element_text(angle = 90, hjust = 1, size = unit(9, "cm"))
     ) +
     ggtitle(title)
 

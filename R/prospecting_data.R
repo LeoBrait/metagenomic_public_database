@@ -23,7 +23,7 @@ metadata <- read_csv(
   "metadata/biome_classification.csv"
 )
 
-phyla <- read_csv(
+phyla_relative <- read_csv(
   "annotated_metagenomes/kraken_biomedb_relative_phyla.csv"
 )
 
@@ -41,7 +41,7 @@ cpr_radiation <- radiation %>%
 
 source("R/src/merge_sampleinfo.R")
 merged_df <- merge_sampleinfo(
-  annotation_df = phyla,
+  annotation_df = phyla_relative,
   metadata_df = metadata,
   metadata_variables = c(
     "habitat", "project_id", "seq_meth", "PI_lastname", "ecosystem"
@@ -53,16 +53,8 @@ merged_df_long <- gather(
   key = "taxon",
   value = "relative_abundance",
   -c("samples", "habitat", "project_id", "seq_meth", "PI_lastname", "ecosystem")
-) %>%
-  mutate(
-    radiation = factor(
-      case_when(
-        taxon %in% dpann_radiation ~ "DPANN",
-        taxon %in% cpr_radiation ~ "CPR",
-        TRUE ~ "Bonafide"
-      )
-    )
-  )
+)
+
 
 ##################################### Plot #####################################
 plot_dir <- "figures/phyla_composition/"
@@ -76,29 +68,142 @@ source("R/src/draw_stacked.R")
 
 for (i in ecosystems) {
 
-  # taxa -------------------------------
+
+  # Vectors of taxa
+  high_abundant <- merged_df_long %>%
+    filter(ecosystem == i) %>%
+    group_by(samples) %>%
+    filter(relative_abundance >= 0.01) %>%
+    pull(taxon)
+
+  low_abundant <- merged_df_long %>%
+    filter(ecosystem == i) %>%
+    group_by(samples) %>%
+    filter(
+      relative_abundance < 0.01
+      & relative_abundance >= 0.005
+      & !taxon %in% high_abundant
+    ) %>%
+    pull(taxon)
+
+  super_low_abundant <- merged_df_long %>%
+    filter(ecosystem == i) %>%
+    group_by(samples) %>%
+    filter(
+      relative_abundance < 0.005
+      & relative_abundance >= 0.001
+      & !taxon %in% high_abundant
+      & !taxon %in% low_abundant
+    ) %>%
+    pull(taxon)
+
+  hiper_low_abundant <- merged_df_long %>%
+    filter(ecosystem == i) %>%
+    group_by(samples) %>%
+    filter(
+      relative_abundance < 0.001
+      & relative_abundance >= 0.0005
+      & !taxon %in% high_abundant
+      & !taxon %in% low_abundant
+      & !taxon %in% super_low_abundant
+    ) %>%
+    pull(taxon)
+
+  mega_low_abundant <- merged_df_long %>%
+    filter(ecosystem == i) %>%
+    group_by(samples) %>%
+    filter(
+      relative_abundance < 0.0005
+      & relative_abundance >= 0.0001
+      & !taxon %in% high_abundant
+      & !taxon %in% low_abundant
+      & !taxon %in% super_low_abundant
+      & !taxon %in% hiper_low_abundant
+    ) %>%
+    pull(taxon)
+
+  # Dataframes
+  high_abundant_df <- merged_df_long %>%
+    filter(ecosystem == i & taxon %in% high_abundant)
+
+  low_abundant_df <- merged_df_long %>%
+    filter(ecosystem == i & taxon %in% low_abundant)
+
+  super_low_abundant_df <- merged_df_long %>%
+    filter(ecosystem == i & taxon %in% super_low_abundant)
+
+  hiper_low_abundant_df <- merged_df_long %>%
+    filter(ecosystem == i & taxon %in% hiper_low_abundant)
+
+  mega_low_abundant_df <- merged_df_long %>%
+    filter(ecosystem == i & taxon %in% mega_low_abundant)
+
+  # Plotting
+  ## High -------------------------------
   plot <- draw_stacked(
-    data = subset(merged_df_long, ecosystem == i),
+    data = subset(high_abundant_df, ecosystem == i),
     fill_var = "taxon",
     facet = "habitat",
     title = paste0("taxa of ", i, sep = "")
   )
   ggsave(
-    filename = paste0(plot_dir, i, "_taxon.png", sep = ""),
+    filename = paste0(plot_dir, i, "_high.png", sep = ""),
     plot = plot,
     width = unit(12, "cm"),
     height = unit(9, "cm")
   )
 
-  # radiation --------------------------
+  ## Low --------------------------------
   plot <- draw_stacked(
-    data = subset(merged_df_long, ecosystem == i),
-    fill_var = "radiation",
+    data = subset(low_abundant_df, ecosystem == i),
+    fill_var = "taxon",
     facet = "habitat",
-    title = paste0("radiation of ", i, sep = "")
+    title = paste0("taxa of ", i, sep = "")
   )
   ggsave(
-    filename = paste0(plot_dir, i, "_radiation.png", sep = ""),
+    filename = paste0(plot_dir, i, "_low.png", sep = ""),
+    plot = plot,
+    width = unit(12, "cm"),
+    height = unit(9, "cm")
+  )
+
+  ## Super low --------------------------
+  plot <- draw_stacked(
+    data = subset(super_low_abundant_df, ecosystem == i),
+    fill_var = "taxon",
+    facet = "habitat",
+    title = paste0("taxa of ", i, sep = "")
+  )
+  ggsave(
+    filename = paste0(plot_dir, i, "_super_low.png", sep = ""),
+    plot = plot,
+    width = unit(12, "cm"),
+    height = unit(9, "cm")
+  )
+
+  ## hiper low --------------------------
+  plot <- draw_stacked(
+    data = subset(hiper_low_abundant_df, ecosystem == i),
+    fill_var = "taxon",
+    facet = "habitat",
+    title = paste0("taxa of ", i, sep = "")
+  )
+  ggsave(
+    filename = paste0(plot_dir, i, "_hiper_low.png", sep = ""),
+    plot = plot,
+    width = unit(12, "cm"),
+    height = unit(9, "cm")
+  )
+
+  ## mega low --------------------------
+  plot <- draw_stacked(
+    data = subset(mega_low_abundant_df, ecosystem == i),
+    fill_var = "taxon",
+    facet = "habitat",
+    title = paste0("taxa of ", i, sep = "")
+  )
+  ggsave(
+    filename = paste0(plot_dir, i, "_mega_low.png", sep = ""),
     plot = plot,
     width = unit(12, "cm"),
     height = unit(9, "cm")
