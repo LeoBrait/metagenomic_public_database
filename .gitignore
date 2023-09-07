@@ -4,3 +4,4 @@ r_libs/
 data_processing/02_dismembered_tables/original/
 annotated_metagenomes/*.csv
 figures/phyla_composition/*.png
+figures/rarefaction_biomedb.svg
